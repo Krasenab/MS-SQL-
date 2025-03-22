@@ -2172,7 +2172,7 @@ ON C.REGION_ID = R.REGION_ID;
 
 --21 - ÈÇÏÓÑÍÀÕ Å Â ËÅÊÖÈßÒÀ ØÅ Å ÂÈÄÈÌ 
 
---22--join group by having + agregate function
+--22--join group by having + agregate function                1zad
 --23
 --24 ÈÌÀÌ ÑÍÈÌÊÀ imame li agregirashta funkciq imame group by vinagi
 --25
@@ -2193,3 +2193,9 @@ HAVING SUM(oi.quantity) > 500
 ORDER BY sums DESC;
 
 --26
+--27 6zad
+--28 7 zadacha
+select e.lname + '  ' + e.fname as empl, e.salary,p.salary
+from employees e join employees p
+on e.salary > p.salary
+where p.fname = 'Ïåòúğ' and p.lname = 'Ïåòğîâ'
