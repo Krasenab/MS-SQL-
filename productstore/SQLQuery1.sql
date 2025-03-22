@@ -86,935 +86,935 @@
 ----Add info in tables
 
 ----insert into REGIONS (REGION_ID, NAME)
-----values (1, 'ÃˆÃ§Ã²Ã®Ã·Ã­Ã  Ã…Ã¢Ã°Ã®Ã¯Ã ');
+----values (1, 'Èçòî÷íà Åâðîïà');
 ----insert into REGIONS (REGION_ID, NAME)
-----values (2, 'Ã€Ã¬Ã¥Ã°Ã¨ÃªÃ ');
+----values (2, 'Àìåðèêà');
 ----insert into REGIONS (REGION_ID, NAME)
-----values (3, 'Ã€Ã§Ã¨Ã¿');
+----values (3, 'Àçèÿ');
 ----insert into REGIONS (REGION_ID, NAME)
-----values (4, 'Ã‘Ã°Ã¥Ã¤Ã¥Ã­ Ã¨Ã§Ã²Ã®Ãª Ã¨ Ã€Ã´Ã°Ã¨ÃªÃ ');
+----values (4, 'Ñðåäåí èçòîê è Àôðèêà');
 ----insert into REGIONS (REGION_ID, NAME)
-----values (5, 'Ã‡Ã Ã¯Ã Ã¤Ã­Ã  Ã…Ã¢Ã°Ã®Ã¯Ã ');
+----values (5, 'Çàïàäíà Åâðîïà');
 ----insert into REGIONS (REGION_ID, NAME)
-----values (6, 'Ã‘Ã¥Ã¢Ã¥Ã°Ã¥Ã­ Ã¯Ã®Ã«Ã¾Ã±');
+----values (6, 'Ñåâåðåí ïîëþñ');
 ----------
 
 ------------------------------------------------
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('RO', 'ÃÃ³Ã¬ÃºÃ­Ã¨Ã¿', 1);
+----values ('RO', 'Ðóìúíèÿ', 1);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('BG', 'ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿', 1);
+----values ('BG', 'Áúëãàðèÿ', 1);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('SC', 'Ã‘ÃºÃ°Ã¡Ã¨Ã¿', 1);
+----values ('SC', 'Ñúðáèÿ', 1);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('BE', 'ÃÃ¥Ã«Ã£Ã¨Ã¿', 5);
+----values ('BE', 'Áåëãèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('AR', 'Ã€Ã°Ã¦Ã¥Ã­Ã²Ã¨Ã­Ã ', 2);
+----values ('AR', 'Àðæåíòèíà', 2);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('AU', 'Ã€Ã¢Ã±Ã²Ã°Ã Ã«Ã¨Ã¿', NULL);
+----values ('AU', 'Àâñòðàëèÿ', NULL);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('BR', 'ÃÃ°Ã Ã§Ã¨Ã«Ã¨Ã¿', 2);
+----values ('BR', 'Áðàçèëèÿ', 2);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('GR', 'ÃƒÃºÃ°Ã¶Ã¨Ã¿', null);
+----values ('GR', 'Ãúðöèÿ', null);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('CA', 'ÃŠÃ Ã­Ã Ã¤Ã ', 2);
+----values ('CA', 'Êàíàäà', 2);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('CH', 'Ã˜Ã¢Ã¥Ã©Ã¶Ã Ã°Ã¨Ã¿', 5);
+----values ('CH', 'Øâåéöàðèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('CN', 'ÃŠÃ¨Ã²Ã Ã©', 3);
+----values ('CN', 'Êèòàé', 3);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('DE', 'ÃƒÃ¥Ã°Ã¬Ã Ã­Ã¨Ã¿', 5);
+----values ('DE', 'Ãåðìàíèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('DK', 'Ã„Ã Ã­Ã¨Ã¿', 5);
+----values ('DK', 'Äàíèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('EG', 'Ã…Ã£Ã¨Ã¯Ã¥Ã²', 4);
+----values ('EG', 'Åãèïåò', 4);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('FR', 'Ã”Ã°Ã Ã­Ã¶Ã¨Ã¿', 5);
+----values ('FR', 'Ôðàíöèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('HK', 'Ã•Ã®Ã­Ã£ÃªÃ®Ã­Ã£', 3);
+----values ('HK', 'Õîíãêîíã', 3);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('IL', 'ÃˆÃ§Ã°Ã Ã¥Ã«', 4);
+----values ('IL', 'Èçðàåë', 4);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('IN', 'ÃˆÃ­Ã¤Ã¨Ã¿', 3);
+----values ('IN', 'Èíäèÿ', 3);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('IT', 'ÃˆÃ²Ã Ã«Ã¨Ã¿', 5);
+----values ('IT', 'Èòàëèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('JP', 'ÃŸÃ¯Ã®Ã­Ã¨Ã¿', 3);
+----values ('JP', 'ßïîíèÿ', 3);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('KW', 'ÃŠÃ³Ã¢Ã¥Ã©Ã²', 4);
+----values ('KW', 'Êóâåéò', 4);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('MX', 'ÃŒÃ¥ÃªÃ±Ã¨ÃªÃ®', 2);
+----values ('MX', 'Ìåêñèêî', 2);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('NG', 'ÃÃ¨Ã£Ã¥Ã°Ã¨Ã¿', 4);
+----values ('NG', 'Íèãåðèÿ', 4);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('NL', 'Ã•Ã®Ã«Ã Ã­Ã¤Ã¨Ã¿', 5);
+----values ('NL', 'Õîëàíäèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('SG', 'Ã‘Ã¨Ã­Ã£Ã Ã¯Ã³Ã°', 3);
+----values ('SG', 'Ñèíãàïóð', 3);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('UK', 'Ã‚Ã¥Ã«Ã¨ÃªÃ®Ã¡Ã°Ã¨Ã²Ã Ã­Ã¨Ã¿', 5);
+----values ('UK', 'Âåëèêîáðèòàíèÿ', 5);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('US', 'Ã‘ÃºÃ¥Ã¤Ã¨Ã­Ã¥Ã­Ã¨ Ã Ã¬Ã¥Ã°Ã¨ÃªÃ Ã­Ã±ÃªÃ¨ Ã¹Ã Ã²Ã¨', 2);
+----values ('US', 'Ñúåäèíåíè àìåðèêàíñêè ùàòè', 2);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('ZM', 'Ã‡Ã Ã¬Ã¡Ã¨Ã¿', 4);
+----values ('ZM', 'Çàìáèÿ', 4);
 ----insert into COUNTRIES (COUNTRY_ID, NAME, REGION_ID)
-----values ('ZW', 'Ã‡Ã¨Ã¬Ã¡Ã Ã¡Ã¢Ã¥', 4);
+----values ('ZW', 'Çèìáàáâå', 4);
 
 ----SELECT * FROM COUNTRIES;
 ---------------------------------------------------
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(10, 'Ã€Ã¤Ã¬Ã¨Ã­Ã¨Ã±Ã²Ã°Ã Ã¶Ã¨Ã¿', NULL, 'BG', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 100', '4000'); 
+----VALUES(10, 'Àäìèíèñòðàöèÿ', NULL, 'BG', 'Ïëîâäèâ', 'Ïëîâäèâ', 'áóë. Áúëãàðèÿ 100', '4000'); 
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(20, 'ÃŒÃ Ã°ÃªÃ¥Ã²Ã¨Ã­Ã£', NULL, 'BG', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã¡Ã³Ã«. Ã—Ã¥Ã°Ã­Ã¨ Ã¢Ã°ÃºÃµ 50', '1000')
+----VALUES(20, 'Ìàðêåòèíã', NULL, 'BG', 'Ñîôèÿ', 'Ñîôèÿ', 'áóë. ×åðíè âðúõ 50', '1000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(30, 'ÃÃ®ÃªÃ³Ã¯ÃªÃ¨', NULL, 'BG', 'Ã‚Ã Ã°Ã­Ã ', 'Ã‚Ã Ã°Ã­Ã ', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã‹Ã¥Ã¢Ã±ÃªÃ¨ 10', '9000')
+----VALUES(30, 'Ïîêóïêè', NULL, 'BG', 'Âàðíà', 'Âàðíà', 'áóë. Âàñèë Ëåâñêè 10', '9000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(40, 'Ã—Ã®Ã¢Ã¥Ã¸ÃªÃ¨ Ã°Ã¥Ã±Ã³Ã°Ã±Ã¨', NULL, 'BE', 'Gent', 'Gent', 'Lange Violettestraat 77-283', '9000')
+----VALUES(40, '×îâåøêè ðåñóðñè', NULL, 'BE', 'Gent', 'Gent', 'Lange Violettestraat 77-283', '9000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(50, 'Ã„Ã®Ã±Ã²Ã Ã¢ÃªÃ¨', NULL, 'BG', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã€Ã¯Ã°Ã¨Ã«Ã®Ã¢ 19', '4000')
+----VALUES(50, 'Äîñòàâêè', NULL, 'BG', 'Ïëîâäèâ', 'Ïëîâäèâ', 'áóë. Âàñèë Àïðèëîâ 19', '4000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(60, 'ÃˆÃ’', NULL, 'UK', 'London', NULL, 'Evershold St 101', 'NW1 1DG')
+----VALUES(60, 'ÈÒ', NULL, 'UK', 'London', NULL, 'Evershold St 101', 'NW1 1DG')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(70, 'Ã‚Ã°ÃºÃ§ÃªÃ¨ Ã± Ã®Ã¡Ã¹Ã¥Ã±Ã²Ã¢Ã¥Ã­Ã®Ã±Ã²Ã²Ã ', NULL, 'BG', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã¡Ã³Ã«. Ã—Ã¥Ã°Ã­Ã¨ Ã¢Ã°ÃºÃµ 15', '1000')
+----VALUES(70, 'Âðúçêè ñ îáùåñòâåíîñòòà', NULL, 'BG', 'Ñîôèÿ', 'Ñîôèÿ', 'áóë. ×åðíè âðúõ 15', '1000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(80, 'ÃÃ°Ã®Ã¤Ã Ã¦Ã¡Ã¨', NULL, 'IT', 'Milan', 'Milan', 'Viale Premuda, 47', '20129')
+----VALUES(80, 'Ïðîäàæáè', NULL, 'IT', 'Milan', 'Milan', 'Viale Premuda, 47', '20129')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(90, 'ÃŒÃ¥Ã­Ã¨Ã¤Ã¦Ã¬ÃºÃ­Ã²', NULL, 'BG', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 100', '4000')
+----VALUES(90, 'Ìåíèäæìúíò', NULL, 'BG', 'Ïëîâäèâ', 'Ïëîâäèâ', 'áóë. Áúëãàðèÿ 100', '4000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(100, 'Ã”Ã¨Ã­Ã Ã­Ã±Ã¨', NULL, 'BG', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 15', NULL)
+----VALUES(100, 'Ôèíàíñè', NULL, 'BG', 'Ñîôèÿ', 'Ñîôèÿ', 'áóë. Áúëãàðèÿ 15', NULL)
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(110, 'Ã‘Ã·Ã¥Ã²Ã®Ã¢Ã®Ã¤Ã±Ã²Ã¢Ã®', NULL, 'BG', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã¡Ã³Ã«. Ã—Ã¥Ã°Ã­Ã¨ Ã¢Ã°ÃºÃµ 50', '1000')
+----VALUES(110, 'Ñ÷åòîâîäñòâî', NULL, 'BG', 'Ñîôèÿ', 'Ñîôèÿ', 'áóë. ×åðíè âðúõ 50', '1000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(120, 'Ã‹Ã®Ã£Ã¨Ã±Ã²Ã¨ÃªÃ ', NULL, 'BG', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 15', NULL)
+----VALUES(120, 'Ëîãèñòèêà', NULL, 'BG', 'Ñîôèÿ', 'Ñîôèÿ', 'áóë. Áúëãàðèÿ 15', NULL)
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(130, 'ÃŽÃ¡Ã±Ã«Ã³Ã¦Ã¢Ã Ã­Ã¥ Ã­Ã  ÃªÃ«Ã¨Ã¥Ã­Ã²Ã¨', NULL, 'BG', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã€Ã¯Ã°Ã¨Ã«Ã®Ã¢ 19', '4000')
+----VALUES(130, 'Îáñëóæâàíå íà êëèåíòè', NULL, 'BG', 'Ïëîâäèâ', 'Ïëîâäèâ', 'áóë. Âàñèë Àïðèëîâ 19', '4000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(140, 'ÃŽÃ¡Ã¹Ã¥Ã±Ã²Ã¢Ã¥Ã­Ã¨ Ã¯Ã®Ã°ÃºÃ·ÃªÃ¨', NULL, 'BG', 'Ã‚Ã Ã°Ã­Ã ', 'Ã‚Ã Ã°Ã­Ã ', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã‹Ã¥Ã¢Ã±ÃªÃ¨ 10', '9000')
+----VALUES(140, 'Îáùåñòâåíè ïîðú÷êè', NULL, 'BG', 'Âàðíà', 'Âàðíà', 'áóë. Âàñèë Ëåâñêè 10', '9000')
 
 ----INSERT INTO DEPARTMENTS(DEPARTMENT_ID,NAME,MANAGER_ID,COUNTRY_ID,CITY,STATE,ADDRESS,POSTAL_CODE)
-----VALUES(150, 'ÃˆÃ’ ÃÃ®Ã¤Ã¤Ã°ÃºÃ¦ÃªÃ ', NULL, 'US', 'Southlake', 'Texas', '2012 Jabberwocky Rd', '26192')
+----VALUES(150, 'ÈÒ Ïîääðúæêà', NULL, 'US', 'Southlake', 'Texas', '2012 Jabberwocky Rd', '26192')
 
 ----SELECT NAME FROM DEPARTMENTS
 -----------------------------------------------------
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('AD_PRES', 'ÃÃ°Ã¥Ã§Ã¨Ã¤Ã¥Ã­Ã²', 25000, 50500); 
+----values ('AD_PRES', 'Ïðåçèäåíò', 25000, 50500); 
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('AD_VP', 'Ã€Ã¤Ã¬Ã¨Ã­Ã¨Ã±Ã²Ã°Ã Ã²Ã¨Ã¢Ã¥Ã­ Ã¢Ã¨Ã¶Ã¥Ã¯Ã°Ã¥Ã§Ã¨Ã¤Ã¥Ã­Ã²', 17000, 34200);
+----values ('AD_VP', 'Àäìèíèñòðàòèâåí âèöåïðåçèäåíò', 17000, 34200);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('AD_ASST', 'Ã€Ã¤Ã¬Ã¨Ã­Ã¨Ã±Ã²Ã°Ã Ã²Ã¨Ã¢Ã¥Ã­ Ã Ã±Ã¨Ã±Ã²Ã¥Ã­Ã²', 4000, 9200);
+----values ('AD_ASST', 'Àäìèíèñòðàòèâåí àñèñòåíò', 4000, 9200);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('FI_MGR', 'Ã”Ã¨Ã­Ã Ã­Ã±Ã®Ã¢ Ã¬Ã¥Ã­Ã¨Ã¤Ã¦ÃºÃ°', 10000, 18000);
+----values ('FI_MGR', 'Ôèíàíñîâ ìåíèäæúð', 10000, 18000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('FI_ACCOUNT', 'Ã‘Ã·Ã¥Ã²Ã®Ã¢Ã®Ã¤Ã¨Ã²Ã¥Ã«', 7200, 12000);
+----values ('FI_ACCOUNT', 'Ñ÷åòîâîäèòåë', 7200, 12000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('AC_MGR', 'ÃƒÃ«Ã Ã¢Ã¥Ã­ Ã±Ã·Ã¥Ã²Ã®Ã¢Ã®Ã¤Ã¨Ã²Ã¥Ã«', 10200, 17000);
+----values ('AC_MGR', 'Ãëàâåí ñ÷åòîâîäèòåë', 10200, 17000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('SA_MAN', 'ÃŒÃ¥Ã­Ã¨Ã¤Ã¦ÃºÃ° Ã¯Ã°Ã®Ã¤Ã Ã¦Ã¡Ã¨', 15000, 22000);
+----values ('SA_MAN', 'Ìåíèäæúð ïðîäàæáè', 15000, 22000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('SA_REP', 'Ã’ÃºÃ°Ã£Ã®Ã¢Ã±ÃªÃ¨ Ã¯Ã°Ã¥Ã¤Ã±Ã²Ã Ã¢Ã¨Ã²Ã¥Ã«', 9000, 17000);
+----values ('SA_REP', 'Òúðãîâñêè ïðåäñòàâèòåë', 9000, 17000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('PU_MAN', 'ÃŒÃ¥Ã­Ã¨Ã¤Ã¦ÃºÃ° Ã¯Ã®ÃªÃ³Ã¯ÃªÃ¨', 9000, 16000);
+----values ('PU_MAN', 'Ìåíèäæúð ïîêóïêè', 9000, 16000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('ST_MAN', 'Ã‘Ã²Ã®ÃªÃ®Ã¢ Ã¬Ã¥Ã­Ã¨Ã¤Ã¦ÃºÃ°', 7500, 13500);
+----values ('ST_MAN', 'Ñòîêîâ ìåíèäæúð', 7500, 13500);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('ST_CLERK', 'ÃŽÃ²Ã£Ã®Ã¢Ã®Ã°Ã­Ã¨Ãª Ã±ÃªÃ«Ã Ã¤', 6000, 12000);
+----values ('ST_CLERK', 'Îòãîâîðíèê ñêëàä', 6000, 12000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('SH_CLERK', 'Ã„Ã®Ã±Ã²Ã Ã¢Ã·Ã¨Ãª', 4500, 7500);
+----values ('SH_CLERK', 'Äîñòàâ÷èê', 4500, 7500);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('IT_PROG', 'ÃÃ°Ã®Ã£Ã°Ã Ã¬Ã¨Ã±Ã²', 14000, 23000);
+----values ('IT_PROG', 'Ïðîãðàìèñò', 14000, 23000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('IT_SUPP', 'Ã‘Ã¨Ã±Ã²Ã¥Ã¬Ã¥Ã­ Ã Ã¤Ã¬Ã¨Ã­Ã¨Ã±Ã²Ã°Ã Ã²Ã®Ã°', 12000, 20000);
+----values ('IT_SUPP', 'Ñèñòåìåí àäìèíèñòðàòîð', 12000, 20000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('MK_MAN', 'ÃŒÃ Ã°ÃªÃ¥Ã²Ã¨Ã­Ã£ Ã¬Ã¥Ã­Ã¨Ã¤Ã¦ÃºÃ°', 9000, 15000);
+----values ('MK_MAN', 'Ìàðêåòèíã ìåíèäæúð', 9000, 15000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('MK_REP', 'ÃŒÃ Ã°ÃªÃ¥Ã²Ã¨Ã­Ã£ ÃªÃ®Ã­Ã±Ã³Ã«Ã²Ã Ã­Ã²', 5000, 9000);
+----values ('MK_REP', 'Ìàðêåòèíã êîíñóëòàíò', 5000, 9000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('HR_REP', 'Ã‘Ã¯Ã¥Ã¶Ã¨Ã Ã«Ã¨Ã±Ã² Ã·Ã®Ã¢Ã¥Ã¸ÃªÃ¨ Ã°Ã¥Ã±Ã³Ã°Ã±Ã¨', 6000, 9000);
+----values ('HR_REP', 'Ñïåöèàëèñò ÷îâåøêè ðåñóðñè', 6000, 9000);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('PR_REP', 'Ã‘Ã¯Ã¥Ã¶Ã¨Ã Ã«Ã¨Ã±Ã² Ã¢Ã°ÃºÃ§ÃªÃ¨ Ã± Ã®Ã¡Ã¹Ã¥Ã±Ã²Ã¢Ã¥Ã­Ã®Ã±Ã²Ã²Ã ', 4500, 10500);
+----values ('PR_REP', 'Ñïåöèàëèñò âðúçêè ñ îáùåñòâåíîñòòà', 4500, 10500);
 ----insert into JOBS (JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY)
-----values ('CEO', 'ÃƒÃ«Ã Ã¢Ã¥Ã­ Ã¨Ã§Ã¯ÃºÃ«Ã­Ã¨Ã²Ã¥Ã«Ã¥Ã­ Ã¤Ã¨Ã°Ã¥ÃªÃ²Ã®Ã°', null, null);
+----values ('CEO', 'Ãëàâåí èçïúëíèòåëåí äèðåêòîð', null, null);
 
 ----SELECT * FROM JOBS
 -------------------------------------------------------
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (100, 'ÃˆÃ¢Ã Ã­', 'ÃˆÃ¢Ã Ã­Ã®Ã¢', 'iivanov@trade_company.com', '0887234561', convert(date, '17-06-2011', 105), 'AD_PRES', 27000, null, 90);  
+----values (100, 'Èâàí', 'Èâàíîâ', 'iivanov@trade_company.com', '0887234561', convert(date, '17-06-2011', 105), 'AD_PRES', 27000, null, 90);  
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (101, 'ÃÃ¥Ã²Ã¿', 'Ã‚Ã Ã±Ã¨Ã«Ã¥Ã¢Ã ', 'petya@trade_company.com', '0899234563', convert(date, '21-09-2015', 105), 'AD_VP', 18000, 100, 90);
+----values (101, 'Ïåòÿ', 'Âàñèëåâà', 'petya@trade_company.com', '0899234563', convert(date, '21-09-2015', 105), 'AD_VP', 18000, 100, 90);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (102, 'Ã„Ã¨Ã¬Ã¨Ã²ÃºÃ°', 'ÃƒÃ®Ã±Ã¯Ã®Ã¤Ã¨Ã­Ã®Ã¢', 'dimitar@trade_company.com', '0877234718', convert(date, '13-01-2012', 105), 'AD_VP', 19000, 100, 90);
+----values (102, 'Äèìèòúð', 'Ãîñïîäèíîâ', 'dimitar@trade_company.com', '0877234718', convert(date, '13-01-2012', 105), 'AD_VP', 19000, 100, 90);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (103, 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤ÃºÃ°', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'ap@trade_company.com', '0878908876', convert(date, '03-01-2010', 105), 'IT_PROG', 12000, 102, 60);
+----values (103, 'Àëåêñàíäúð', 'Ïåòðîâ', 'ap@trade_company.com', '0878908876', convert(date, '03-01-2010', 105), 'IT_PROG', 12000, 102, 60);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (104, 'ÃÃ®Ã°Ã¿Ã­Ã ', 'ÃˆÃ¢Ã Ã­Ã®Ã¢Ã ', 'bo@trade_company.com', '0879543212', convert(date, '21-05-2010', 105), 'IT_PROG', 12000, 103, 60);
+----values (104, 'Áîðÿíà', 'Èâàíîâà', 'bo@trade_company.com', '0879543212', convert(date, '21-05-2010', 105), 'IT_PROG', 12000, 103, 60);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (105, 'Ã„Ã¨Ã¬Ã®', 'Ã’Ã®Ã¤Ã®Ã°Ã®Ã¢', 'dimo@trade_company.com', '0899765434', convert(date, '25-06-2005', 105), 'IT_PROG', 7800, 103, 60);
+----values (105, 'Äèìî', 'Òîäîðîâ', 'dimo@trade_company.com', '0899765434', convert(date, '25-06-2005', 105), 'IT_PROG', 7800, 103, 60);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (106, 'Ã‚Ã Ã±Ã¨Ã«', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'vpetrov@trade_company.com', '0898765434', convert(date, '05-02-2008', 105), 'IT_PROG', 8800, 103, 60);
+----values (106, 'Âàñèë', 'Ïåòðîâ', 'vpetrov@trade_company.com', '0898765434', convert(date, '05-02-2008', 105), 'IT_PROG', 8800, 103, 60);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (107, 'Ã„Ã¨Ã Ã­Ã ', 'Ã‹Ã Ã§Ã Ã°Ã®Ã¢Ã ', 'dianal@trade_company.com', '0899776566', convert(date, '07-02-2009', 105), 'IT_PROG', 7200, 103, 60);
+----values (107, 'Äèàíà', 'Ëàçàðîâà', 'dianal@trade_company.com', '0899776566', convert(date, '07-02-2009', 105), 'IT_PROG', 7200, 103, 60);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (108, 'ÃÃ¨Ã­Ã ', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢Ã ', 'ninageorgieva@trade_company.com', '0876543242', convert(date, '17-08-2015', 105), 'FI_MGR', 12000, 101, 100);
+----values (108, 'Íèíà', 'Ãåîðãèåâà', 'ninageorgieva@trade_company.com', '0876543242', convert(date, '17-08-2015', 105), 'FI_MGR', 12000, 101, 100);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (109, 'Ã„Ã Ã­Ã¨Ã¥Ã«', 'Ã”Ã¨Ã«Ã¨Ã¯Ã®Ã¢', 'filipovdaniel@trade_company.com', '0888345676', convert(date, '16-08-2014', 105), 'FI_ACCOUNT', 10000, 108, 100);
+----values (109, 'Äàíèåë', 'Ôèëèïîâ', 'filipovdaniel@trade_company.com', '0888345676', convert(date, '16-08-2014', 105), 'FI_ACCOUNT', 10000, 108, 100);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (110, 'ÃƒÃ¥Ã®Ã°Ã£Ã¨', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢', 'georgig@trade_company.com', '0878643728', convert(date, '28-09-2017', 105), 'FI_ACCOUNT', 9200, 108, 100);
+----values (110, 'Ãåîðãè', 'Ãåîðãèåâ', 'georgig@trade_company.com', '0878643728', convert(date, '28-09-2017', 105), 'FI_ACCOUNT', 9200, 108, 100);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (111, 'ÃˆÃ¢Ã Ã­Ã ', 'ÃˆÃ¢Ã Ã­Ã®Ã¢Ã ', 'ivana@trade_company.com', '0877665533', convert(date, '30-09-2014', 105), 'FI_ACCOUNT', 9700, 108, 100);
+----values (111, 'Èâàíà', 'Èâàíîâà', 'ivana@trade_company.com', '0877665533', convert(date, '30-09-2014', 105), 'FI_ACCOUNT', 9700, 108, 100);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (112, 'Ã•Ã°Ã¨Ã±Ã²Ã®', 'Ã•Ã°Ã¨Ã±Ã²Ã®Ã¢', 'hristov@trade_company.com', '0899775543', convert(date, '07-03-2008', 105), 'FI_ACCOUNT', 11300, 108, 100);
+----values (112, 'Õðèñòî', 'Õðèñòîâ', 'hristov@trade_company.com', '0899775543', convert(date, '07-03-2008', 105), 'FI_ACCOUNT', 11300, 108, 100);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (113, 'Ã‹Ã¾Ã¡Ã®', 'ÃÃ®Ã¯Ã®Ã¢', 'lpopov@trade_company.com', '0887662289', convert(date, '07-12-2009', 105), 'FI_ACCOUNT', 8900, 108, 100);
+----values (113, 'Ëþáî', 'Ïîïîâ', 'lpopov@trade_company.com', '0887662289', convert(date, '07-12-2009', 105), 'FI_ACCOUNT', 8900, 108, 100);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (114, 'Ã„Ã¨Ã¬Ã¨Ã²ÃºÃ°', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'petrovdimitar@trade_company.com', '0889330202', convert(date, '07-12-2016', 105), 'PU_MAN', 11000, 100, 30);
+----values (114, 'Äèìèòúð', 'Ïåòðîâ', 'petrovdimitar@trade_company.com', '0889330202', convert(date, '07-12-2016', 105), 'PU_MAN', 11000, 100, 30);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (115, 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤ÃºÃ°', 'ÃŠÃ°ÃºÃ±Ã²Ã¥Ã¢', 'akrastev@trade_company.com', '0877653525', convert(date, '18-05-2018', 105), 'SA_REP', 6100, 114, 30);
+----values (115, 'Àëåêñàíäúð', 'Êðúñòåâ', 'akrastev@trade_company.com', '0877653525', convert(date, '18-05-2018', 105), 'SA_REP', 6100, 114, 30);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (116, 'Ã‘Ã²Ã¥Ã´Ã Ã­', 'ÃÃ®Ã©Ã¤Ã¥Ã¢', 'boydev@trade_company.com', '0876352717', convert(date, '24-12-2015', 105), 'SA_REP', 4700, 114, 30);
+----values (116, 'Ñòåôàí', 'Áîéäåâ', 'boydev@trade_company.com', '0876352717', convert(date, '24-12-2015', 105), 'SA_REP', 4700, 114, 30);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (117, 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã’Ã®Ã¤Ã®Ã°Ã®Ã¢Ã ', 'stodorova@trade_company.com', '0899372891', convert(date, '24-07-2013', 105), 'SA_REP', 4000, 114, 30);
+----values (117, 'Ñîôèÿ', 'Òîäîðîâà', 'stodorova@trade_company.com', '0899372891', convert(date, '24-07-2013', 105), 'SA_REP', 4000, 114, 30);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (118, 'ÃƒÃ¥Ã®Ã°Ã£Ã¨', 'Ã•Ã°Ã¨Ã±Ã²Ã®Ã¢', 'georgihristov@trade_company.com', '0893994400', convert(date, '15-11-2010', 105), 'SA_REP', 6600, 114, 30);
+----values (118, 'Ãåîðãè', 'Õðèñòîâ', 'georgihristov@trade_company.com', '0893994400', convert(date, '15-11-2010', 105), 'SA_REP', 6600, 114, 30);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (119, 'ÃŠÃ¨Ã°Ã¨Ã«', 'ÃŠÃ°ÃºÃ±Ã²Ã¥Ã¢', 'kirilk@trade_company.com', '0888372910', convert(date, '12-08-2010', 105), 'SA_REP', 8200, 114, 30);
+----values (119, 'Êèðèë', 'Êðúñòåâ', 'kirilk@trade_company.com', '0888372910', convert(date, '12-08-2010', 105), 'SA_REP', 8200, 114, 30);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (120, 'ÃŒÃ®Ã¬Ã·Ã¨Ã«', 'Ã„Ã¨Ã¬Ã¨Ã²Ã°Ã®Ã¢', 'momchildimitrov@trade_company.com', '0877463727', convert(date, '28-07-2009', 105), 'ST_MAN', 10000, 103, 70);
+----values (120, 'Ìîì÷èë', 'Äèìèòðîâ', 'momchildimitrov@trade_company.com', '0877463727', convert(date, '28-07-2009', 105), 'ST_MAN', 10000, 103, 70);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (121, 'Ã€Ã­Ã²Ã®Ã­', 'Ã”Ã¨Ã«Ã¨Ã¯Ã®Ã¢', 'antonfilipov@trade_company.com', '0876594300', convert(date, '12-04-2015', 105), 'ST_MAN', 9200, 100, 50);
+----values (121, 'Àíòîí', 'Ôèëèïîâ', 'antonfilipov@trade_company.com', '0876594300', convert(date, '12-04-2015', 105), 'ST_MAN', 9200, 100, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (122, 'ÃÃ¥Ã²ÃºÃ°', 'ÃŠÃ®Ã±Ã²Ã®Ã¢', 'pkostov@trade_company.com', '0899493020', convert(date, '01-05-2018', 105), 'ST_MAN', 9900, 108, 30);
+----values (122, 'Ïåòúð', 'Êîñòîâ', 'pkostov@trade_company.com', '0899493020', convert(date, '01-05-2018', 105), 'ST_MAN', 9900, 108, 30);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (123, 'Ã‘Ã²Ã®Ã¨Ã«', 'Ã‚ÃºÃ«ÃªÃ®Ã¢', 'svalkov@trade_company.com', '0899403020', convert(date, '10-01-2019', 105), 'ST_MAN', 8900, 101, 110);
+----values (123, 'Ñòîèë', 'Âúëêîâ', 'svalkov@trade_company.com', '0899403020', convert(date, '10-01-2019', 105), 'ST_MAN', 8900, 101, 110);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (124, 'ÃŠÃ®Ã±Ã²Ã ', 'ÃŒÃ¨Ã²Ã¥Ã¢', 'kmitev@trade_company.com', '0887371999', convert(date, '16-09-2009', 105), 'ST_MAN', 9800, 100, 40);
+----values (124, 'Êîñòà', 'Ìèòåâ', 'kmitev@trade_company.com', '0887371999', convert(date, '16-09-2009', 105), 'ST_MAN', 9800, 100, 40);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (125, 'ÃžÃ«Ã¨Ã¿', 'ÃÃ¥Ã­Ã®Ã¢Ã ', 'jnenova@trade_company.com', '0885392010', convert(date, '16-07-2010', 105), 'ST_CLERK', 3400, 110, 50);
+----values (125, 'Þëèÿ', 'Íåíîâà', 'jnenova@trade_company.com', '0885392010', convert(date, '16-07-2010', 105), 'ST_CLERK', 3400, 110, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (126, 'ÃˆÃ°Ã¥Ã­Ã ', 'ÃŒÃ¨Ã¸Ã¥Ã¢Ã ', 'misheva@trade_company.com', '0877621627', convert(date, '28-10-1998', 105), 'ST_CLERK', 3400, 120, 50);
+----values (126, 'Èðåíà', 'Ìèøåâà', 'misheva@trade_company.com', '0877621627', convert(date, '28-10-1998', 105), 'ST_CLERK', 3400, 120, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (127, 'Ã„Ã¥Ã°Ã¥Ãª', 'Ã‹Ã¥Ã±Ã®Ã¢', 'dereklesov@trade_company.com', '0887382001', convert(date, '13-01-2016', 105), 'ST_CLERK', 5400, 121, 50);
+----values (127, 'Äåðåê', 'Ëåñîâ', 'dereklesov@trade_company.com', '0887382001', convert(date, '13-01-2016', 105), 'ST_CLERK', 5400, 121, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (128, 'Ã‘Ã²Ã¥Ã´Ã Ã­', 'ÃŒÃ Ã¢Ã°Ã®Ã¢', 'stmavrov@trade_company.com', '0888392000', convert(date, '08-03-2010', 105), 'ST_CLERK', 3300, 120, 50);
+----values (128, 'Ñòåôàí', 'Ìàâðîâ', 'stmavrov@trade_company.com', '0888392000', convert(date, '08-03-2010', 105), 'ST_CLERK', 3300, 120, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (129, 'Ã‹Ã®Ã°Ã ', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢Ã ', 'lorageorgieva@trade_company.com', '0899393020', convert(date, '20-08-2017', 105), 'ST_CLERK', 5300, 121, 50);
+----values (129, 'Ëîðà', 'Ãåîðãèåâà', 'lorageorgieva@trade_company.com', '0899393020', convert(date, '20-08-2017', 105), 'ST_CLERK', 5300, 121, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (130, 'ÃŒÃ¨Ã°Ã®Ã±Ã«Ã Ã¢', 'Ã€Ã­Ã²Ã®Ã­Ã®Ã¢', 'miroantonov@trade_company.com', '0877382010', convert(date, '30-10-2009', 105), 'ST_CLERK', 4800, 121, 70);
+----values (130, 'Ìèðîñëàâ', 'Àíòîíîâ', 'miroantonov@trade_company.com', '0877382010', convert(date, '30-10-2009', 105), 'ST_CLERK', 4800, 121, 70);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (131, 'Ã„Ã Ã­Ã¨Ã¥Ã«', 'ÃŒÃ Ã°ÃªÃ®Ã¢', 'markovdaniel@trade_company.com', '0877300020', convert(date, '19-02-2012', 105), 'ST_CLERK', 3500, 122, 50);
+----values (131, 'Äàíèåë', 'Ìàðêîâ', 'markovdaniel@trade_company.com', '0877300020', convert(date, '19-02-2012', 105), 'ST_CLERK', 3500, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (132, 'Ã’Ã®Ã¤Ã®Ã°', 'ÃŽÃ£Ã­Ã¿Ã­Ã®Ã¢', 'todorog@trade_company.com', '0895402010', convert(date, '10-04-2018', 105), 'ST_CLERK', 3100, 121, 50);
+----values (132, 'Òîäîð', 'Îãíÿíîâ', 'todorog@trade_company.com', '0895402010', convert(date, '10-04-2018', 105), 'ST_CLERK', 3100, 121, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (133, 'Ã„Ã¨Ã¬Ã¨Ã²ÃºÃ°', 'ÃŒÃ Ã²Ã¥Ã¢', 'dmatev@trade_company.com', '0899403020', convert(date, '14-02-2019', 105), 'ST_CLERK', 5400, 122, 50);
+----values (133, 'Äèìèòúð', 'Ìàòåâ', 'dmatev@trade_company.com', '0899403020', convert(date, '14-02-2019', 105), 'ST_CLERK', 5400, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (134, 'ÃŒÃ¨ÃµÃ Ã¨Ã«', 'ÃÃ³Ã¬Ã¥Ã­Ã®Ã¢', 'mrumenov@trade_company.com', '0886362810', convert(date, '26-08-2008', 105), 'ST_CLERK', 3900, 122, 50);
+----values (134, 'Ìèõàèë', 'Ðóìåíîâ', 'mrumenov@trade_company.com', '0886362810', convert(date, '26-08-2008', 105), 'ST_CLERK', 3900, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (135, 'ÃŠÃ Ã«Ã®Ã¿Ã­', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢', 'kgeorgiev@trade_company.com', '0877381010', convert(date, '12-12-2016', 105), 'ST_CLERK', 4400, 122, 50);
+----values (135, 'Êàëîÿí', 'Ãåîðãèåâ', 'kgeorgiev@trade_company.com', '0877381010', convert(date, '12-12-2016', 105), 'ST_CLERK', 4400, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (136, 'Ã•Ã°Ã¨Ã±Ã²Ã¨Ã­Ã ', 'Ã”Ã¨Ã«Ã¨Ã¯Ã®Ã¢Ã ', 'hphilipova@trade_company.com', '0898392011', convert(date, '06-02-2018', 105), 'ST_CLERK', 2500, 122, 50);
+----values (136, 'Õðèñòèíà', 'Ôèëèïîâà', 'hphilipova@trade_company.com', '0898392011', convert(date, '06-02-2018', 105), 'ST_CLERK', 2500, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (137, 'ÃÃ³Ã¬Ã¥Ã­', 'Ã‹Ã¨Ã­Ã¤Ã®Ã¢', 'lindov@trade_company.com', '0877391033', convert(date, '14-09-2015', 105), 'ST_CLERK', 5600, 124, 50);
+----values (137, 'Ðóìåí', 'Ëèíäîâ', 'lindov@trade_company.com', '0877391033', convert(date, '14-09-2015', 105), 'ST_CLERK', 5600, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (138, 'Ã‘Ã²Ã¥Ã´Ã Ã­', 'Ã‘Ã²Ã¨Ã«Ã¥Ã¢', 'sstilev@trade_company.com', '0889392299', convert(date, '26-10-2018', 105), 'ST_CLERK', 4100, 123, 50);
+----values (138, 'Ñòåôàí', 'Ñòèëåâ', 'sstilev@trade_company.com', '0889392299', convert(date, '26-10-2018', 105), 'ST_CLERK', 4100, 123, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (139, 'Ã„Ã¨Ã Ã­Ã ', 'Ã‘Ã²Ã¥Ã´Ã Ã­Ã®Ã¢Ã ', 'dstef@trade_company.com', '0888339920', convert(date, '12-02-2012', 105), 'ST_CLERK', 3700, 123, 50);
+----values (139, 'Äèàíà', 'Ñòåôàíîâà', 'dstef@trade_company.com', '0888339920', convert(date, '12-02-2012', 105), 'ST_CLERK', 3700, 123, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (140, 'Ã„Ã¥Ã«Ã¿Ã­', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'dpetrov@trade_company.com', '0899392299', convert(date, '06-04-2019', 105), 'ST_CLERK', 3500, 123, 50);
+----values (140, 'Äåëÿí', 'Ïåòðîâ', 'dpetrov@trade_company.com', '0899392299', convert(date, '06-04-2019', 105), 'ST_CLERK', 3500, 123, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (141, 'Ã’Ã¥Ã®Ã¤Ã®Ã°Ã ', 'ÃÃ³Ã±Ã¥Ã¢Ã ', 'truseva@trade_company.com', '0889229391', convert(date, '17-11-2011', 105), 'ST_CLERK', 3400, 124, 50);
+----values (141, 'Òåîäîðà', 'Ðóñåâà', 'truseva@trade_company.com', '0889229391', convert(date, '17-11-2011', 105), 'ST_CLERK', 3400, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (142, 'ÃŠÃ Ã²Ã°Ã¨Ã­', 'Ã„Ã®Ã­Ã¥Ã¢Ã ', 'kdoneva@trade_company.com', '0888229313', convert(date, '23-01-2010', 105), 'ST_CLERK', 3400, 124, 50);
+----values (142, 'Êàòðèí', 'Äîíåâà', 'kdoneva@trade_company.com', '0888229313', convert(date, '23-01-2010', 105), 'ST_CLERK', 3400, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (143, 'ÃÃ®Ã±Ã¥Ã­', 'ÃŒÃ¨Ã²Ã°Ã¥Ã¢', 'rmitrev@trade_company.com', '0896291192', convert(date, '15-03-2016', 105), 'ST_CLERK', 2900, 124, 50);
+----values (143, 'Ðîñåí', 'Ìèòðåâ', 'rmitrev@trade_company.com', '0896291192', convert(date, '15-03-2016', 105), 'ST_CLERK', 2900, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (144, 'ÃÃ¥Ã²ÃºÃ°', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'ppetrov@trade_company.com', '0883201102', convert(date, '19-07-2017', 105), 'ST_CLERK', 4300, 124, 50);
+----values (144, 'Ïåòúð', 'Ïåòðîâ', 'ppetrov@trade_company.com', '0883201102', convert(date, '19-07-2017', 105), 'ST_CLERK', 4300, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (145, 'Ã„Ã¨Ã¬Ã¨Ã²ÃºÃ°', 'ÃÃ³Ã±Ã¥Ã¢', 'drusevv@trade_company.com', '0877228811', convert(date, '01-11-2016', 105), 'SA_MAN', 15000, 100, 80);
+----values (145, 'Äèìèòúð', 'Ðóñåâ', 'drusevv@trade_company.com', '0877228811', convert(date, '01-11-2016', 105), 'SA_MAN', 15000, 100, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (146, 'ÃŠÃ Ã²Ã¿', 'ÃÃ¥Ã²Ã°Ã®Ã¢Ã ', 'kpetrova@trade_company.com', '0888221199', convert(date, '05-01-2008', 105), 'SA_MAN', 12500, 100, 80);
+----values (146, 'Êàòÿ', 'Ïåòðîâà', 'kpetrova@trade_company.com', '0888221199', convert(date, '05-01-2008', 105), 'SA_MAN', 12500, 100, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (147, 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤ÃºÃ°', 'Ã…Ã¬Ã¨Ã«Ã®Ã¢', 'aemilov@trade_company.com', '0899332156', convert(date, '10-04-2017', 105), 'SA_MAN', 11300, 100, 80);
+----values (147, 'Àëåêñàíäúð', 'Åìèëîâ', 'aemilov@trade_company.com', '0899332156', convert(date, '10-04-2017', 105), 'SA_MAN', 11300, 100, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (148, 'ÃƒÃ¥Ã®Ã°Ã£Ã¨', 'ÃƒÃ¥Ã«Ã®Ã¢', 'ggelov@trade_company.com', '08773999110', convert(date, '15-10-2014', 105), 'SA_MAN', 10000, 100, 80);
+----values (148, 'Ãåîðãè', 'Ãåëîâ', 'ggelov@trade_company.com', '08773999110', convert(date, '15-10-2014', 105), 'SA_MAN', 10000, 100, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (149, 'Ã…Ã«Ã¥Ã­Ã ', 'Ã‡Ã«Ã Ã²ÃªÃ®Ã¢Ã ', 'ezlotkey@trade_company.com', '0876440120', convert(date, '29-01-2019', 105), 'SA_MAN', 9500, 100, 80);
+----values (149, 'Åëåíà', 'Çëàòêîâà', 'ezlotkey@trade_company.com', '0876440120', convert(date, '29-01-2019', 105), 'SA_MAN', 9500, 100, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (150, 'ÃÃ¥Ã²ÃºÃ°', 'Ã’Ã®Ã¤Ã®Ã°Ã®Ã¢', 'petertod@trade_company.com', '0899332013', convert(date, '30-01-2017', 105), 'SA_REP', 19000, 144, 80);
+----values (150, 'Ïåòúð', 'Òîäîðîâ', 'petertod@trade_company.com', '0899332013', convert(date, '30-01-2017', 105), 'SA_REP', 19000, 144, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (151, 'Ã„Ã®Ã¡Ã°Ã®Ã¬Ã¨Ã°', 'ÃÃ®Ã°Ã¨Ã±Ã®Ã¢', 'dborisov@trade_company.com', '0887332919', convert(date, '27-03-2016', 105), 'SA_REP', 8900, 145, 80);
+----values (151, 'Äîáðîìèð', 'Áîðèñîâ', 'dborisov@trade_company.com', '0887332919', convert(date, '27-03-2016', 105), 'SA_REP', 8900, 145, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (152, 'ÃÃ¥Ã²ÃºÃ°', 'Ã•Ã°Ã¨Ã±Ã²Ã®Ã¢', 'petarhristov@trade_company.com', '0877338219', convert(date, '22-08-2015', 105), 'SA_REP', 9300, 145, 80);
+----values (152, 'Ïåòúð', 'Õðèñòîâ', 'petarhristov@trade_company.com', '0877338219', convert(date, '22-08-2015', 105), 'SA_REP', 9300, 145, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (153, 'ÃŠÃ°Ã¨Ã±Ã²Ã¨Ã Ã­', 'ÃŽÃ£Ã­Ã¿Ã­Ã®Ã¢', 'kognyanov@trade_company.com', '08993382913', convert(date, '29-03-2019', 105), 'SA_REP', 8300, 145, 80);
+----values (153, 'Êðèñòèàí', 'Îãíÿíîâ', 'kognyanov@trade_company.com', '08993382913', convert(date, '29-03-2019', 105), 'SA_REP', 8300, 145, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (154, 'ÃÃ¨Ã­Ã ', 'ÃŠÃ®Ã±Ã²Ã®Ã¢Ã ', 'nikostova@trade_company.com', '0879372815', convert(date, '09-11-2008', 105), 'SA_REP', 7800, 146, 80);
+----values (154, 'Íèíà', 'Êîñòîâà', 'nikostova@trade_company.com', '0879372815', convert(date, '09-11-2008', 105), 'SA_REP', 7800, 146, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (155, 'ÃŽÃ£Ã­Ã¿Ã­', 'Ã’Ã®Ã¤Ã®Ã°Ã®Ã¢', 'otodorov@trade_company.com', '0885372273', convert(date, '24-11-2008', 105), 'SA_REP', 7900, 145, 80);
+----values (155, 'Îãíÿí', 'Òîäîðîâ', 'otodorov@trade_company.com', '0885372273', convert(date, '24-11-2008', 105), 'SA_REP', 7900, 145, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (156, 'Ã†Ã Ã­Ã ', 'ÃŠÃ®Ã±Ã²Ã®Ã¢Ã ', 'jkostova@trade_company.com', '0877337271', convert(date, '31-01-2009', 105), 'SA_REP', 11000, 146, 80);
+----values (156, 'Æàíà', 'Êîñòîâà', 'jkostova@trade_company.com', '0877337271', convert(date, '31-01-2009', 105), 'SA_REP', 11000, 146, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (157, 'ÃÃ¥Ã²ÃºÃ°', 'Ã‘Ã Ã¢Ã®Ã¢', 'psavov@trade_company.com', '08993832818', convert(date, '04-03-2006', 105), 'SA_REP', 9900, 146, 80);
+----values (157, 'Ïåòúð', 'Ñàâîâ', 'psavov@trade_company.com', '08993832818', convert(date, '04-03-2006', 105), 'SA_REP', 9900, 146, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (158, 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤ÃºÃ°', 'ÃŒÃ¨ÃµÃ®Ã¢', 'alexmihov@trade_company.com', '0878372271', convert(date, '13-08-2018', 105), 'SA_REP', 9100, 146, 80);
+----values (158, 'Àëåêñàíäúð', 'Ìèõîâ', 'alexmihov@trade_company.com', '0878372271', convert(date, '13-08-2018', 105), 'SA_REP', 9100, 146, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (159, 'Ã‹Ã¾Ã¡Ã®', 'ÃˆÃ¢Ã Ã­Ã®Ã¢', 'livanov@trade_company.com', '0888332819', convert(date, '10-04-2017', 105), 'SA_REP', 8300, 146, 80);
+----values (159, 'Ëþáî', 'Èâàíîâ', 'livanov@trade_company.com', '0888332819', convert(date, '10-04-2017', 105), 'SA_REP', 8300, 146, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (160, 'Ã‹Ã¨Ã«Ã¨', 'Ã„Ã®Ã­Ã¥Ã¢Ã ', 'lilidoneva@trade_company.com', '0898372818', convert(date, '15-12-2017', 105), 'SA_REP', 8800, 146, 80);
+----values (160, 'Ëèëè', 'Äîíåâà', 'lilidoneva@trade_company.com', '0898372818', convert(date, '15-12-2017', 105), 'SA_REP', 8800, 146, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (161, 'Ã‘Ã Ã°Ã ', 'ÃˆÃ¢Ã Ã­Ã®Ã¢Ã ', 'savanova@trade_company.com', '0887663528', convert(date, '03-11-2018', 105), 'SA_REP', 7800, 146, 80);
+----values (161, 'Ñàðà', 'Èâàíîâà', 'savanova@trade_company.com', '0887663528', convert(date, '03-11-2018', 105), 'SA_REP', 7800, 146, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (162, 'ÃŠÃ Ã²Ã¿', 'Ã‚ÃºÃ«Ã¥Ã¢Ã ', 'valevakatia@trade_company.com', '0877364758', convert(date, '11-11-2010', 105), 'SA_REP', 10900, 148, 80);
+----values (162, 'Êàòÿ', 'Âúëåâà', 'valevakatia@trade_company.com', '0877364758', convert(date, '11-11-2010', 105), 'SA_REP', 10900, 148, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (163, 'Ã„Ã Ã­Ã¨Ã¥Ã«Ã ', 'ÃƒÃ®Ã°Ã Ã­Ã®Ã¢Ã ', 'dgoranova@trade_company.com', '0899382939', convert(date, '19-03-2009', 105), 'SA_REP', 9600, 147, 80);
+----values (163, 'Äàíèåëà', 'Ãîðàíîâà', 'dgoranova@trade_company.com', '0899382939', convert(date, '19-03-2009', 105), 'SA_REP', 9600, 147, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (164, 'ÃŒÃ Ã²Ã¥Ã¿', 'ÃŒÃ Ã¢Ã°Ã®Ã¢Ã ', 'mmavrova@trade_company.com', '0877462616', convert(date, '24-01-2007', 105), 'SA_REP', 7500, 147, 80);
+----values (164, 'Ìàòåÿ', 'Ìàâðîâà', 'mmavrova@trade_company.com', '0877462616', convert(date, '24-01-2007', 105), 'SA_REP', 7500, 147, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (165, 'Ã„Ã®Ã¡Ã°Ã¨', 'Ã‹Ã¥Ã±Ã®Ã¢', 'dlesov@trade_company.com', '0877382819', convert(date, '23-02-2019', 105), 'SA_REP', 8800, 147, 80);
+----values (165, 'Äîáðè', 'Ëåñîâ', 'dlesov@trade_company.com', '0877382819', convert(date, '23-02-2019', 105), 'SA_REP', 8800, 147, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (166, 'Ã‘Ã²Ã¥Ã´Ã Ã­', 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤Ã°Ã®Ã¢', 'salex@trade_company.com', '0889382818', convert(date, '24-03-2019', 105), 'SA_REP', 6900, 147, 80);
+----values (166, 'Ñòåôàí', 'Àëåêñàíäðîâ', 'salex@trade_company.com', '0889382818', convert(date, '24-03-2019', 105), 'SA_REP', 6900, 147, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (167, 'Ã€Ã­Ã²Ã®Ã­', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'antonpe@trade_company.com', '0899392918', convert(date, '21-04-2010', 105), 'SA_REP', 6600, 147, 80);
+----values (167, 'Àíòîí', 'Ïåòðîâ', 'antonpe@trade_company.com', '0899392918', convert(date, '21-04-2010', 105), 'SA_REP', 6600, 147, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (168, 'Ã‹Ã¾Ã¡Ã ', 'ÃŽÃ£Ã­Ã¿Ã­Ã®Ã¢Ã ', 'lognyanova@trade_company.com', '0885382216', convert(date, '11-03-2017', 105), 'SA_REP', 11500, 148, 80);
+----values (168, 'Ëþáà', 'Îãíÿíîâà', 'lognyanova@trade_company.com', '0885382216', convert(date, '11-03-2017', 105), 'SA_REP', 11500, 148, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (169, 'Ã•Ã°Ã¨Ã±Ã²Ã®', 'Ã‹Ã®Ã§Ã¥Ã¢', 'hlozev@trade_company.com', '0877382877', convert(date, '23-03-2007', 105), 'SA_REP', 11000, 148, 80);
+----values (169, 'Õðèñòî', 'Ëîçåâ', 'hlozev@trade_company.com', '0877382877', convert(date, '23-03-2007', 105), 'SA_REP', 11000, 148, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (170, 'Ã’Ã®Ã¤Ã®Ã°', 'Ã”Ã¨Ã«Ã¨Ã¯Ã®Ã¢', 'tfil@trade_company.com', '0899382917', convert(date, '24-01-2018', 105), 'SA_REP', 9900, 148, 80);
+----values (170, 'Òîäîð', 'Ôèëèïîâ', 'tfil@trade_company.com', '0899382917', convert(date, '24-01-2018', 105), 'SA_REP', 9900, 148, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (171, 'Ã‘Ã²Ã Ã­Ã¨Ã¬Ã¨Ã°', 'Ã‘Ã²Ã¥Ã´Ã Ã­Ã®Ã¢', 'sstefan@trade_company.com', '0897665538', convert(date, '23-02-2019', 105), 'SA_REP', 7600, 148, 80);
+----values (171, 'Ñòàíèìèð', 'Ñòåôàíîâ', 'sstefan@trade_company.com', '0897665538', convert(date, '23-02-2019', 105), 'SA_REP', 7600, 148, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (172, 'Ã…Ã«Ã¥Ã­Ã ', 'ÃƒÃ Ã²Ã¥Ã¢Ã ', 'egateva@trade_company.com', '0877377288', convert(date, '24-03-2019', 105), 'SA_REP', 7600, 148, 80);
+----values (172, 'Åëåíà', 'Ãàòåâà', 'egateva@trade_company.com', '0877377288', convert(date, '24-03-2019', 105), 'SA_REP', 7600, 148, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (173, 'Ã‘Ã Ã°Ã ', 'ÃŠÃ¨Ã°Ã¨Ã«Ã®Ã¢Ã ', 'sarakirilova@trade_company.com', '0877446882', convert(date, '21-04-2016', 105), 'SA_REP', 6900, 148, 80);
+----values (173, 'Ñàðà', 'Êèðèëîâà', 'sarakirilova@trade_company.com', '0877446882', convert(date, '21-04-2016', 105), 'SA_REP', 6900, 148, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (174, 'Ã…Ã«Ã¥Ã­', 'Ã€Ã­Ã²Ã®Ã­Ã®Ã¢Ã ', 'elenant@trade_company.com', '0876555447', convert(date, '14-05-2016', 105), 'SA_REP', 11600, 149, 80);
+----values (174, 'Åëåí', 'Àíòîíîâà', 'elenant@trade_company.com', '0876555447', convert(date, '14-05-2016', 105), 'SA_REP', 11600, 149, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (175, 'Ã€Ã«Ã¨Ã­Ã ', 'Ã•Ã°Ã¨Ã±Ã²Ã®Ã¢Ã ', 'alihristova@trade_company.com', '0888773188', convert(date, '19-03-2018', 105), 'SA_REP', 8900, 149, 80);
+----values (175, 'Àëèíà', 'Õðèñòîâà', 'alihristova@trade_company.com', '0888773188', convert(date, '19-03-2018', 105), 'SA_REP', 8900, 149, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (176, 'Ã„Ã Ã­Ã¨Ã¥Ã«', 'Ã’Ã°Ã¨Ã´Ã®Ã­Ã®Ã¢', 'dtrif@trade_company.com', '0899665338', convert(date, '24-03-2014', 105), 'SA_REP', 8800, 149, 80);
+----values (176, 'Äàíèåë', 'Òðèôîíîâ', 'dtrif@trade_company.com', '0899665338', convert(date, '24-03-2014', 105), 'SA_REP', 8800, 149, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (177, 'Ã†Ã Ã­Ã ', 'Ã‹Ã¨Ã«Ã®Ã¢Ã ', 'jlilova@trade_company.com', '0876330997', convert(date, '23-04-2016', 105), 'SA_REP', 8600, 149, 80);
+----values (177, 'Æàíà', 'Ëèëîâà', 'jlilova@trade_company.com', '0876330997', convert(date, '23-04-2016', 105), 'SA_REP', 8600, 149, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (178, 'ÃŠÃ Ã°Ã¨Ã­Ã ', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢Ã ', 'kgeorg@trade_company.com', '0877663682', convert(date, '24-05-2018', 105), 'SA_REP', 7100, 149, null);
+----values (178, 'Êàðèíà', 'Ãåîðãèåâà', 'kgeorg@trade_company.com', '0877663682', convert(date, '24-05-2018', 105), 'SA_REP', 7100, 149, null);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (179, 'ÃÃ¥Ã²ÃºÃ°', 'Ã—Ã¨Ã¯Ã¥Ã¢', 'petarchipev@trade_company.com', '0886637199', convert(date, '04-01-2010', 105), 'SA_REP', 6300, 149, 80);
+----values (179, 'Ïåòúð', '×èïåâ', 'petarchipev@trade_company.com', '0886637199', convert(date, '04-01-2010', 105), 'SA_REP', 6300, 149, 80);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (180, 'Ã–Ã¢Ã¥Ã²Ã¥Ã«Ã¨Ã­Ã ', 'Ã’Ã®Ã¤Ã®Ã°Ã®Ã¢Ã ', 'ctodorova@trade_company.com', '0877665499', convert(date, '24-01-2008', 105), 'SH_CLERK', 4200, 120, 50);
+----values (180, 'Öâåòåëèíà', 'Òîäîðîâà', 'ctodorova@trade_company.com', '0877665499', convert(date, '24-01-2008', 105), 'SH_CLERK', 4200, 120, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (181, 'Ã†Ã®Ã°Ã®', 'Ã”Ã¨Ã«Ã¥Ã¢', 'jfilev@trade_company.com', '0899382288', convert(date, '23-02-1998', 105), 'SH_CLERK', 4100, 120, 50);
+----values (181, 'Æîðî', 'Ôèëåâ', 'jfilev@trade_company.com', '0899382288', convert(date, '23-02-1998', 105), 'SH_CLERK', 4100, 120, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (182, 'ÃŒÃ Ã°Ã²Ã¨Ã­Ã ', 'Ã‘Ã¢Ã¨Ã«Ã¥Ã­Ã®Ã¢Ã ', 'msvilenova@trade_company.com', '650.507.9878', convert(date, '21-06-2007', 105), 'SH_CLERK', 2300, 120, 50);
+----values (182, 'Ìàðòèíà', 'Ñâèëåíîâà', 'msvilenova@trade_company.com', '650.507.9878', convert(date, '21-06-2007', 105), 'SH_CLERK', 2300, 120, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (183, 'Ã†Ã¥Ã­Ã¿', 'ÃƒÃ¥Ã®Ã£Ã£Ã¨Ã¥Ã¢Ã ', 'jegeorgieva@trade_company.com', '08774646226', convert(date, '03-02-2008', 105), 'SH_CLERK', 4800, 120, 50);
+----values (183, 'Æåíÿ', 'Ãåîããèåâà', 'jegeorgieva@trade_company.com', '08774646226', convert(date, '03-02-2008', 105), 'SH_CLERK', 4800, 120, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (184, 'ÃÃ Ã¤Ã¿', 'Ã‘Ã®ÃªÃ®Ã«Ã®Ã¢Ã ', 'nadsokolova@trade_company.com', '0899377388', convert(date, '27-01-2010', 105), 'SH_CLERK', 5200, 122, 50);
+----values (184, 'Íàäÿ', 'Ñîêîëîâà', 'nadsokolova@trade_company.com', '0899377388', convert(date, '27-01-2010', 105), 'SH_CLERK', 5200, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (185, 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤Ã°Ã ', 'ÃÃ®Ã­Ã¥Ã¢Ã ', 'abon@trade_company.com', '650.509.2876', convert(date, '20-02-2019', 105), 'SH_CLERK', 5100, 121, 50);
+----values (185, 'Àëåêñàíäðà', 'Áîíåâà', 'abon@trade_company.com', '650.509.2876', convert(date, '20-02-2019', 105), 'SH_CLERK', 5100, 121, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (186, 'ÃžÃ«Ã¨Ã¿', 'Ã„Ã¥Ã¬Ã¨Ã°Ã¥Ã¢Ã ', 'jdemireva@trade_company.com', '0884299229', convert(date, '24-06-2014', 105), 'SH_CLERK', 4400, 121, 50);
+----values (186, 'Þëèÿ', 'Äåìèðåâà', 'jdemireva@trade_company.com', '0884299229', convert(date, '24-06-2014', 105), 'SH_CLERK', 4400, 121, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (187, 'Ã€Ã­Ã²Ã®Ã­', 'ÃŠÃ Ã­Ã¥Ã¢', 'antonkanev@trade_company.com', '0882339109', convert(date, '09-02-2016', 105), 'SH_CLERK', 3900, 121, 50);
+----values (187, 'Àíòîí', 'Êàíåâ', 'antonkanev@trade_company.com', '0882339109', convert(date, '09-02-2016', 105), 'SH_CLERK', 3900, 121, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (188, 'ÃŠÃ Ã«Ã®Ã¿Ã­', 'Ã‹Ã¥Ã±Ã®Ã¢', 'kelso@trade_company.com', '0898667423', convert(date, '14-07-2017', 105), 'SH_CLERK', 4800, 122, 50);
+----values (188, 'Êàëîÿí', 'Ëåñîâ', 'kelso@trade_company.com', '0898667423', convert(date, '14-07-2017', 105), 'SH_CLERK', 4800, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (189, 'ÃŒÃ Ã«Ã¨Ã­Ã ', 'Ã„Ã®Ã¡Ã°Ã®Ã¬Ã¨Ã°Ã®Ã¢Ã ', 'malinadob@trade_company.com', '08777381837', convert(date, '14-08-2017', 105), 'SH_CLERK', 3900, 122, 50);
+----values (189, 'Ìàëèíà', 'Äîáðîìèðîâà', 'malinadob@trade_company.com', '08777381837', convert(date, '14-08-2017', 105), 'SH_CLERK', 3900, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (190, 'ÃŒÃ¨ÃµÃ Ã¨Ã«', 'ÃƒÃ Ã²Ã¥Ã¢', 'mgatev@trade_company.com', '0877464297', convert(date, '11-07-2018', 105), 'SH_CLERK', 3900, 122, 50);
+----values (190, 'Ìèõàèë', 'Ãàòåâ', 'mgatev@trade_company.com', '0877464297', convert(date, '11-07-2018', 105), 'SH_CLERK', 3900, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (191, 'Ã’Ã¨ÃµÃ®Ã¬Ã¨Ã°', 'ÃŒÃ Ã°Ã¨Ã­Ã®Ã¢', 'tmarinov@trade_company.com', '0877335108', convert(date, '19-12-2018', 105), 'SH_CLERK', 2300, 122, 50);
+----values (191, 'Òèõîìèð', 'Ìàðèíîâ', 'tmarinov@trade_company.com', '0877335108', convert(date, '19-12-2018', 105), 'SH_CLERK', 2300, 122, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (192, 'Ã‘Ã¨Ã«Ã¢Ã¨Ã¿', 'ÃŠÃ®Ã±Ã²Ã®Ã¢Ã ', 'skostova@trade_company.com', '0877362098', convert(date, '04-02-2018', 105), 'SH_CLERK', 5000, 123, 50);
+----values (192, 'Ñèëâèÿ', 'Êîñòîâà', 'skostova@trade_company.com', '0877362098', convert(date, '04-02-2018', 105), 'SH_CLERK', 5000, 123, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (193, 'ÃÃ®Ã°Ã¿Ã­Ã ', 'Ã„Ã¨Ã¬Ã¨Ã²Ã°Ã®Ã¢Ã ', 'borianadim@trade_company.com', '0888391736', convert(date, '03-03-2014', 105), 'SH_CLERK', 4900, 123, 50);
+----values (193, 'Áîðÿíà', 'Äèìèòðîâà', 'borianadim@trade_company.com', '0888391736', convert(date, '03-03-2014', 105), 'SH_CLERK', 4900, 123, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (194, 'Ã„Ã¨Ã¬Ã¨Ã²ÃºÃ°', 'ÃŒÃ Ã°Ã¨Ã­Ã®Ã¢', 'dimitarmarinov@trade_company.com', '0877291073', convert(date, '01-07-2018', 105), 'SH_CLERK', 4200, 123, 50);
+----values (194, 'Äèìèòúð', 'Ìàðèíîâ', 'dimitarmarinov@trade_company.com', '0877291073', convert(date, '01-07-2018', 105), 'SH_CLERK', 4200, 123, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (195, 'Ã‚Ã¨Ã®Ã«Ã¥Ã²Ã ', 'Ã„Ã®Ã­Ã¥Ã¢Ã ', 'violetado@trade_company.com', '0877338198', convert(date, '17-03-2019', 105), 'SH_CLERK', 3800, 124, 50);
+----values (195, 'Âèîëåòà', 'Äîíåâà', 'violetado@trade_company.com', '0877338198', convert(date, '17-03-2019', 105), 'SH_CLERK', 3800, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (196, 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤Ã°Ã ', 'Ã‚Ã¨Ã¤Ã¥Ã¢Ã ', 'alexvideva@trade_company.com', '0896361846', convert(date, '24-04-2017', 105), 'SH_CLERK', 4100, 125, 50);
+----values (196, 'Àëåêñàíäðà', 'Âèäåâà', 'alexvideva@trade_company.com', '0896361846', convert(date, '24-04-2017', 105), 'SH_CLERK', 4100, 125, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (197, 'ÃŠÃ¨Ã°Ã¨Ã«', 'Ã”Ã¨Ã«Ã¨Ã¯Ã®Ã¢', 'kirilfil@trade_company.com', '0877364591', convert(date, '23-05-2009', 105), 'SH_CLERK', 3400, 124, 50);
+----values (197, 'Êèðèë', 'Ôèëèïîâ', 'kirilfil@trade_company.com', '0877364591', convert(date, '23-05-2009', 105), 'SH_CLERK', 3400, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (198, 'Ã„Ã¨Ã¬Ã®', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'dimopetrov@trade_company.com', '0876462819', convert(date, '21-06-2015', 105), 'SH_CLERK', 2800, 124, 50);
+----values (198, 'Äèìî', 'Ïåòðîâ', 'dimopetrov@trade_company.com', '0876462819', convert(date, '21-06-2015', 105), 'SH_CLERK', 2800, 124, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (199, 'Ã„Ã Ã¿Ã­Ã ', 'ÃŠÃ®Ã±Ã²Ã®Ã¢Ã ', 'dakostova@trade_company.com', '0876491088', convert(date, '13-01-2014', 105), 'SH_CLERK', 3600, 125, 50);
+----values (199, 'Äàÿíà', 'Êîñòîâà', 'dakostova@trade_company.com', '0876491088', convert(date, '13-01-2014', 105), 'SH_CLERK', 3600, 125, 50);
 ----insert into EMPLOYEES(EMPLOYEE_ID, FNAME, LNAME, EMAIL, PHONE, HIRE_DATE, JOB_ID, SALARY, MANAGER_ID, DEPARTMENT_ID)
-----values (200, 'ÃƒÃ¥Ã°Ã£Ã Ã­Ã ', 'Ã‚ÃºÃ«ÃªÃ®Ã¢Ã ', 'gvalkova@trade_company.com', '0886444888', convert(date, '17-09-2010', 105), 'FI_ACCOUNT', 15400, 101, 110);
+----values (200, 'Ãåðãàíà', 'Âúëêîâà', 'gvalkova@trade_company.com', '0886444888', convert(date, '17-09-2010', 105), 'FI_ACCOUNT', 15400, 101, 110);
 
 ----SELECT * FROM EMPLOYEES;
 -------------------------------------------------------
 
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (101, 'BG', 'ÃŠÃ Ã«Ã®Ã¿Ã­', 'ÃƒÃ¥Ã­Ã¥Ã¢', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 100, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'kaloyangenev@gmail.com', 'M');  
+----values (101, 'BG', 'Êàëîÿí', 'Ãåíåâ', 'áóë. Áúëãàðèÿ 100, Ïëîâäèâ', 'kaloyangenev@gmail.com', 'M');  
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (102, 'BG', 'Ã•Ã°Ã¨Ã±Ã²Ã®', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'Ã¡Ã³Ã«. Ã—Ã¥Ã°Ã­Ã¨ Ã¢Ã°ÃºÃµ 10, Ã‘Ã®Ã´Ã¨Ã¿', 'hristopetrov@gmail.com', 'M');
+----values (102, 'BG', 'Õðèñòî', 'Ïåòðîâ', 'áóë. ×åðíè âðúõ 10, Ñîôèÿ', 'hristopetrov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (103, 'BG', 'ÃŒÃ Ã°Ã¨Ã­Ã ', 'Ã’Ã®Ã¤Ã®Ã°Ã®Ã¢Ã ', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã‹Ã¥Ã¢Ã±ÃªÃ¨ 19, Ã‚Ã Ã°Ã­Ã ', 'marinatod@gmail.com', 'M');
+----values (103, 'BG', 'Ìàðèíà', 'Òîäîðîâà', 'áóë. Âàñèë Ëåâñêè 19, Âàðíà', 'marinatod@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (104, 'BG', 'ÃÃ¥Ã²ÃºÃ°', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢', 'Ã³Ã«. Ã‘Ã¢Ã¥Ã²Ã«Ã¨Ã­Ã  18, Ã‘Ã²Ã Ã°Ã  Ã‡Ã Ã£Ã®Ã°Ã ', 'georgievp@gmail.com', 'M');
+----values (104, 'BG', 'Ïåòúð', 'Ãåîðãèåâ', 'óë. Ñâåòëèíà 18, Ñòàðà Çàãîðà', 'georgievp@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (105, 'BG', 'ÃŒÃ Ã°Ã¨Ã­', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢', 'Ã³Ã«. Ã‘ÃºÃ¥Ã¤Ã¨Ã­Ã¥Ã­Ã¨Ã¥ 45, Ã‚Ã Ã°Ã¶Ã ', 'maringeorgiev@gmail.com', 'M');
+----values (105, 'BG', 'Ìàðèí', 'Ãåîðãèåâ', 'óë. Ñúåäèíåíèå 45, Âàðöà', 'maringeorgiev@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (106, 'BG', 'ÃŒÃ Ã°Ã²Ã¨Ã­', 'Ã•Ã°Ã¨Ã±Ã²Ã®Ã¢', 'Ã³Ã«. ÃƒÃ«Ã¥Ã¤ÃªÃ  12, ÃÃ³Ã°Ã£Ã Ã±', 'mhristov@gmail.com', 'M');
+----values (106, 'BG', 'Ìàðòèí', 'Õðèñòîâ', 'óë. Ãëåäêà 12, Áóðãàñ', 'mhristov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (107, 'BG', 'ÃŒÃ®Ã¬Ã·Ã¨Ã«', 'ÃŠÃ®Ã±Ã²Ã®Ã¢', 'Ã¡Ã³Ã«. ÃŒÃ Ã°Ã¨Ã¶Ã  10, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'momchilkostov@gmail.com', 'M');
+----values (107, 'BG', 'Ìîì÷èë', 'Êîñòîâ', 'áóë. Ìàðèöà 10, Ïëîâäèâ', 'momchilkostov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (108, 'BG', 'ÃŒÃ«Ã Ã¤Ã¥Ã­', 'ÃƒÃ®Ã±Ã¯Ã®Ã¤Ã¨Ã­Ã®Ã¢', 'Ã³Ã«. Ã‘Ã¢Ã®Ã¡Ã®Ã¤Ã  10, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'mladengosp@gmail.com', 'M');
+----values (108, 'BG', 'Ìëàäåí', 'Ãîñïîäèíîâ', 'óë. Ñâîáîäà 10, Ïëîâäèâ', 'mladengosp@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (109, 'BG', 'ÃŠÃ Ã«Ã®Ã¿Ã­', 'ÃŠÃ¨Ã°Ã¨Ã«Ã®Ã¢', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã€Ã¯Ã°Ã¨Ã«Ã®Ã¢ 19, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'kaloyank@gmail.com', 'M');
+----values (109, 'BG', 'Êàëîÿí', 'Êèðèëîâ', 'áóë. Âàñèë Àïðèëîâ 19, Ïëîâäèâ', 'kaloyank@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (110, 'BG', 'ÃŠÃ¨Ã°Ã¨Ã«', 'ÃŠÃ®Ã±Ã²Ã®Ã¢', 'Ã¡Ã³Ã«. ÃŠÃ®Ã¯Ã°Ã¨Ã¢Ã¹Ã¨Ã¶Ã  10, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'kirilkostov@gmail.com', 'M');
+----values (110, 'BG', 'Êèðèë', 'Êîñòîâ', 'áóë. Êîïðèâùèöà 10, Ïëîâäèâ', 'kirilkostov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (111, 'BG', 'ÃˆÃ¢Ã Ã©Ã«Ã ', 'ÃÃ¥Ã²Ã°Ã®Ã¢Ã ', 'Ã¡Ã³Ã«. Ã‘ÃºÃ¥Ã¤Ã¨Ã­Ã¥Ã­Ã¨Ã¥ 100, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'ivapetrova@gmail.com', 'F');
+----values (111, 'BG', 'Èâàéëà', 'Ïåòðîâà', 'áóë. Ñúåäèíåíèå 100, Ïëîâäèâ', 'ivapetrova@gmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (112, 'BG', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 10, Ã‘Ã®Ã´Ã¨Ã¿', 'ggeorgiev@gmail.com', 'M');
+----values (112, 'BG', 'Ãåîðãè', 'Ãåîðãèåâ', 'áóë. Áúëãàðèÿ 10, Ñîôèÿ', 'ggeorgiev@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (113, 'BG', 'Ã„Ã Ã­Ã¨Ã¥Ã«', 'ÃŠÃ®Ã±Ã²Ã®Ã¢', ' Ã¡Ã³Ã«. Ã‚Ã¨Ã²Ã®Ã¸Ã  14, Ã‘Ã®Ã´Ã¨Ã¿', 'daniel.kostov@gmail.com', 'M');
+----values (113, 'BG', 'Äàíèåë', 'Êîñòîâ', ' áóë. Âèòîøà 14, Ñîôèÿ', 'daniel.kostov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (114, 'BG', 'Ã„Ã Ã¿Ã­Ã ', 'Ã„Ã¨Ã¬Ã®Ã¢Ã ', 'Ã³Ã«. ÃˆÃ«Ã¨Ã­Ã¤Ã¥Ã­ 14, Ã‚Ã Ã°Ã­Ã ', 'dianne.dimova@gmail.com', 'F');
+----values (114, 'BG', 'Äàÿíà', 'Äèìîâà', 'óë. Èëèíäåí 14, Âàðíà', 'dianne.dimova@gmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (115, 'BG', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨', 'Ã„Ã¨Ã¬Ã¨Ã²Ã°Ã®Ã¢', 'Ã³Ã«. ÃˆÃ¢Ã Ã­ Ã‚Ã Ã§Ã®Ã¢ 13, Ã‘Ã²Ã Ã°Ã  Ã‡Ã Ã£Ã®Ã°Ã ', 'g.dimitrov@gmail.com', 'M');
+----values (115, 'BG', 'Ãåîðãè', 'Äèìèòðîâ', 'óë. Èâàí Âàçîâ 13, Ñòàðà Çàãîðà', 'g.dimitrov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (116, 'BG', 'Ã„Ã Ã­Ã¨Ã¥Ã«', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'Ã³Ã«. Ã‘Ã¢Ã®Ã¡Ã®Ã¤Ã  13, Ã‘Ã²Ã Ã°Ã  Ã‡Ã Ã£Ã®Ã°Ã ', 'dani.petkov@gmail.com', 'M');
+----values (116, 'BG', 'Äàíèåë', 'Ïåòðîâ', 'óë. Ñâîáîäà 13, Ñòàðà Çàãîðà', 'dani.petkov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (117, 'BG', 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤ÃºÃ°', 'ÃŒÃ¨Ã«Ã Ã­Ã®Ã¢', 'Ã¡Ã³Ã«. Ã—Ã¥Ã°Ã­Ã¨ Ã¢Ã°ÃºÃµ 15, Ã‘Ã®Ã´Ã¨Ã¿', 'alex.milanov@gmail.com', 'M');
+----values (117, 'BG', 'Àëåêñàíäúð', 'Ìèëàíîâ', 'áóë. ×åðíè âðúõ 15, Ñîôèÿ', 'alex.milanov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (118, 'BG', 'ÃƒÃ¥Ã°Ã£Ã Ã­Ã ', 'ÃŠÃ®Ã±Ã²Ã®Ã¢Ã ', 'Ã³Ã«. ÃŒÃ ÃªÃ¥Ã¤Ã®Ã­Ã¨Ã¿ 10, Ã•Ã Ã±ÃªÃ®Ã¢Ã®', 'gergana.kostova@gmail.com', 'F');
+----values (118, 'BG', 'Ãåðãàíà', 'Êîñòîâà', 'óë. Ìàêåäîíèÿ 10, Õàñêîâî', 'gergana.kostova@gmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (119, 'BG', 'ÃˆÃ¢Ã Ã­', 'ÃˆÃ¢Ã Ã­Ã®Ã¢', 'Ã¡Ã³Ã«. Ã„Ã¦Ã¥Ã©Ã¬Ã± ÃÃ Ã³Ã·Ã¥Ã° 48, Ã‘Ã®Ã´Ã¨Ã¿', 'iivanov@gmail.com', 'M');
+----values (119, 'BG', 'Èâàí', 'Èâàíîâ', 'áóë. Äæåéìñ Áàó÷åð 48, Ñîôèÿ', 'iivanov@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (120, 'BG', 'ÃŠÃ Ã²Ã¿', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨Ã¥Ã¢Ã ', 'Ã³Ã«. Ã–Ã Ã°Ã¥Ã¢Ã¥Ã¶ 18, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'katia.georgieva@gmail.com', 'F');
+----values (120, 'BG', 'Êàòÿ', 'Ãåîðãèåâà', 'óë. Öàðåâåö 18, Ïëîâäèâ', 'katia.georgieva@gmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (121, 'BG', 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤ÃºÃ°', 'Ã‘Ã²Ã Ã´Ã Ã­Ã®Ã¢', 'Ã³Ã«. ÃÃ Ã¿ 10, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'alexanderst@gmail.com', 'M');
+----values (121, 'BG', 'Àëåêñàíäúð', 'Ñòàôàíîâ', 'óë. Ðàÿ 10, Ïëîâäèâ', 'alexanderst@gmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (122, 'BG', 'Ã€Ã­Ã£Ã¥Ã«', 'Ã€Ã­Ã£Ã¥Ã« ÃÃ¨ÃªÃ®Ã«Ã®Ã¢', 'Ã³Ã«. Ã‘Ã¢Ã¥Ã²Ã«Ã¨Ã­Ã  10, Ã•Ã Ã±ÃªÃ®Ã¢Ã®', 'angelnik@yahoo.com', 'M');
+----values (122, 'BG', 'Àíãåë', 'Àíãåë Íèêîëîâ', 'óë. Ñâåòëèíà 10, Õàñêîâî', 'angelnik@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
 ----values (123, 'BG', 'Elizabeth', 'Brown', 'MI - 48103, 8110 Jackson Rd, Ann Arbor', 'elizabeth.brown@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (124, 'BG', 'ÃˆÃ«Ã¨Ã¿',  'ÃÃ Ã«Ã²Ã®Ã¢', 'Ã³Ã«. Ã‚Ã°Ã Ã·Ã Ã­Ã±ÃªÃ  14, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'baltoviliya@yahoo.com', 'M');
+----values (124, 'BG', 'Èëèÿ',  'Áàëòîâ', 'óë. Âðà÷àíñêà 14, Ïëîâäèâ', 'baltoviliya@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (125, 'BG', 'ÃˆÃ«Ã¨Ã¿',  'ÃÃ®Ã¿Ã¤Ã¦Ã¨Ã¥Ã¢', 'Ã¡Ã³Ã«. Ã—Ã¥Ã°Ã­Ã¨ Ã¢Ã°ÃºÃµ 10, Ã‘Ã®Ã´Ã¨Ã¿', 'iliyaboyadjiev@yahoo.com', 'M');
+----values (125, 'BG', 'Èëèÿ',  'Áîÿäæèåâ', 'áóë. ×åðíè âðúõ 10, Ñîôèÿ', 'iliyaboyadjiev@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (126, 'BG', 'ÃˆÃ¢Ã Ã­',  'Ã‹Ã³ÃªÃ®Ã¢', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã€Ã¯Ã°Ã¨Ã«Ã®Ã¢ 100, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'ivanlukov@yahoo.com', 'M');
+----values (126, 'BG', 'Èâàí',  'Ëóêîâ', 'áóë. Âàñèë Àïðèëîâ 100, Ïëîâäèâ', 'ivanlukov@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (127, 'BG', 'ÃÃ Ã¤Ã¨', 'ÃŠÃ®Ã«Ã¥Ã¢', 'Ã³Ã«. ÃŒÃ ÃªÃ¥Ã¤Ã®Ã­Ã¨Ã¿ 12', 'radikolev@yahoo.com', 'M');
+----values (127, 'BG', 'Ðàäè', 'Êîëåâ', 'óë. Ìàêåäîíèÿ 12', 'radikolev@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (128, 'BG', 'ÃÃ Ã©Ã­Ã ', 'Ã„Ã°Ã Ã£Ã Ã­Ã®Ã¢Ã ', 'Ã³Ã«. ÃŠÃ®ÃªÃ¨Ã·Ã¥ 17, Ã‘Ã²Ã Ã°Ã  Ã‡Ã Ã£Ã®Ã°Ã ', 'raynadrag@yahoo.com', 'F');
+----values (128, 'BG', 'Ðàéíà', 'Äðàãàíîâà', 'óë. Êîêè÷å 17, Ñòàðà Çàãîðà', 'raynadrag@yahoo.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (129, 'BG', 'Ã‘Ã¨Ã¬Ã¥Ã®Ã­', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 70, ÃÃ³Ã°Ã£Ã Ã±', 'simeonpetrov@yahoo.com', 'M');
+----values (129, 'BG', 'Ñèìåîí', 'Ïåòðîâ', 'áóë. Áúëãàðèÿ 70, Áóðãàñ', 'simeonpetrov@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (130, 'BG', 'Ã‘Ã®Ã´Ã¨Ã¿', 'Ã€Ã²Ã Ã­Ã Ã±Ã®Ã¢Ã ', 'Ã³Ã«. Ã‘Ã«Ã Ã¢Ã¿Ã­Ã±ÃªÃ  45, Ã‚Ã¨Ã¤Ã¨Ã­', 'atanasovasof@yahoo.com', 'F');
+----values (130, 'BG', 'Ñîôèÿ', 'Àòàíàñîâà', 'óë. Ñëàâÿíñêà 45, Âèäèí', 'atanasovasof@yahoo.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (131, 'BG', 'ÃÃ®Ã°Ã¨Ã±', 'ÃƒÃ°Ã¨Ã£Ã®Ã°Ã®Ã¢', 'Ã¡Ã³Ã«. Ã–Ã Ã° ÃŽÃ±Ã¢Ã®Ã¡Ã®Ã¤Ã¨Ã²Ã¥Ã« 15, Ã‘Ã®Ã´Ã¨Ã¿', 'boris.gr@yahoo.com', 'M');
+----values (131, 'BG', 'Áîðèñ', 'Ãðèãîðîâ', 'áóë. Öàð Îñâîáîäèòåë 15, Ñîôèÿ', 'boris.gr@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (132, 'BG', 'Ã‘Ã¯Ã Ã±', 'ÃƒÃ Ã­Ã¥Ã¢', 'Ã³Ã«. Ã‹Ã¾Ã«Ã¿Ãª 80, Ã‘Ã¢Ã¨Ã¹Ã®Ã¢', 'spasganev@yahoo.com', 'M');
+----values (132, 'BG', 'Ñïàñ', 'Ãàíåâ', 'óë. Ëþëÿê 80, Ñâèùîâ', 'spasganev@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (133, 'BG', 'ÃŠÃ°Ã¨Ã±Ã²Ã¨Ã­', 'ÃŒÃ«Ã Ã¤Ã¥Ã­Ã®Ã¢Ã ', 'Ã³Ã«. Ã‘Ã®Ã´Ã¨Ã¿ 50, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'kristin.m@yahoo.com', 'F');
+----values (133, 'BG', 'Êðèñòèí', 'Ìëàäåíîâà', 'óë. Ñîôèÿ 50, Ïëîâäèâ', 'kristin.m@yahoo.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (134, 'BG', 'ÃˆÃ«Ã¨Ã¿',  'Ã‘Ã²Ã®Ã¿Ã­Ã®Ã¢', 'Ã¡Ã³Ã«. Ã—Ã¥Ã°Ã­Ã¨ Ã¢Ã°ÃºÃµ 55, Ã‘Ã®Ã´Ã¨Ã¿', 'stoyanovil@yahoo.com', 'M');
+----values (134, 'BG', 'Èëèÿ',  'Ñòîÿíîâ', 'áóë. ×åðíè âðúõ 55, Ñîôèÿ', 'stoyanovil@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (135, 'BG', 'ÃˆÃ¢Ã Ã­', 'Ã‹Ã Ã§Ã Ã°Ã®Ã¢', 'Ã³Ã«. ÃƒÃ«Ã¥Ã¤ÃªÃ  48, ÃŠÃ Ã°Ã«Ã®Ã¢Ã®', 'ivanlazarov@yahoo.com', 'M');
+----values (135, 'BG', 'Èâàí', 'Ëàçàðîâ', 'óë. Ãëåäêà 48, Êàðëîâî', 'ivanlazarov@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (136, 'BG', 'ÃˆÃ¢Ã Ã­',  'ÃŒÃ¨ÃµÃ Ã©Ã«Ã®Ã¢', 'Ã³Ã«. Ã–Ã Ã° Ã€Ã±Ã¥Ã­ 13, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'mihaylovivan@yahoo.com', 'M');
+----values (136, 'BG', 'Èâàí',  'Ìèõàéëîâ', 'óë. Öàð Àñåí 13, Ïëîâäèâ', 'mihaylovivan@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (137, 'BG', 'Ã‹Ã Ã§Ã Ã°', 'Ã€Ã¯Ã®Ã±Ã²Ã®Ã«Ã®Ã¢', 'Ã¡Ã³Ã«. ÃˆÃ«Ã¨Ã­Ã¤Ã¥Ã­ 30, Ã‚Ã¨Ã¤Ã¨Ã­', 'lazar.apostolov@yahoo.com', 'M');
+----values (137, 'BG', 'Ëàçàð', 'Àïîñòîëîâ', 'áóë. Èëèíäåí 30, Âèäèí', 'lazar.apostolov@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (138, 'BG', 'Ã‚Ã Ã±Ã¨Ã«', 'Ã’Ã Ã­Ã¥Ã¢', ' Ã¡Ã³Ã«. ÃŠÃ®Ã¯Ã°Ã¨Ã¢Ã¹Ã¨Ã¶Ã  39, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'vasil.tanev@yahoo.com', 'M');
+----values (138, 'BG', 'Âàñèë', 'Òàíåâ', ' áóë. Êîïðèâùèöà 39, Ïëîâäèâ', 'vasil.tanev@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (139, 'BG', 'ÃŒÃ Ã°ÃªÃ®', 'ÃˆÃ¢Ã Ã­Ã®Ã¢', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 48, Ã‘Ã®Ã´Ã¨Ã¿', 'marko.ivanov@yahoo.com', 'M');
+----values (139, 'BG', 'Ìàðêî', 'Èâàíîâ', 'áóë. Áúëãàðèÿ 48, Ñîôèÿ', 'marko.ivanov@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (140, 'BG', 'ÃˆÃ¢Ã Ã­', 'ÃÃ³Ã±Ã¥Ã¢' , 'Ã³Ã«. Ã‘Ã®Ã´Ã¨Ã¿ 45, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'ivan.rusev@yahoo.com', 'M');
+----values (140, 'BG', 'Èâàí', 'Ðóñåâ' , 'óë. Ñîôèÿ 45, Ïëîâäèâ', 'ivan.rusev@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (141, 'BG', 'ÃˆÃ¢Ã Ã­', 'ÃŠÃ Ã¢Ã Ã«Ã¤Ã¦Ã¨Ã¥Ã¢', 'Ã³Ã«. Ã‘Ã¢Ã¥Ã²Ã«Ã¨Ã­Ã  16, ÃƒÃ Ã¡Ã°Ã®Ã¢Ã®', 'ivan. kav@yahoo.com', 'M');
+----values (141, 'BG', 'Èâàí', 'Êàâàëäæèåâ', 'óë. Ñâåòëèíà 16, Ãàáðîâî', 'ivan. kav@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (142, 'BG', 'ÃŒÃ¨ÃµÃ Ã¨Ã«', 'ÃŒÃ Ã¤Ã¦Ã Ã°Ã®Ã¢', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã€Ã¯Ã°Ã¨Ã«Ã®Ã¢ 49, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'mihail.madjarovs@yahoo.com', 'M');
+----values (142, 'BG', 'Ìèõàèë', 'Ìàäæàðîâ', 'áóë. Âàñèë Àïðèëîâ 49, Ïëîâäèâ', 'mihail.madjarovs@yahoo.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (143, 'BG', 'ÃÃ Ã¤Ã¥Ã¦Ã¤Ã ', 'ÃÃ Ã«Ã²Ã®Ã¢Ã ', 'Ã¡Ã³Ã«. ÃŒÃ Ã°Ã¨Ã¶Ã  18, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'nadejda.baltova@yahoo.com', 'F');
+----values (143, 'BG', 'Íàäåæäà', 'Áàëòîâà', 'áóë. Ìàðèöà 18, Ïëîâäèâ', 'nadejda.baltova@yahoo.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (144, 'BG', 'Ã‘Ã¨Ã«Ã¢Ã¨Ã¿', 'ÃÃ¥Ã²Ã°Ã®Ã¢Ã ', 'Ã³Ã«. ÃŠÃ®Ã¬ 33, Ã•Ã Ã±ÃªÃ®Ã¢Ã®', 'silviya.petrova@yahoo.com', 'F');
+----values (144, 'BG', 'Ñèëâèÿ', 'Ïåòðîâà', 'óë. Êîì 33, Õàñêîâî', 'silviya.petrova@yahoo.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (145, 'BG', 'ÃŒÃ Ã°Ã¨Ã®', 'ÃÃ Ã¢Ã«Ã®Ã¢', 'Ã³Ã«. ÃˆÃ¢Ã Ã­ Ã‚Ã Ã§Ã®Ã¢ 45, ÃÃ«Ã¥Ã¢Ã¥Ã­', 'mario.pavlov@hotmail.com', 'M');
+----values (145, 'BG', 'Ìàðèî', 'Ïàâëîâ', 'óë. Èâàí Âàçîâ 45, Ïëåâåí', 'mario.pavlov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (146, 'BG', 'Ã…Ã«Ã¥Ã­Ã ', 'Ã”Ã¨Ã«Ã¨Ã¯Ã®Ã¢Ã ', 'Ã¡Ã³Ã«. Ã‘ÃºÃ¥Ã¤Ã¨Ã­Ã¥Ã­Ã¨Ã¥ 49, Ã‘Ã²Ã Ã°Ã  Ã‡Ã Ã£Ã®Ã°Ã ', 'elia.fil@hotmail.com', 'F');
+----values (146, 'BG', 'Åëåíà', 'Ôèëèïîâà', 'áóë. Ñúåäèíåíèå 49, Ñòàðà Çàãîðà', 'elia.fil@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (147, 'BG', 'ÃˆÃ°Ã¨Ã­Ã ', 'ÃŠÃ®Ã±Ã²Ã Ã¤Ã¨Ã­Ã®Ã¢Ã ', 'Ã³Ã«. Ã‚Ã¨Ã¸Ã­Ã¿ 45, ÃÃ«Ã¥Ã¢Ã¥Ã­', 'irina.kostadin@hotmail.com', 'F');
+----values (147, 'BG', 'Èðèíà', 'Êîñòàäèíîâà', 'óë. Âèøíÿ 45, Ïëåâåí', 'irina.kostadin@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (148, 'BG', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨', 'Ã‘Ã²Ã¥Ã´Ã Ã­Ã®Ã¢', 'Ã¡Ã³Ã«. ÃŒÃ Ã°Ã¨Ã¶Ã  48, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'georgi.stefanov@hotmail.com', 'M');
+----values (148, 'BG', 'Ãåîðãè', 'Ñòåôàíîâ', 'áóë. Ìàðèöà 48, Ïëîâäèâ', 'georgi.stefanov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (149, 'BG', 'ÃŒÃ Ã°Ã¨Ã­', 'ÃÃ Ã²Ã®Ã¢', 'Ã³Ã«. Ã‘Ã¢Ã¥Ã²Ã«Ã¨Ã­Ã  55, Ã‚Ã°Ã Ã¶Ã ', 'marin.ratov@hotmail.com', 'M');
+----values (149, 'BG', 'Ìàðèí', 'Ðàòîâ', 'óë. Ñâåòëèíà 55, Âðàöà', 'marin.ratov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (150, 'BG', 'ÃƒÃ¥Ã°Ã£Ã Ã­Ã ', 'ÃÃ¥Ã²Ã°Ã®Ã¢Ã ', 'Ã³Ã«. Ã‘Ã¥Ã¢Ã Ã±Ã²Ã®Ã¯Ã®Ã« 44, ÃÃ³Ã±Ã¥', 'petrova.gergana@hotmail.com', 'F');
+----values (150, 'BG', 'Ãåðãàíà', 'Ïåòðîâà', 'óë. Ñåâàñòîïîë 44, Ðóñå', 'petrova.gergana@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (151, 'BG', 'ÃÃ¨ÃªÃ®Ã«Ã ', 'ÃŒÃ¨ÃµÃ®Ã¢', 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 33, Ã‘Ã®Ã´Ã¨Ã¿', 'nikola.mihov@hotmail.com', 'M');
+----values (151, 'BG', 'Íèêîëà', 'Ìèõîâ', 'áóë. Áúëãàðèÿ 33, Ñîôèÿ', 'nikola.mihov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (152, 'BG', 'Ã„Ã¨Ã¬Ã¨Ã²ÃºÃ°', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'Ã³Ã«. ÃŠÃ®ÃªÃ¨Ã·Ã¥ 13, Ã‚Ã¨Ã¤Ã¨Ã­', 'dimitar.petrov@hotmail.com', 'M');
+----values (152, 'BG', 'Äèìèòúð', 'Ïåòðîâ', 'óë. Êîêè÷å 13, Âèäèí', 'dimitar.petrov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (153, 'BG', 'ÃÃ¨ÃªÃ®Ã«Ã ', 'ÃƒÃ®Ã¶Ã¥Ã¢', 'Ã¡Ã³Ã«. Ã–Ã Ã°Ã¥Ã¢Ã¥Ã¶ 45, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'nikola.gocev@hotmail.com', 'M');
+----values (153, 'BG', 'Íèêîëà', 'Ãîöåâ', 'áóë. Öàðåâåö 45, Ïëîâäèâ', 'nikola.gocev@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (154, 'BG', 'Ã”Ã¨Ã«Ã¨Ã¯', 'Ã„Ã¨Ã¬Ã¨Ã²Ã°Ã®Ã¢', 'Ã³Ã«. Ã„Ã°Ã¿Ã­ 49, Ã‘Ã®Ã´Ã¨Ã¿', 'filip.dimitrov@hotmail.com', 'M');
+----values (154, 'BG', 'Ôèëèï', 'Äèìèòðîâ', 'óë. Äðÿí 49, Ñîôèÿ', 'filip.dimitrov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (155, 'BG', 'ÃˆÃ«Ã¨Ã¿', 'ÃŠÃºÃ­Ã·Ã¥Ã¢', 'Ã³Ã«. ÃˆÃ§Ã¢Ã®Ã° 44, Ã‚Ã Ã°Ã­Ã ', 'ilia.kanchev@hotmail.com', 'M');
+----values (155, 'BG', 'Èëèÿ', 'Êúí÷åâ', 'óë. Èçâîð 44, Âàðíà', 'ilia.kanchev@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (156, 'BG', 'Ã€Ã­Ã£Ã¥Ã«', 'ÃˆÃ«Ã¨Ã¥Ã¢', 'Ã¡Ã³Ã«. Ã–Ã Ã° ÃŽÃ±Ã¢Ã®Ã¡Ã®Ã¤Ã¨Ã²Ã¥Ã« 42, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'angel.iliev@hotmail.com', 'M');
+----values (156, 'BG', 'Àíãåë', 'Èëèåâ', 'áóë. Öàð Îñâîáîäèòåë 42, Ïëîâäèâ', 'angel.iliev@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (157, 'BG', 'Ã‘Ã²Ã®Ã¿Ã­', 'Ã‘ÃºÃ¡Ã¥Ã¢', 'Ã³Ã«. Ã‘Ã«Ã Ã¢Ã¿Ã­Ã±ÃªÃ  33, ÃƒÃ Ã¡Ã°Ã®Ã¢Ã®', 'stoyan.sabev@hotmail.com', 'M');
+----values (157, 'BG', 'Ñòîÿí', 'Ñúáåâ', 'óë. Ñëàâÿíñêà 33, Ãàáðîâî', 'stoyan.sabev@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (158, 'BG', 'Ã‘Ã²Ã¥Ã´ÃªÃ ', 'Ã„Ã°Ã Ã£Ã Ã­Ã®Ã¢Ã ', 'Ã³Ã«. Ã‘Ã®Ã´Ã¨Ã¿ 19, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'stefka.dr@hotmail.com', 'F');
+----values (158, 'BG', 'Ñòåôêà', 'Äðàãàíîâà', 'óë. Ñîôèÿ 19, Ïëîâäèâ', 'stefka.dr@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (159, 'BG', 'Ã…Ã«Ã¥Ã­Ã ', 'Ã„Ã¨Ã¬Ã¨Ã²Ã°Ã®Ã¢Ã ', 'Ã³Ã«. Ã‘Ã¢Ã®Ã¡Ã®Ã¤Ã  44, ÃÃ«Ã¥Ã¢Ã¥Ã­', 'elena.dimitrova@hotmail.com', 'M');
+----values (159, 'BG', 'Åëåíà', 'Äèìèòðîâà', 'óë. Ñâîáîäà 44, Ïëåâåí', 'elena.dimitrova@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (160, 'BG', 'Ã€Ã­Ã²Ã®Ã­', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'Ã³Ã«. ÃÃ®Ã¡Ã¥Ã¤Ã  30, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'anton.petrov@hotmail.com', 'M');
+----values (160, 'BG', 'Àíòîí', 'Ïåòðîâ', 'óë. Ïîáåäà 30, Ïëîâäèâ', 'anton.petrov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (161, 'BG', 'Ã‘Ã¨Ã«Ã¢Ã¨Ã¿', 'Ã‚Ã¨Ã¤Ã¥Ã­Ã®Ã¢Ã ', 'Ã³Ã«. Ã‘Ã«Ã Ã¢Ã¥Ã© 15, ÃÃ«Ã¥Ã¢Ã¥Ã­', 's.vedenova@hotmail.com', 'F');
+----values (161, 'BG', 'Ñèëâèÿ', 'Âèäåíîâà', 'óë. Ñëàâåé 15, Ïëåâåí', 's.vedenova@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (162, 'BG', 'ÃÃ¨ÃªÃ®Ã«Ã ', 'ÃˆÃ¢Ã Ã­Ã®Ã¢', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã‹Ã¥Ã¢Ã±ÃªÃ¨ 33, ÃÃ«Ã®Ã¤Ã¢Ã¨Ã¤', 'nikola.iv@hotmail.com', 'M');
+----values (162, 'BG', 'Íèêîëà', 'Èâàíîâ', 'áóë. Âàñèë Ëåâñêè 33, Ïëîäâèä', 'nikola.iv@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (163, 'BG', 'ÃÃ¨ÃªÃ®Ã«Ã Ã©', 'Ã„Ã¨Ã¬Ã¨Ã²Ã°Ã®Ã¢', 'Ã³Ã«. Ã‘Ã«Ã Ã¢Ã¿Ã­Ã±ÃªÃ  3, Ã‚Ã¨Ã¤Ã¨Ã­', 'nikolai.dimitrov@hotmail.com', 'M');
+----values (163, 'BG', 'Íèêîëàé', 'Äèìèòðîâ', 'óë. Ñëàâÿíñêà 3, Âèäèí', 'nikolai.dimitrov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (164, 'BG', 'ÃŠÃ Ã«Ã®Ã¿Ã­', 'ÃŠÃ Ã­Ã¥Ã¢', 'Ã³Ã«. ÃÃ®Ã¡Ã¥Ã¤Ã  1, Ã‘Ã®Ã´Ã¨Ã¿', 'kaloyan.k@hotmail.com', 'M');
+----values (164, 'BG', 'Êàëîÿí', 'Êàíåâ', 'óë. Ïîáåäà 1, Ñîôèÿ', 'kaloyan.k@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (165, 'BG', 'ÃŒÃ Ã°Ã¨Ã¿', 'ÃˆÃ¢Ã Ã­Ã®Ã¢Ã ', 'Ã³Ã«. ÃÃ Ã¿ 30, ÃƒÃ Ã¡Ã°Ã®Ã¢Ã®', 'maria.ivanova@hotmail.com', 'F');
+----values (165, 'BG', 'Ìàðèÿ', 'Èâàíîâà', 'óë. Ðàÿ 30, Ãàáðîâî', 'maria.ivanova@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (166, 'BG', 'ÃŠÃ Ã²Ã¿', 'Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤Ã°Ã®Ã¢Ã ', 'Ã³Ã«. ÃŠÃ®Ã¬ 3, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'katia.alex@hotmail.com', 'F');
+----values (166, 'BG', 'Êàòÿ', 'Àëåêñàíäðîâà', 'óë. Êîì 3, Ïëîâäèâ', 'katia.alex@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (167, 'BG', 'ÃƒÃ¥Ã®Ã°Ã£Ã¨', 'Ã‘Ã²Ã¥Ã´Ã Ã­Ã®Ã¢', 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã‹Ã¥Ã¢Ã±ÃªÃ¨ 90, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', 'georgi.stefanov@hotmail.com', 'M');
+----values (167, 'BG', 'Ãåîðãè', 'Ñòåôàíîâ', 'áóë. Âàñèë Ëåâñêè 90, Ïëîâäèâ', 'georgi.stefanov@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (168, 'BG', 'Ã•Ã°Ã¨Ã±Ã²Ã¨Ã­Ã ', 'Ã‚ÃºÃ«ÃªÃ®Ã¢Ã ', 'Ã¡Ã³Ã«. ÃÃ ÃªÃ®Ã¢Ã±ÃªÃ¨ 30, ÃÃ«Ã¥Ã¢Ã¥Ã­', 'hristina.vlk@hotmail.com', 'F');
+----values (168, 'BG', 'Õðèñòèíà', 'Âúëêîâà', 'áóë. Ðàêîâñêè 30, Ïëåâåí', 'hristina.vlk@hotmail.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (169, 'BG', 'Ã„Ã¨Ã­ÃªÃ®', 'ÃÃ¥Ã²Ã°Ã®Ã¢', 'Ã³Ã«. Ã‘Ã¥Ã¢Ã Ã±Ã²Ã®Ã¯Ã®Ã« 39, Ã‘Ã®Ã´Ã¨Ã¿', 'dinko.pet@hotmail.com', 'M');
+----values (169, 'BG', 'Äèíêî', 'Ïåòðîâ', 'óë. Ñåâàñòîïîë 39, Ñîôèÿ', 'dinko.pet@hotmail.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (170, 'BG', 'Ã•Ã°Ã¨Ã±Ã²Ã®', 'Ã„Ã¨Ã­Ã¥Ã¢', 'Ã¡Ã³Ã«. Ã„Ã Ã­Ã Ã¨Ã« ÃÃ¨ÃªÃ®Ã«Ã Ã¥Ã¢, Ã‘Ã®Ã´Ã¨Ã¿', 'hristo.dinev@icloud.com', 'M');
+----values (170, 'BG', 'Õðèñòî', 'Äèíåâ', 'áóë. Äàíàèë Íèêîëàåâ, Ñîôèÿ', 'hristo.dinev@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (171, 'US', 'Ã•Ã¥Ã¬Ã ', 'ÃÃ Ã³ÃºÃ«', '55905, Ã³Ã«. 1-Ã¢Ã  200, ÃÃ®Ã·Ã¥Ã±Ã²ÃºÃ°', 'hema.powell@icloud.com', 'F');
+----values (171, 'US', 'Õåìà', 'Ïàóúë', '55905, óë. 1-âà 200, Ðî÷åñòúð', 'hema.powell@icloud.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (172, 'US', 'Ã•Ã Ã°Ã¨', 'Ã‘Ã¨Ã­Ã£ÃºÃ°', '55802, Ã³Ã«. ÃŒÃ¥Ã©Ã­ 20 , Ã„Ã³Ã«Ã³Ã²', 'harry.singer@icloud.com', 'M');
+----values (172, 'US', 'Õàðè', 'Ñèíãúð', '55802, óë. Ìåéí 20 , Äóëóò', 'harry.singer@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (173, 'US', 'ÃŠÃ Ã²Ã«Ã¨Ã­', 'Ã“Ã®Ã«ÃªÃºÃ­', '55403, Ã³Ã«. Ã“Ã¨Ã«Ã®Ã³ 200, ÃŒÃ¨Ã­Ã¥Ã Ã¯Ã®Ã«Ã¨Ã±', 'kathleen.walken@icloud.com', 'F');
+----values (173, 'US', 'Êàòëèí', 'Óîëêúí', '55403, óë. Óèëîó 200, Ìèíåàïîëèñ', 'kathleen.walken@icloud.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (174, 'US', 'ÃÃ«Ã¥Ã©Ãª', 'Ã‡Ã Ã©Ã­ÃºÃ°', '13211, Ã¡Ã³Ã«. ÃÃ°Ã¥Ã³Ã¥Ã°Ã²ÃºÃ­ 2720, ÃÃ¾ Ã„Ã¦ÃºÃ°Ã±Ã¨', 'blake.seignier@icloud.com', 'M');
+----values (174, 'US', 'Áëåéê', 'Çàéíúð', '13211, áóë. Áðåóåðòúí 2720, Íþ Äæúðñè', 'blake.seignier@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (175, 'US', 'ÃŠÃ«Ã®Ã¤', 'ÃÃ Ã³ÃºÃ«', '13219, Ã³Ã«. ÃžÃ­Ã¨ÃºÃ­ 2134 , Ã€Ã«Ã¡Ã Ã­Ã¨', 'claude.powell@icloud.com', 'M');
+----values (175, 'US', 'Êëîä', 'Ïàóúë', '13219, óë. Þíèúí 2134 , Àëáàíè', 'claude.powell@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (176, 'US', 'Ã”Ã¥Ã©', 'ÃƒÃ«Ã¥Ã­', '14305, Ã³Ã«. ÃŒÃ¥Ã©Ã­ 1522, ÃÃ¨Ã Ã£Ã Ã°Ã±ÃªÃ¨ Ã¢Ã®Ã¤Ã®Ã¯Ã Ã¤Ã¨', 'faye.glenn@icloud.com', 'M');
+----values (176, 'US', 'Ôåé', 'Ãëåí', '14305, óë. Ìåéí 1522, Íèàãàðñêè âîäîïàäè', 'faye.glenn@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (177, 'US', 'ÃƒÃ¥Ã°ÃµÃ Ã°Ã¤', 'Ã‡Ã Ã©Ã­ÃºÃ°', '12203, ÃÃ Ã©Ã­ Ã€Ã¢Ã¥ 49, Ã€Ã«Ã¡Ã Ã­Ã¨', 'gerhard.seignier@icloud.com', 'M');
+----values (177, 'US', 'Ãåðõàðä', 'Çàéíúð', '12203, Ïàéí Àâå 49, Àëáàíè', 'gerhard.seignier@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (178, 'US', 'ÃƒÃ°Ã¥Ã©Ã±', 'ÃÃ¥Ã«Ã³Ã¸Ã¨', '12534,Ã³Ã«. ÃžÃ­Ã¨Ã®Ã­ 726, Ã•ÃºÃ¤Ã±ÃºÃ­', 'grace.belushi@icloud.com', 'M');
+----values (178, 'US', 'Ãðåéñ', 'Áåëóøè', '12534,óë. Þíèîí 726, Õúäñúí', 'grace.belushi@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (179, 'US', 'Ã‹Ã®Ã°Ã¥Ã­', 'Ã”Ã®Ã°Ã¥Ã±Ã²', '12210, Ã³Ã«. Ã‹Ã Ã°Ãª 137, Ã€Ã«Ã¡Ã Ã­Ã¨', 'lauren.forrest@icloud.com', 'M');
+----values (179, 'US', 'Ëîðåí', 'Ôîðåñò', '12210, óë. Ëàðê 137, Àëáàíè', 'lauren.forrest@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (180, 'US', 'ÃŒÃ Ã³Ã°Ã¨Ã­', 'ÃŠÃ¥Ã©Ã¤Ã¦', '12601, Ã³Ã«. Ã”ÃºÃ«Ã²ÃºÃ­ 33, ÃÃ®ÃªÃ¨Ã¯Ã±Ã¨', 'maurin.cage@icloud.com', 'M');
+----values (180, 'US', 'Ìàóðèí', 'Êåéäæ', '12601, óë. Ôúëòúí 33, Ïîêèïñè', 'maurin.cage@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (181, 'DE', 'Ã•Ã Ã«', 'ÃŽÃ«Ã¨Ã­', '81243, Ã³Ã«. Ã‚Ã Ã«Ã¯Ã³Ã°Ã£Ã¨Ã± 69, ÃŒÃ¾Ã­ÃµÃ¥Ã­', 'hal.olin@icloud.com', 'M');
+----values (181, 'DE', 'Õàë', 'Îëèí', '81243, óë. Âàëïóðãèñ 69, Ìþíõåí', 'hal.olin@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (182, 'DE', 'Ã•Ã Ã­Ã ', 'ÃŠÃ Ã­Ã²', '81696, Ã³Ã«. Ã‘Ã¥Ã­Ã¤Ã¨Ã­Ã£Ã¥Ã° Ã’Ã®Ã° 4, ÃŒÃ¾Ã­ÃµÃ¥Ã­', 'annah.kanth@icloud.com', 'M');
+----values (182, 'DE', 'Õàíà', 'Êàíò', '81696, óë. Ñåíäèíãåð Òîð 4, Ìþíõåí', 'annah.kanth@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (183, 'DE', 'Ã•Ã Ã­Ã ', 'Ã”Ã¨Ã«Ã¤', '81999, Ã³Ã«. Ã’Ã¥Ã°Ã¥Ã±Ã¨Ã¥Ã­ 15, ÃŒÃ¾Ã­ÃµÃ¥Ã­', 'hannah.field@icloud.com', 'M');
+----values (183, 'DE', 'Õàíà', 'Ôèëä', '81999, óë. Òåðåñèåí 15, Ìþíõåí', 'hannah.field@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (184, 'IT', 'ÃŒÃ Ã°Ã£Ã¥Ã²', 'ÃÃ®Ã«Ã¨Ã­Ã¨', '361196, Ã³Ã«. Ã”Ã°Ã¥Ã­Ã¶Ã¨ 6903, ÃÃ¨Ã¬', 'margret.po@icloud.com', 'M');
+----values (184, 'IT', 'Ìàðãåò', 'Ïîëèíè', '361196, óë. Ôðåíöè 6903, Ðèì', 'margret.po@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (185, 'CA', 'Ã•Ã Ã°Ã¨', 'Ã’Ã Ã©Ã«ÃºÃ°', '91261, Ã³Ã«. Ã€Ã©Ã°Ã®Ã­Ã³Ã¨Ã¨Ã¤ 1822 , Ã’Ã®Ã°Ã®Ã­Ã²Ã®', 'harry.taylor@icloud.com', 'M');
+----values (185, 'CA', 'Õàðè', 'Òàéëúð', '91261, óë. Àéðîíóèèä 1822 , Òîðîíòî', 'harry.taylor@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (186, 'IT', 'ÃŒÃ Ã°Ã£Ã¨Ã²', 'ÃƒÃ Ã°Ã­ÃºÃ°', '361197, Ã³Ã«. Ã‹Ã³Ã¬Ã¨Ã­Ã®Ã§Ã  162, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'margrit.garner@icloud.com', 'F');
+----values (186, 'IT', 'Ìàðãèò', 'Ãàðíúð', '361197, óë. Ëóìèíîçà 162, Ôëîðåíöèÿ', 'margrit.garner@icloud.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (187, 'IT', 'ÃŒÃ Ã°Ã¨Ã¿', 'Ã‚Ã Ã°Ã¤ÃºÃ­', '361198, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1932, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'maria.warden@icloud.com', 'F');
+----values (187, 'IT', 'Ìàðèÿ', 'Âàðäúí', '361198, óë. Íîòîðèîçà 1932, Ôëîðåíöèÿ', 'maria.warden@icloud.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (188, 'IT', 'ÃŒÃ Ã°Ã«Ã®', 'Ã‹Ã Ã­Ã¤Ã¨Ã±', '361199, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1941, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'marilou.landis@icloud.com', 'M');
+----values (188, 'IT', 'Ìàðëî', 'Ëàíäèñ', '361199, óë. Íîòîðèîçà 1941, Ôëîðåíöèÿ', 'marilou.landis@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (189, 'IT', 'ÃŠÃ¥Ã¨Ã°', 'ÃƒÃ Ã°Ã±Ã¨Ã¿', '361229, Ã³Ã«. Ã„Ã®Ã«Ã®Ã°Ã®Ã±Ã  69, Ã’Ã¥Ã«Ã Ã°Ã®', 'keir.george@icloud.com', 'M');
+----values (189, 'IT', 'Êåèð', 'Ãàðñèÿ', '361229, óë. Äîëîðîñà 69, Òåëàðî', 'keir.george@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (190, 'IT', 'ÃŒÃ Ã°Ã«Ã®', 'Ã‹Ã®Ã²ÃºÃ­', '361201, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã±Ã  1943, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'marlon.laughton@icloud.com', 'M');
+----values (190, 'IT', 'Ìàðëî', 'Ëîòúí', '361201, óë. Íîòîðèîñà 1943, Ôëîðåíöèÿ', 'marlon.laughton@icloud.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (191, 'BE', 'ÃŒÃ¥Ã£', 'Ã‘Ã¥Ã­', 'Ã€Ã¸Ã¢Ã¨Ã«', 'meg.sen@icloud.com', 'F');
+----values (191, 'BE', 'Ìåã', 'Ñåí', 'Àøâèë', 'meg.sen@icloud.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (192, 'IT', 'ÃŒÃ Ã°Ã£Ã Ã²Ã¥Ã°', 'ÃÃ Ã³Ã«', '361196, Ã³Ã«. Ã”Ã°Ã¥Ã­Ã¶Ã¨ 6903, ÃÃ¨Ã¬', 'margret.powell@icloud.com', 'F');
+----values (192, 'IT', 'Ìàðãàòåð', 'Ïàóë', '361196, óë. Ôðåíöè 6903, Ðèì', 'margret.powell@icloud.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (193, 'CA', 'Ã•Ã Ã°Ã¨', 'Ã’Ã¥Ã©Ã«ÃºÃ°', '91261, Ã³Ã«. Ã€Ã©Ã°Ã®Ã­Ã³Ã¨Ã¨Ã¤ 1822, Ã’Ã®Ã°Ã®Ã­Ã²Ã®', 'harry.taylor@outlook.com', 'M');
+----values (193, 'CA', 'Õàðè', 'Òåéëúð', '91261, óë. Àéðîíóèèä 1822, Òîðîíòî', 'harry.taylor@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (194, 'IT', 'ÃŒÃ Ã°Ã£Ã¨Ã²', 'ÃƒÃ Ã°Ã­ÃºÃ°', '361197, Ã³Ã«. Ã‹Ã³Ã¬Ã¨Ã­Ã®Ã§Ã  162, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'margrit.garner@outlook.com', 'M');
+----values (194, 'IT', 'Ìàðãèò', 'Ãàðíúð', '361197, óë. Ëóìèíîçà 162, Ôëîðåíöèÿ', 'margrit.garner@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (195, 'IT', 'ÃŒÃ Ã°Ã¨Ã¿', 'Ã‚Ã Ã°Ã±', '361198, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1932 Rd, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'maria.warden@outlook.com', 'M');
+----values (195, 'IT', 'Ìàðèÿ', 'Âàðñ', '361198, óë. Íîòîðèîçà 1932 Rd, Ôëîðåíöèÿ', 'maria.warden@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (196, 'IT', 'ÃŒÃ Ã°Ã«Ã®', 'Ã‹Ã Ã­Ã¤Ã¨Ã±', '361199, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1941, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'marilou.landis@outlook.com', 'M');
+----values (196, 'IT', 'Ìàðëî', 'Ëàíäèñ', '361199, óë. Íîòîðèîçà 1941, Ôëîðåíöèÿ', 'marilou.landis@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (197, 'IT', 'ÃŠÃ¥Ã¨Ã°', 'Ã„Ã¦Ã®Ã°Ã¤Ã¦', '361229, Ã³Ã«. Ã„Ã®Ã«Ã®Ã°Ã®Ã±Ã  69, Ã’Ã¥Ã«Ã Ã°Ã®', 'keir.george@outlook.com', 'M');
+----values (197, 'IT', 'Êåèð', 'Äæîðäæ', '361229, óë. Äîëîðîñà 69, Òåëàðî', 'keir.george@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (198, 'IT', 'ÃŒÃ Ã°Ã«Ã®Ã­', 'Ã‹Ã®Ã²ÃºÃ­', '361201, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1943, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'marlon.laughton@outlook.com', 'M');
+----values (198, 'IT', 'Ìàðëîí', 'Ëîòúí', '361201, óë. Íîòîðèîçà 1943, Ôëîðåíöèÿ', 'marlon.laughton@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (199, 'IT', 'ÃŠÃ¥Ã©', 'Ã˜Ã Ã­Ã¤Ã Ã°', '361231, Ã³Ã«. Ã‹Ã³Ã¬Ã®Ã­Ã®Ã§Ã  162, Ã’Ã¥Ã«Ã Ã°Ã®', 'keir.chandar@outlook.com', 'M');
+----values (199, 'IT', 'Êåé', 'Øàíäàð', '361231, óë. Ëóìîíîçà 162, Òåëàðî', 'keir.chandar@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (200, 'IT', 'ÃŠÃ¥Ã©Ã²', 'Ã“Ã¨Ã¢ÃºÃ°', '361228, Ã³Ã«. Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿ 231, Ã’Ã¥Ã«Ã Ã°Ã®', 'keit.weaver@outlook.com', 'M');
+----values (200, 'IT', 'Êåéò', 'Óèâúð', '361228, óë. Ôëîðåíöèÿ 231, Òåëàðî', 'keit.weaver@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (201, 'IT', 'ÃŒÃ Ã°Ã«Ã®Ã­', 'ÃŠÃ«Ã¥Ã¯Ã²ÃºÃ­', '361202, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1949, Ã”Ã«Ã®Ã°Ã¥Ã­Ã¶Ã¨Ã¿', 'marlon.clapton@outlook.com', 'M');
+----values (201, 'IT', 'Ìàðëîí', 'Êëåïòúí', '361202, óë. Íîòîðèîçà 1949, Ôëîðåíöèÿ', 'marlon.clapton@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (202, 'FR', 'Ã‹Ã®Ã°Ã¥Ã­Ã±', 'Ã‘Ã¥Ã©Ã­ÃºÃ°', 'ÃÃ Ã°Ã¨Ã¦', 'laurence.seignier@outlook.com', 'M');
+----values (202, 'FR', 'Ëîðåíñ', 'Ñåéíúð', 'Ïàðèæ', 'laurence.seignier@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (203, 'IT', 'ÃŠÃ¥Ã«Ã¨', 'ÃŠÃ³Ã¨Ã­Ã«Ã Ã­', '361230, Ã³Ã«. Ã”Ã°Ã¥Ã­Ã¶Ã¨ 6903, Ã’Ã¥Ã«Ã Ã°Ã®', 'kelly.quinlan@outlook.com', 'F');
+----values (203, 'IT', 'Êåëè', 'Êóèíëàí', '361230, óë. Ôðåíöè 6903, Òåëàðî', 'kelly.quinlan@outlook.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (204, 'IT', 'ÃÃ¨Ãª', 'ÃÃ®Ã¬Ã¥Ã°Ã®', '361213, Ã³Ã«. Ã„Ã¨Ã±Ã¥Ã­Ã® 194, ÃŒÃ¨Ã«Ã Ã­Ã®', 'rick.romero@outlook.com', 'M');
+----values (204, 'IT', 'Ðèê', 'Ðîìåðî', '361213, óë. Äèñåíî 194, Ìèëàíî', 'rick.romero@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (205, 'IT', 'ÃÃ¨Ãª', 'Ã‹Ã¨Ã®Ã­', '361214, Ã³Ã«. Ã„Ã¥Ã«Ã  ÃŠÃ Ã¯Ã¥Ã²Ã¥Ã«Ã¨ 52, Ã‘Ã Ã­ ÃŒÃ Ã°Ã¨Ã­Ã®', 'rick.lyon@outlook.com', 'M');
+----values (205, 'IT', 'Ðèê', 'Ëèîí', '361214, óë. Äåëà Êàïåòåëè 52, Ñàí Ìàðèíî', 'rick.lyon@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (206, 'IT', 'ÃŒÃ Ã°Ã£Ã Ã³', 'ÃŠÃ°Ã¨Ã¤Ã¦', '361194, Ã³Ã«. Ã”Ã«Ã®Ã°Ã¥Ã­Ã²Ã¨Ã­Ã  231, ÃÃ¨Ã¬', 'margaux.krige@outlook.com', 'M');
+----values (206, 'IT', 'Ìàðãàó', 'Êðèäæ', '361194, óë. Ôëîðåíòèíà 231, Ðèì', 'margaux.krige@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (207, 'IT', 'ÃŒÃ Ã°Ã¨Ã­Ã®', 'ÃŠÃ Ã¯Ã¸Ã®', '361195, Ã³Ã«. Ã„Ã®Ã«Ã®Ã°Ã®Ã±Ã  69, ÃÃ¨Ã¬', 'margaux.capshaw@outlook.com', 'M');
+----values (207, 'IT', 'Ìàðèíî', 'Êàïøî', '361195, óë. Äîëîðîñà 69, Ðèì', 'margaux.capshaw@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (208, 'IT', 'ÃŠÃ¥Ã¢Ã¨Ã­', 'ÃƒÃ³Ã¤Ã¬ÃºÃ­', '361234, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1942, Ã‚Ã¥Ã­Ã²Ã¨Ã¬Ã¨Ã«Ã¥', 'kevin.goodman@outlook.com', 'M');
+----values (208, 'IT', 'Êåâèí', 'Ãóäìúí', '361234, óë. Íîòîðèîçà 1942, Âåíòèìèëå', 'kevin.goodman@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (209, 'IT', 'ÃŠÃ¥Ã¢Ã¨Ã­', 'ÃŠÃ«Ã¥Ã¢Ã¥Ã°', '361235, Ã³Ã«. ÃÃ®Ã²Ã®Ã°Ã¨Ã®Ã§Ã  1943, Ã‚Ã¥Ã­Ã²Ã¨Ã¬Ã¨Ã«Ã¥', 'kevin.cleveland@outlook.com', 'M');
+----values (209, 'IT', 'Êåâèí', 'Êëåâåð', '361235, óë. Íîòîðèîçà 1943, Âåíòèìèëå', 'kevin.cleveland@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (210, 'IT', 'ÃŠÃ¥Ã¢Ã¨Ã­', 'Ã“Ã¨Ã«Ã¤ÃºÃ°', '361183, Ã³Ã«. ÃŠÃ Ã­Ã Ã«Ã¥ Ã£Ã°Ã Ã­Ã¤Ã¥ 2, ÃÃ¨Ã¬', 'kevin.wilder@outlook.com', 'M');
+----values (210, 'IT', 'Êåâèí', 'Óèëäúð', '361183, óë. Êàíàëå ãðàíäå 2, Ðèì', 'kevin.wilder@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (211, 'IT', 'ÃŠÃ¨Ã´ÃºÃ°', 'ÃÃ¥Ã©Ã­Ã®Ã«Ã¤Ã±', '361184, ÃÃ«Ã®Ã¹Ã Ã¤ ÃŠÃ Ã·Ã¨Ã Ã²Ã®Ã°Ã¨ 23, ÃÃ¨Ã¬', 'kiefer.reynolds@outlook.com', 'M');
+----values (211, 'IT', 'Êèôúð', 'Ðåéíîëäñ', '361184, Ïëîùàä Êà÷èàòîðè 23, Ðèì', 'kiefer.reynolds@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (212, 'IT', 'ÃŠÃ«Ã Ã³Ã±', 'Ã‰Ã®Ã­Ã£', '361223,Ã³Ã«. Ã„Ã¨Ã±Ã¥Ã­Ã¼Ã® 194, Ã‘Ã Ã­ Ã„Ã¦Ã¨Ã¬Ã¨Ã Ã­Ã®', 'klaus.young@outlook.com', 'M');
+----values (212, 'IT', 'Êëàóñ', 'Éîíã', '361223,óë. Äèñåíüî 194, Ñàí Äæèìèàíî', 'klaus.young@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (213, 'IT', 'ÃŒÃ Ã°Ã¨Ã¿', 'ÃÃºÃ±Ã¥Ã«', '361221, ÃÃ«Ã®Ã¹Ã Ã¤ Ã‘Ã¢Ã¨Ã§Ã¥Ã°Ã , Ã‘Ã Ã­ Ã„Ã¦Ã¨Ã¬Ã¨Ã Ã­Ã®', 'maria.russell@outlook.com', 'F');
+----values (213, 'IT', 'Ìàðèÿ', 'Ðúñåë', '361221, Ïëîùàä Ñâèçåðà, Ñàí Äæèìèàíî', 'maria.russell@outlook.com', 'F');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (214, 'IT', 'ÃŠÃ«Ã Ã³Ã±', 'ÃŒÃ ÃªÃ«Ã¥Ã©Ã­', '361227, Ã³Ã«. Ã„Ã¥Ã«Ã® ÃŠÃ°Ã®Ã·Ã¥ 93, Ã’Ã¥Ã«Ã Ã°Ã®', 'klaus.macLaine@outlook.com', 'M');
+----values (214, 'IT', 'Êëàóñ', 'Ìàêëåéí', '361227, óë. Äåëî Êðî÷å 93, Òåëàðî', 'klaus.macLaine@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (215, 'IT', 'ÃŠÃ°Ã¨Ã±', 'Ã•Ã Ã°Ã¨Ã±', '361217, Ã³Ã«. Ã„Ã¥Ã«Ã® ÃŠÃ°Ã®Ã·Ã¥ 93, Ã‘Ã Ã­ Ã„Ã¦Ã¨Ã¬Ã¨Ã Ã­Ã®', 'kris.harris@outlook.com', 'M');
+----values (215, 'IT', 'Êðèñ', 'Õàðèñ', '361217, óë. Äåëî Êðî÷å 93, Ñàí Äæèìèàíî', 'kris.harris@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (216, 'IT', 'ÃŠÃ°Ã¨Ã±', 'ÃŠÃºÃ°Ã²Ã¨Ã±', '361222, Ã³Ã«. ÃÃ³Ã¥Ã«Ã  Ã‘Ã¯Ã¨Ã°Ã¨Ã²Ã¨, Ã‘Ã Ã­ Ã„Ã¦Ã¨Ã¬Ã¨Ã Ã­Ã®', 'kris.curtis@outlook.com', 'M');
+----values (216, 'IT', 'Êðèñ', 'Êúðòèñ', '361222, óë. Ðóåëà Ñïèðèòè, Ñàí Äæèìèàíî', 'kris.curtis@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (217, 'IT', 'ÃŠÃ°Ã¨Ã±', 'Ã„Ã¥Ã­Ã¨Ã°Ã®', '361224, Ã³Ã«. ÃŠÃ Ã¯Ã¥Ã²Ã¥Ã«Ã¨ 52, Ã‘Ã Ã­ Ã„Ã¦Ã¨Ã¬Ã¨Ã Ã­Ã®', 'kris.deniro@outlook.com', 'M');
+----values (217, 'IT', 'Êðèñ', 'Äåíèðî', '361224, óë. Êàïåòåëè 52, Ñàí Äæèìèàíî', 'kris.deniro@outlook.com', 'M');
 ----insert into CUSTOMERS (CUSTOMER_ID, COUNTRY_ID, FNAME, LNAME, ADDRESS, EMAIL, GENDER)
-----values (218, 'IT', 'ÃŠÃ°Ã¨Ã±Ã²Ã¨Ã­', 'Ã‘Ã¥Ã¢Ã¨Ã¤Ã¦', '361226, Ã³Ã«. ÃŠÃ Ã¯Ã¥Ã²Ã¥Ã«Ã¨ 5, Ã’Ã¥Ã«Ã Ã°Ã®', 'kristin.savage@outlook.com', 'M');
+----values (218, 'IT', 'Êðèñòèí', 'Ñåâèäæ', '361226, óë. Êàïåòåëè 5, Òåëàðî', 'kristin.savage@outlook.com', 'M');
 
 
 -----------------------------------------------------
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3091, 'ÃŒÃ®Ã¡Ã¨Ã«Ã¥Ã­ Ã²Ã¥Ã«Ã¥Ã´Ã®Ã­ GSM NOKIA 105 DUAL SIM BLACK', 'Nokia 105 Ã±ÃºÃ± Ã±Ã¢Ã®Ã¿ Ã¨Ã§Ã¢Ã¨Ã², Ã¥Ã°Ã£Ã®Ã­Ã®Ã¬Ã¨Ã·Ã¥Ã­ ÃªÃ®Ã°Ã¯Ã³Ã± Ã¨ Ã°Ã¥Ã«Ã¥Ã´Ã­Ã  ÃªÃ«Ã Ã¢Ã¨Ã Ã²Ã³Ã°Ã  Ã§Ã  Ã¯Ã®-Ã«Ã¥Ã±Ã­Ã® Ã­Ã Ã¡Ã¨Ã°Ã Ã­Ã¥ Ã¨ Ã¯Ã¨Ã±Ã Ã­Ã¥, Nokia 105 Ã¢Ã¨ Ã¤Ã Ã¢Ã  Ã³Ã±Ã¥Ã¹Ã Ã­Ã¥Ã²Ã® Ã§Ã  Ã±Ã®Ã«Ã¨Ã¤Ã¥Ã­, ÃªÃ Ã·Ã¥Ã±Ã²Ã¢Ã¥Ã­ Ã²Ã¥Ã«Ã¥Ã´Ã®Ã­, ÃªÃ®Ã©Ã²Ã® Ã¯Ã Ã±Ã¢Ã  Ã¢ Ã¤Ã«Ã Ã­Ã²Ã  Ã­Ã  Ã°ÃºÃªÃ Ã²Ã  Ã¢Ã¨.', 48);
+----values (3091, 'Ìîáèëåí òåëåôîí GSM NOKIA 105 DUAL SIM BLACK', 'Nokia 105 ñúñ ñâîÿ èçâèò, åðãîíîìè÷åí êîðïóñ è ðåëåôíà êëàâèàòóðà çà ïî-ëåñíî íàáèðàíå è ïèñàíå, Nokia 105 âè äàâà óñåùàíåòî çà ñîëèäåí, êà÷åñòâåí òåëåôîí, êîéòî ïàñâà â äëàíòà íà ðúêàòà âè.', 48);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1787, 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Huawei P Smart (2019)', 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Huawei P Smart (2019), Dual SIM, 64GB, 4G, Midnight Black.', 450);
+----values (1787, 'Ñìàðòôîí Huawei P Smart (2019)', 'Ñìàðòôîí Huawei P Smart (2019), Dual SIM, 64GB, 4G, Midnight Black.', 450);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2439, 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Samsung Galaxy S10e', 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Samsung Galaxy S10e, Dual SIM, 128GB, 6GB RAM, 4G, Black.', 1400);
+----values (2439, 'Ñìàðòôîí Samsung Galaxy S10e', 'Ñìàðòôîí Samsung Galaxy S10e, Dual SIM, 128GB, 6GB RAM, 4G, Black.', 1400);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1788, 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Samsung Galaxy J4 Plus (2018)', 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Samsung Galaxy J4 Plus (2018), Dual Sim, 32 GB, 4G, Black.', 1000);
+----values (1788, 'Ñìàðòôîí Samsung Galaxy J4 Plus (2018)', 'Ñìàðòôîí Samsung Galaxy J4 Plus (2018), Dual Sim, 32 GB, 4G, Black.', 1000);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2375, 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Apple iPhone XS', 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Apple iPhone XS, 64 GB, Silver.', 1800);
+----values (2375, 'Ñìàðòôîí Apple iPhone XS', 'Ñìàðòôîí Apple iPhone XS, 64 GB, Silver.', 1800);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2411, 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Samsung Galaxy S10+', 'Ã‘Ã¬Ã Ã°Ã²Ã´Ã®Ã­ Samsung Galaxy S10+, Dual SIM, 1TB, 12GB RAM, 4G, Ceramic White.', 3200);
+----values (2411, 'Ñìàðòôîí Samsung Galaxy S10+', 'Ñìàðòôîí Samsung Galaxy S10+, Dual SIM, 1TB, 12GB RAM, 4G, Ceramic White.', 3200);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1769, 'ÃÃ°Ã¥Ã¤Ã¯Ã Ã§Ã¥Ã­ ÃªÃ Ã«ÃºÃ´ Just Must Uvo', 'ÃÃ°Ã¥Ã¤Ã¯Ã Ã§Ã¥Ã­ ÃªÃ Ã«ÃºÃ´ Just Must Uvo Ã§Ã  Huawei P30 Pro, Ã—Ã¥Ã°Ã¥Ã­.', 48);
+----values (1769, 'Ïðåäïàçåí êàëúô Just Must Uvo', 'Ïðåäïàçåí êàëúô Just Must Uvo çà Huawei P30 Pro, ×åðåí.', 48);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2049, 'ÃÃ°Ã¥Ã¤Ã¯Ã Ã§Ã¥Ã­ ÃªÃ Ã«ÃºÃ´ Huawei Flip Cover', 'ÃÃ°Ã¥Ã¤Ã¯Ã Ã§Ã¥Ã­ ÃªÃ Ã«ÃºÃ´ Huawei Flip Cover Ã§Ã  P Smart 2019, Blue.', 25);
+----values (2049, 'Ïðåäïàçåí êàëúô Huawei Flip Cover', 'Ïðåäïàçåí êàëúô Huawei Flip Cover çà P Smart 2019, Blue.', 25);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2751, 'ÃÃ°Ã¥Ã¤Ã¯Ã Ã§Ã¥Ã­ ÃªÃ Ã«ÃºÃ´ Samsung Clear View', 'ÃÃ°Ã¥Ã¤Ã¯Ã Ã§Ã¥Ã­ ÃªÃ Ã«ÃºÃ´ Samsung Clear View Standing Ã§Ã  Galaxy Note 9, Black.', 86);
+----values (2751, 'Ïðåäïàçåí êàëúô Samsung Clear View', 'Ïðåäïàçåí êàëúô Samsung Clear View Standing çà Galaxy Note 9, Black.', 86);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3112, 'ÃŠÃ Ã«ÃºÃ´ Forcell Armor', 'Ã“Ã¤Ã Ã°Ã®Ã³Ã±Ã²Ã®Ã©Ã·Ã¨Ã¢ ÃŠÃ Ã«ÃºÃ´ Forcell Armor Ã§Ã  Huawei P Smart 2019 , Ã—Ã¥Ã°Ã¥Ã­.', 47);
+----values (3112, 'Êàëúô Forcell Armor', 'Óäàðîóñòîé÷èâ Êàëúô Forcell Armor çà Huawei P Smart 2019 , ×åðåí.', 47);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2752, 'Anti Shock Ã£Ã°ÃºÃ¡', 'Anti Shock Ã£Ã°ÃºÃ¡ Carbon Ã§Ã  IPhone 5/5S/SE, Ã—Ã¥Ã°Ã¥Ã­', 9);
+----values (2752, 'Anti Shock ãðúá', 'Anti Shock ãðúá Carbon çà IPhone 5/5S/SE, ×åðåí', 9);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2293, 'Tellur Tempered Glass 3D', 'Ã‡Ã Ã¹Ã¨Ã²Ã­Ã® Ã´Ã®Ã«Ã¨Ã® Tellur Tempered Glass 3D Ã§Ã  Samsung Galaxy S9, Black.', 15.50);
+----values (2293, 'Tellur Tempered Glass 3D', 'Çàùèòíî ôîëèî Tellur Tempered Glass 3D çà Samsung Galaxy S9, Black.', 15.50);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3114, 'Ã‡Ã Ã¹Ã¨Ã²Ã­Ã® Ã´Ã®Ã«Ã¨Ã® Tellur, Tempered Glass 3D', 'Ã‡Ã Ã¹Ã¨Ã²Ã­Ã® Ã´Ã®Ã«Ã¨Ã® Tellur, Tempered Glass 3D Ã§Ã  iPhone XS, iPhone X, Ã—Ã¥Ã°Ã­Ã®.', 30);
+----values (3114, 'Çàùèòíî ôîëèî Tellur, Tempered Glass 3D', 'Çàùèòíî ôîëèî Tellur, Tempered Glass 3D çà iPhone XS, iPhone X, ×åðíî.', 30);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3129, '5D Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° Full Face Cover', '5D Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° Full Face Cover Premium Tempered Glass Ã§Ã  Huawei Mate 20 Lite, Ã—Ã¥Ã°Ã¥Ã­.', 56);
+----values (3129, '5D Ñòúêëåí ïðîòåêòîð Full Face Cover', '5D Ñòúêëåí ïðîòåêòîð Full Face Cover Premium Tempered Glass çà Huawei Mate 20 Lite, ×åðåí.', 56);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3133, 'Tempered Glass Ã§Ã  Huawei Y5', 'Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ Ã±ÃªÃ°Ã¨Ã©Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã°, Tempered Glass Ã§Ã  Huawei Y5 2018.', 7);
+----values (3133, 'Tempered Glass çà Huawei Y5', 'Ñòúêëåí ñêðèéí ïðîòåêòîð, Tempered Glass çà Huawei Y5 2018.', 7);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2308, 'ÃÃ°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° Premium Tempered Glass Ã§Ã  Huawei', 'Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ ÃÃ°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° Premium Tempered Glass Ã§Ã  Huawei P20 Lite, transparent.', 18);
+----values (2308, 'Ïðîòåêòîð Premium Tempered Glass çà Huawei', 'Ñòúêëåí Ïðîòåêòîð Premium Tempered Glass çà Huawei P20 Lite, transparent.', 18);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2496, 'Ã‡Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Ã§Ã  Ã Ã¢Ã²Ã®Ã¬Ã®Ã¡Ã¨Ã«', 'Ã‡Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Ã§Ã  Ã Ã¢Ã²Ã®Ã¬Ã®Ã¡Ã¨Ã« dual USB A+ Charger, 2.1A.', 9);
+----values (2496, 'Çàðÿäíî óñòðîéñòâî çà àâòîìîáèë', 'Çàðÿäíî óñòðîéñòâî çà àâòîìîáèë dual USB A+ Charger, 2.1A.', 9);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2497, 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã® Ã§Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Samsung Wireless Charger', 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã® Ã§Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Samsung Wireless Charger Duo Pad, Ã‚ÃªÃ«Ã¾Ã·Ã¥Ã­Ã® Ã§Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã®, Black.', 159);
+----values (2497, 'Áåçæè÷íî çàðÿäíî óñòðîéñòâî Samsung Wireless Charger', 'Áåçæè÷íî çàðÿäíî óñòðîéñòâî Samsung Wireless Charger Duo Pad, Âêëþ÷åíî çàðÿäíî óñòðîéñòâî, Black.', 159);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3106, 'Ã‡Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Ã§Ã  Ã Ã¢Ã²Ã®Ã¬Ã®Ã¡Ã¨Ã« Huawei', 'Ã‡Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Ã§Ã  Ã Ã¢Ã²Ã®Ã¬Ã®Ã¡Ã¨Ã« Huawei AP38 Fast Charge Ã± ÃªÃ Ã¡Ã¥Ã« type C.', 48);
+----values (3106, 'Çàðÿäíî óñòðîéñòâî çà àâòîìîáèë Huawei', 'Çàðÿäíî óñòðîéñòâî çà àâòîìîáèë Huawei AP38 Fast Charge ñ êàáåë type C.', 48);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2289, 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã® Ã§Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® A+, K2', NULL, 18);
+----values (2289, 'Áåçæè÷íî çàðÿäíî óñòðîéñòâî A+, K2', NULL, 18);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3110, 'Ã‡Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Ã§Ã  ÃªÃ®Ã«Ã  Belkin', 'Ã‡Ã Ã°Ã¿Ã¤Ã­Ã® Ã³Ã±Ã²Ã°Ã®Ã©Ã±Ã²Ã¢Ã® Ã§Ã  ÃªÃ®Ã«Ã  Belkin MIXIT UP Metallic, Ã—Ã¥Ã°Ã­Ã®.', 28);
+----values (3110, 'Çàðÿäíî óñòðîéñòâî çà êîëà Belkin', 'Çàðÿäíî óñòðîéñòâî çà êîëà Belkin MIXIT UP Metallic, ×åðíî.', 28);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3108, 'ÃÃ Ã²Ã¥Ã°Ã¨Ã¿ Samsung Ã§Ã  Galaxy S5, 2800mAh', NULL, 18);
+----values (3108, 'Áàòåðèÿ Samsung çà Galaxy S5, 2800mAh', NULL, 18);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2058, 'ÃÃ Ã²Ã¥Ã°Ã¨Ã¿ Samsung Ã§Ã  Galaxy S4 Mini', 'ÃÃ Ã²Ã¥Ã°Ã¨Ã¿ Samsung Ã§Ã  Galaxy S4 Mini I9195, 1900mAh, Ã—Ã¥Ã°Ã­Ã .', 23);
+----values (2058, 'Áàòåðèÿ Samsung çà Galaxy S4 Mini', 'Áàòåðèÿ Samsung çà Galaxy S4 Mini I9195, 1900mAh, ×åðíà.', 23);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2761, 'ÃÃ Ã²Ã¥Ã°Ã¨Ã¿ Apple Ã®Ã°Ã¨Ã£Ã¨Ã­Ã Ã«Ã­Ã  Ã¡Ã Ã²Ã¥Ã°Ã¨Ã¿ Ã§Ã  iPhone 5 1440 mAh', NULL, 27);
+----values (2761, 'Áàòåðèÿ Apple îðèãèíàëíà áàòåðèÿ çà iPhone 5 1440 mAh', NULL, 27);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3117, 'ÃÃ Ã²Ã¥Ã°Ã¨Ã¿ Samsung EB-B600BEBECWW', 'ÃÃ Ã²Ã¥Ã°Ã¨Ã¿ Samsung EB-B600BEBECWW, 2600mAh Ã§Ã  Galaxy S4 i9500/i9505.', 11);
+----values (3117, 'Áàòåðèÿ Samsung EB-B600BEBECWW', 'Áàòåðèÿ Samsung EB-B600BEBECWW, 2600mAh çà Galaxy S4 i9500/i9505.', 11);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2056, 'ÃÃ Ã²Ã¥Ã°Ã¨Ã¿ Huawei HB3742Ã€0EZC+ Ã§Ã  Huawei P8 Lite', NULL, 38);
+----values (2056, 'Áàòåðèÿ Huawei HB3742À0EZC+ çà Huawei P8 Lite', NULL, 38);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2211, 'Ã‘Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ bluetooth Jabra Elite Active 65t', 'Ã‘Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ bluetooth Jabra Elite Active 65t, In-Ear, Black.', 344);
+----values (2211, 'Ñëóøàëêè bluetooth Jabra Elite Active 65t', 'Ñëóøàëêè bluetooth Jabra Elite Active 65t, In-Ear, Black.', 344);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2944, 'Ã‘Ã«Ã³Ã¸Ã Ã«ÃªÃ  bluetooth Plantronics Explorer 55', NULL, 33);
+----values (2944, 'Ñëóøàëêà bluetooth Plantronics Explorer 55', NULL, 33);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1742, 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã¨ Ã±Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ I7s PLUS', 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã¨ Ã±Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ I7s PLUS Ã± ÃªÃ³Ã²Ã¨Ã¿ Ã§Ã  Ã§Ã Ã°Ã¥Ã¦Ã¤Ã Ã­Ã¥ 950 mAH, Mic, Multipoint, ÃÃ¥Ã«Ã¨.', 15);
+----values (1742, 'Áåçæè÷íè ñëóøàëêè I7s PLUS', 'Áåçæè÷íè ñëóøàëêè I7s PLUS ñ êóòèÿ çà çàðåæäàíå 950 mAH, Mic, Multipoint, Áåëè.', 15);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2402, 'Ã‘Ã«Ã³Ã¸Ã Ã«ÃªÃ  Bluetooth Plantronics Explorer 500', NULL, 107);
+----values (2402, 'Ñëóøàëêà Bluetooth Plantronics Explorer 500', NULL, 107);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2403, 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã¨ Ã±Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ AirPods', 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã¨ Ã±Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ AirPods TWS i9s 2019 + PowerBank, 3D Ã§Ã¢Ã³Ãª, ÃÃ¿Ã«.', 47);
+----values (2403, 'Áåçæè÷íè ñëóøàëêè AirPods', 'Áåçæè÷íè ñëóøàëêè AirPods TWS i9s 2019 + PowerBank, 3D çâóê, Áÿë.', 47);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1761, 'ÃÃ¥Ã§Ã¦Ã¨Ã·Ã­Ã¨ bluetooth Ã±Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ In-ear, Mic, Multipoint', NULL, 18);
+----values (1761, 'Áåçæè÷íè bluetooth ñëóøàëêè In-ear, Mic, Multipoint', NULL, 18);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2381, 'ÃÃ«Ã³Ã²Ã³Ã² Ã±Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ JBL T450BT', NULL, 99);
+----values (2381, 'Áëóòóò ñëóøàëêè JBL T450BT', NULL, 99);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2424, 'ÃŠÃ Ã¡Ã¥Ã« Ã§Ã  Ã¤Ã Ã­Ã­Ã¨ E-Boda CML 110', NULL, 10);
+----values (2424, 'Êàáåë çà äàííè E-Boda CML 110', NULL, 10);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1781, 'ÃŠÃ Ã¡Ã¥Ã« MHL ÃªÃºÃ¬ HDMI Ã Ã¤Ã Ã¯Ã²Ã¥Ã° Ã§Ã  Samsung', NULL, 17);
+----values (1781, 'Êàáåë MHL êúì HDMI àäàïòåð çà Samsung', NULL, 17);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2264, 'ÃŠÃ Ã¡Ã¥Ã« A+ lightning, MFI Ã§Ã  iPhone', NULL, 9);
+----values (2264, 'Êàáåë A+ lightning, MFI çà iPhone', NULL, 9);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2260, 'ÃŠÃ Ã¡Ã¥Ã« ADATA Lightning MFI Ã§Ã  iPhone', NULL, 33);
+----values (2260, 'Êàáåë ADATA Lightning MFI çà iPhone', NULL, 33);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2266, 'Micro usb ÃªÃ Ã¡Ã¥Ã« ALIEN', NULL, 1.50);
+----values (2266, 'Micro usb êàáåë ALIEN', NULL, 1.50);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3077, 'ÃŠÃ Ã¡Ã¥Ã« Earldom Type-C', NULL, 11);
+----values (3077, 'Êàáåë Earldom Type-C', NULL, 11);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2259, 'Ã‚ÃºÃ­Ã¸Ã­Ã  Ã¡Ã Ã²Ã¥Ã°Ã¨Ã¿ A+, 10 000 mAh', 'Ã‚ÃºÃ­Ã¸Ã­Ã  Ã¡Ã Ã²Ã¥Ã°Ã¨Ã¿ A+, 10 000 mAh, 2 USB Ã¯Ã®Ã°Ã²Ã , Black.', 32);
+----values (2259, 'Âúíøíà áàòåðèÿ A+, 10 000 mAh', 'Âúíøíà áàòåðèÿ A+, 10 000 mAh, 2 USB ïîðòà, Black.', 32);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2261, 'Ã‚ÃºÃ­Ã¸Ã­Ã  Ã¡Ã Ã²Ã¥Ã°Ã¨Ã¿ Asus ZenPower', NULL, 64);
+----values (2261, 'Âúíøíà áàòåðèÿ Asus ZenPower', NULL, 64);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3082, 'Ã‚ÃºÃ­Ã¸Ã­Ã  Ã¡Ã Ã²Ã¥Ã°Ã¨Ã¿ Trust', NULL, 21);
+----values (3082, 'Âúíøíà áàòåðèÿ Trust', NULL, 21);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2270, 'Ã‚ÃºÃ­Ã¸Ã­Ã  Ã¡Ã Ã²Ã¥Ã°Ã¨Ã¿ Xiaomi', 'Ã‚ÃºÃ­Ã¸Ã­Ã  Ã¡Ã Ã²Ã¥Ã°Ã¨Ã¿ Xiaomi, 20800 mAh, NDY-02-AD, Ã± USB Ã¨Ã§ÃµÃ®Ã¤ Ã§Ã  Ã¬Ã®Ã¡Ã¨Ã«Ã­Ã¨ Ã²Ã¥Ã«Ã¥Ã´Ã®Ã­Ã¨ Ã¨ Ã²Ã Ã¡Ã«Ã¥Ã²Ã¨.', 26);
+----values (2270, 'Âúíøíà áàòåðèÿ Xiaomi', 'Âúíøíà áàòåðèÿ Xiaomi, 20800 mAh, NDY-02-AD, ñ USB èçõîä çà ìîáèëíè òåëåôîíè è òàáëåòè.', 26);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2268, 'Ã‘Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ bluetooth Samsung Galaxy Buds', NULL, 300);
+----values (2268, 'Ñëóøàëêè bluetooth Samsung Galaxy Buds', NULL, 300);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3083, 'ÃˆÃ£Ã°Ã Ã·ÃªÃ  Smart E-Boda Puppy Go', NULL, 400);
+----values (3083, 'Èãðà÷êà Smart E-Boda Puppy Go', NULL, 400);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2374, 'ÃŒÃ®Ã«Ã¨Ã¢ 3D E-Boda', NULL, 95);
+----values (2374, 'Ìîëèâ 3D E-Boda', NULL, 95);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1740, 'Ã‘Ã«Ã³Ã¸Ã Ã«ÃªÃ¨ Apple AirPods', NULL, 434);
+----values (1740, 'Ñëóøàëêè Apple AirPods', NULL, 434);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2409, 'Ã„Ã¥Ã²Ã±ÃªÃ¨ Ã±Ã¬Ã Ã°Ã² Ã·Ã Ã±Ã®Ã¢Ã­Ã¨Ãª Xblitz', NULL, 110);
+----values (2409, 'Äåòñêè ñìàðò ÷àñîâíèê Xblitz', NULL, 110);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2262, 'Ã‚Ã¨Ã¤Ã¥Ã®ÃªÃ Ã¬Ã¥Ã°Ã  Samsung Gear 360', NULL, 500);
+----values (2262, 'Âèäåîêàìåðà Samsung Gear 360', NULL, 500);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2522, 'ÃŠÃ Ã¬Ã¥Ã°Ã  Insta 360 Nano', NULL, 124);
+----values (2522, 'Êàìåðà Insta 360 Nano', NULL, 124);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2278, 'Ã’Ã Ã¡Ã«Ã¥Ã² Huawei MediaPad T3 7', 'Ã’Ã Ã¡Ã«Ã¥Ã² Huawei MediaPad T3 7, 7", Quad Core 1.3 GHz, 1GB RAM, 16GB, Space Gray', 355);
+----values (2278, 'Òàáëåò Huawei MediaPad T3 7', 'Òàáëåò Huawei MediaPad T3 7, 7", Quad Core 1.3 GHz, 1GB RAM, 16GB, Space Gray', 355);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2418, 'Ã’Ã Ã¡Ã«Ã¥Ã² Huawei Mediapad M5', 'Ã’Ã Ã¡Ã«Ã¥Ã² Huawei Mediapad M5, Octa Core 1.8 GHz, 10.8", 4 GB RAM, 64 GB, 4G, Space Gray', 861);
+----values (2418, 'Òàáëåò Huawei Mediapad M5', 'Òàáëåò Huawei Mediapad M5, Octa Core 1.8 GHz, 10.8", 4 GB RAM, 64 GB, 4G, Space Gray', 861);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
 ----values (2419, 'Apple iPad 6', 'Apple iPad 6, 9.7", 32GB, Wi-Fi, Gold', 672);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
 ----values (3097, 'Apple iPad 6', 'Apple iPad 6, 9.7", 32GB, Wi-Fi, Silver', 673);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3099, 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Tab 4 Essential TB-7304I', 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Tab 4 Essential TB-7304I, Quad Core 1.3 GHz, 7", 1 GB RAM, 16 GB, 3G, Black', 144);
+----values (3099, 'Òàáëåò Lenovo Tab 4 Essential TB-7304I', 'Òàáëåò Lenovo Tab 4 Essential TB-7304I, Quad Core 1.3 GHz, 7", 1 GB RAM, 16 GB, 3G, Black', 144);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2380, 'Ã Ã¡Ã«Ã¥Ã² Allview Viva H701', 'Ã Ã¡Ã«Ã¥Ã² Allview Viva H701, 7", Quad Core 1Ghz, 1GB RAM, 8GB, 4G, IPS, White', 126);
+----values (2380, 'àáëåò Allview Viva H701', 'àáëåò Allview Viva H701, 7", Quad Core 1Ghz, 1GB RAM, 8GB, 4G, IPS, White', 126);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2408, 'Ã’Ã Ã¡Ã«Ã¥Ã² Mediatek KT107', 'Ã’Ã Ã¡Ã«Ã¥Ã² Mediatek KT107 Ã·Ã¥Ã²Ã¨Ã°Ã¨-Ã¿Ã¤Ã°Ã¥Ã­ Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° (1,3Ghz) 10.1", 1280Ãµ800 IPS, 1GB RAM, 16GB,3G, GPS, Wi-Fi, Bluetooth, Marshmallow 6.0 ,ÃÃ¿Ã«', 144);
+----values (2408, 'Òàáëåò Mediatek KT107', 'Òàáëåò Mediatek KT107 ÷åòèðè-ÿäðåí ïðîöåñîð (1,3Ghz) 10.1", 1280õ800 IPS, 1GB RAM, 16GB,3G, GPS, Wi-Fi, Bluetooth, Marshmallow 6.0 ,Áÿë', 144);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2457, 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Galaxy Tab E T561', 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Galaxy Tab E T561 c Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° Quad-CoreÂ™ 1.3 GHz, 9.6", 1.5GB RAM, 8GB, Wi-Fi, 3G, Bluetooth v4.0, Black', 345);
+----values (2457, 'Òàáëåò Samsung Galaxy Tab E T561', 'Òàáëåò Samsung Galaxy Tab E T561 c ïðîöåñîð Quad-Core™ 1.3 GHz, 9.6", 1.5GB RAM, 8GB, Wi-Fi, 3G, Bluetooth v4.0, Black', 345);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2373, 'Ã’Ã Ã¡Ã«Ã¥Ã² HUAWEI MediaPad T3', 'Ã’Ã Ã¡Ã«Ã¥Ã² HUAWEI MediaPad T3 8.0", Ã±Ã¨Ã¢ Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° 4x Cortex-A53 (1.4 GHz), 8.0", 2 GB, 16 GB, Android 7.0 Nougat, Ã‘Ã¨Ã¢', 256);
+----values (2373, 'Òàáëåò HUAWEI MediaPad T3', 'Òàáëåò HUAWEI MediaPad T3 8.0", ñèâ ñ ïðîöåñîð 4x Cortex-A53 (1.4 GHz), 8.0", 2 GB, 16 GB, Android 7.0 Nougat, Ñèâ', 256);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1734, 'Ã’Ã Ã¡Ã«Ã¥Ã² Xiaomi mi Pad 4', 'Ã’Ã Ã¡Ã«Ã¥Ã² Xiaomi mi Pad 4 ,3GB RAM 32 GB ROM ,black WI-FI', 206);
+----values (1734, 'Òàáëåò Xiaomi mi Pad 4', 'Òàáëåò Xiaomi mi Pad 4 ,3GB RAM 32 GB ROM ,black WI-FI', 206);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1737, 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Tab3 T113', 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Tab3 T113 Lite Value Edition c Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° Quad-CoreÂ™ 1.3 GHz, 7", 1GB RAM, 8GB, Wi-Fi, Bluetooth 4.0, Android 4.4.2 KitKat, Cream White', 198);
+----values (1737, 'Òàáëåò Samsung Tab3 T113', 'Òàáëåò Samsung Tab3 T113 Lite Value Edition c ïðîöåñîð Quad-Core™ 1.3 GHz, 7", 1GB RAM, 8GB, Wi-Fi, Bluetooth 4.0, Android 4.4.2 KitKat, Cream White', 198);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1745, 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Tab Yoga 3 YT3-X50M', 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Tab Yoga 3 YT3-X50M, 10.1'', Quad-Core 1.3 GHz, 2GB RAM, 16GB, 4G, IPS, Slate Black', 349);
+----values (1745, 'Òàáëåò Lenovo Tab Yoga 3 YT3-X50M', 'Òàáëåò Lenovo Tab Yoga 3 YT3-X50M, 10.1'', Quad-Core 1.3 GHz, 2GB RAM, 16GB, 4G, IPS, Slate Black', 349);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2982, 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Galaxy Tab E T560', 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Galaxy Tab E T560 Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° Quad-CoreÂ™ 1.3 GHz, 9.6", 1.5GB RAM, 8GB, Wi-Fi, Bluetooth v4.0, White', 444);
+----values (2982, 'Òàáëåò Samsung Galaxy Tab E T560', 'Òàáëåò Samsung Galaxy Tab E T560 ñ ïðîöåñîð Quad-Core™ 1.3 GHz, 9.6", 1.5GB RAM, 8GB, Wi-Fi, Bluetooth v4.0, White', 444);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3277, 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Thinkpad 8''', 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Thinkpad 8'' Atom Z3770 /2GB/128GB SSD/3G Ã¬Ã®Ã¤Ã³Ã«/IPS', 436);
+----values (3277, 'Òàáëåò Lenovo Thinkpad 8''', 'Òàáëåò Lenovo Thinkpad 8'' Atom Z3770 /2GB/128GB SSD/3G ìîäóë/IPS', 436);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2976, 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Tab M10 TB-X605L', 'Ã’Ã Ã¡Ã«Ã¥Ã² Lenovo Tab M10 TB-X605L, Octa-Core 1.8GHz, 10.1", 3GB RAM, 32GB, 4G, Polar White', 352);
+----values (2976, 'Òàáëåò Lenovo Tab M10 TB-X605L', 'Òàáëåò Lenovo Tab M10 TB-X605L, Octa-Core 1.8GHz, 10.1", 3GB RAM, 32GB, 4G, Polar White', 352);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
 ----values (3204, 'Apple iPad 6, 9.7"', 'Apple iPad 6, 9.7", 128GB, Wi-Fi, Silver', 826);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2638, 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Galaxy Tab S3 T820', 'Ã’Ã Ã¡Ã«Ã¥Ã² Samsung Galaxy Tab S3 T820, 9.7", Quad-Core 2.15 GHz, 4GB RAM, 32GB, Silver', 637);
+----values (2638, 'Òàáëåò Samsung Galaxy Tab S3 T820', 'Òàáëåò Samsung Galaxy Tab S3 T820, 9.7", Quad-Core 2.15 GHz, 4GB RAM, 32GB, Silver', 637);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3020, 'Ã’Ã Ã¡Ã«Ã¥Ã² Xiaomi mi Pad 4', 'ÃŠÃ®Ã¬Ã¯Ã«Ã¥ÃªÃ² Ã’Ã Ã¡Ã«Ã¥Ã² Xiaomi mi Pad 4 4GB RAM 64 GB ROM black WI-FI+ÃªÃ Ã«ÃºÃ´+Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã°', 449);
+----values (3020, 'Òàáëåò Xiaomi mi Pad 4', 'Êîìïëåêò Òàáëåò Xiaomi mi Pad 4 4GB RAM 64 GB ROM black WI-FI+êàëúô+ïðîòåêòîð', 449);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1948, 'ÃŠÃ Ã«ÃºÃ´ Trust Ã§Ã  Ã²Ã Ã¡Ã«Ã¥Ã²Ã¨ 7-8' , NULL, 38);
+----values (1948, 'Êàëúô Trust çà òàáëåòè 7-8' , NULL, 38);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3003, 'ÃŠÃ Ã«ÃºÃ´ Ã§Ã  Ã²Ã Ã¡Ã«Ã¥Ã² Huawei MediaPad M5', NULL, 39);
+----values (3003, 'Êàëúô çà òàáëåò Huawei MediaPad M5', NULL, 39);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2999, 'ÃÃ°Ã¥Ã¤Ã¯Ã Ã§Ã¥Ã­ ÃªÃ Ã«ÃºÃ´ Huawei Flip Cover Ã§Ã  MediaPad T5', NULL, 29);
+----values (2999, 'Ïðåäïàçåí êàëúô Huawei Flip Cover çà MediaPad T5', NULL, 29);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3000, 'ÃŠÃ Ã«ÃºÃ´ IV Ã§Ã  Ã²Ã Ã¡Ã«Ã¥Ã² Huawei MediaPad T5', NULL, 49);
+----values (3000, 'Êàëúô IV çà òàáëåò Huawei MediaPad T5', NULL, 49);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3001, 'Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° ÃŽÃ…ÃŒ Ã§Ã  Apple iPad Pro 12.9', NULL, 16);
+----values (3001, 'Ñòúêëåí ïðîòåêòîð ÎÅÌ çà Apple iPad Pro 12.9', NULL, 16);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3004, 'Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° ÃŽÃ…ÃŒ Ã§Ã  Apple iPad Mini 4', NULL, 18);
+----values (3004, 'Ñòúêëåí ïðîòåêòîð ÎÅÌ çà Apple iPad Mini 4', NULL, 18);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3391, 'Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° ÃŽÃ…ÃŒ Ã§Ã  Asus ZenPad 10 Z300C', NULL, 15);
+----values (3391, 'Ñòúêëåí ïðîòåêòîð ÎÅÌ çà Asus ZenPad 10 Z300C', NULL, 15);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3124, 'Ã‘Ã²ÃºÃªÃ«Ã¥Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° ÃŽÃ…ÃŒ Ã§Ã  Huawei Mediapad M2 10', NULL, 14);
+----values (3124, 'Ñòúêëåí ïðîòåêòîð ÎÅÌ çà Huawei Mediapad M2 10', NULL, 14);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1738, 'Ã‘ÃªÃ°Ã¨Ã©Ã­ Ã¯Ã°Ã®Ã²Ã¥ÃªÃ²Ã®Ã° LENOVO YOGA TABLET 2 10.1', NULL, 6);
+----values (1738, 'Ñêðèéí ïðîòåêòîð LENOVO YOGA TABLET 2 10.1', NULL, 6);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2377, 'ÃŠÃ Ã¡Ã¥Ã« Ã§Ã  Ã¤Ã Ã­Ã­Ã¨ Apple Lightning', NULL, 97);
+----values (2377, 'Êàáåë çà äàííè Apple Lightning', NULL, 97);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2299, 'ÃŠÃ Ã¡Ã¥Ã« OTG A+, USB-MicroUSB', NULL, 6);
+----values (2299, 'Êàáåë OTG A+, USB-MicroUSB', NULL, 6);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3123, 'ÃŠÃ Ã¡Ã¥Ã« Ã§Ã  Ã§Ã Ã°Ã¥Ã¦Ã¤Ã Ã­Ã¥ Microsoft Ã§Ã  Surface Go', NULL, 81);
+----values (3123, 'Êàáåë çà çàðåæäàíå Microsoft çà Surface Go', NULL, 81);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1748, 'Ã€Ã¤Ã Ã¯Ã²Ã¥Ã° Microsoft Surface JTY-00004', NULL, 43);
+----values (1748, 'Àäàïòåð Microsoft Surface JTY-00004', NULL, 43);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2387, 'Wi-Fi Ã Ã¤Ã Ã¯Ã²Ã¥Ã° Diamond 360000N', NULL, 83);
+----values (2387, 'Wi-Fi àäàïòåð Diamond 360000N', NULL, 83);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2370, 'Ã¤Ã Ã¯Ã²Ã¥Ã° Ã§Ã  Ã·Ã¥Ã²Ã¥Ã¶ Ã­Ã  ÃªÃ Ã°Ã²Ã¨ Apple USB Type C', NULL, 97);
+----values (2370, 'äàïòåð çà ÷åòåö íà êàðòè Apple USB Type C', NULL, 97);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1726, 'Ã€Ã¤Ã Ã¯Ã²Ã¥Ã° Microsoft Surface JVZ-00004', NULL, 99);
+----values (1726, 'Àäàïòåð Microsoft Surface JVZ-00004', NULL, 99);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2359, 'ÃŠÃ Ã¡Ã¥Ã« Apple, USB Type C', NULL, 59);
+----values (2359, 'Êàáåë Apple, USB Type C', NULL, 59);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3060, 'Ã€Ã¤Ã Ã¯Ã²Ã¥Ã° Microsoft Surface USB - Ethernet', NULL, 99);
+----values (3060, 'Àäàïòåð Microsoft Surface USB - Ethernet', NULL, 99);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2243, 'ÃŠÃ Ã¡Ã¥Ã« Zik OTG Galaxy TAB', NULL, 5);
+----values (2243, 'Êàáåë Zik OTG Galaxy TAB', NULL, 5);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3057, 'ÃÃ¨Ã±Ã Ã«ÃªÃ  Ã±Ã²Ã¨Ã«Ã³Ã± Ã§Ã  Ã²Ã Ã¡Ã«Ã¥Ã² PEN', NULL, 4);
+----values (3057, 'Ïèñàëêà ñòèëóñ çà òàáëåò PEN', NULL, 4);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
 ----values (3061, 'Microsoft Surface Pen', NULL, 299);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2245, 'ÃŒÃ®Ã¤Ã¥Ã¬,3G, Usb Doungle', NULL, 42);
+----values (2245, 'Ìîäåì,3G, Usb Doungle', NULL, 42);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3065, 'ÃŠÃ Ã¡Ã¥Ã« Apple USB-C', NULL, 89);
+----values (3065, 'Êàáåë Apple USB-C', NULL, 89);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3331, 'Ã€Ã¤Ã Ã¯Ã²Ã¥Ã° Apple multiport AV digital USB-C', NULL, 179);
+----values (3331, 'Àäàïòåð Apple multiport AV digital USB-C', NULL, 179);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2252, 'Ã€Ã¤Ã Ã¯Ã²Ã¥Ã° Apple Thunderbolt to Gigabit Ethernet', NULL, 70);
+----values (2252, 'Àäàïòåð Apple Thunderbolt to Gigabit Ethernet', NULL, 70);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3064, 'Ã€Ã¤Ã Ã¯Ã²Ã¥Ã° Apple Thunderbolt 3', NULL, 123);
+----values (3064, 'Àäàïòåð Apple Thunderbolt 3', NULL, 123);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3155, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS X540MA-GO314T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS X540MA-GO314T with processor IntelÂ® CeleronÂ® N4100 up to 2.40 GHz, 15.6", 4GB, 500GB, IntelÂ® UHD Graphics 600, Microsoft Windows 10, Chocolate Black', 549);
+----values (3155, 'Ëàïòîï ASUS X540MA-GO314T', 'Ëàïòîï ASUS X540MA-GO314T with processor Intel® Celeron® N4100 up to 2.40 GHz, 15.6", 4GB, 500GB, Intel® UHD Graphics 600, Microsoft Windows 10, Chocolate Black', 549);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3234, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming HP OMEN', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming HP OMEN Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8750H Ã¤Ã® 4.10 GHz, Coffee Lake, 15.6", Full HD, IPS, 144 Hz, 8 GB, 1 TB + 128 GB SSD, NVIDIA GeForce GTX 1060 6 GB G-Sync, Free DOS, Shadow Black', 1839);
+----values (3234, 'Ëàïòîï Gaming HP OMEN', 'Ëàïòîï Gaming HP OMEN ñ ïðîöåñîð Intel® Core™ i7-8750H äî 4.10 GHz, Coffee Lake, 15.6", Full HD, IPS, 144 Hz, 8 GB, 1 TB + 128 GB SSD, NVIDIA GeForce GTX 1060 6 GB G-Sync, Free DOS, Shadow Black', 1839);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3350, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS ROG New ZEPHYRUS GX501GI-EI006T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS ROG New ZEPHYRUS GX501GI-EI006T with processor IntelÂ® CoreÂ™ i7-8750H up to 4.10 GHz, Coffee Lake, 15.6", Full HD, 144Hz, 3ms G-Sync, 24GB, 512GB SSD, NVIDIA GeForce GTX 1080 8GB Max-Q, Microsoft Windows 10, Black', 7740);
+----values (3350, 'Ëàïòîï Gaming ASUS ROG New ZEPHYRUS GX501GI-EI006T', 'Ëàïòîï Gaming ASUS ROG New ZEPHYRUS GX501GI-EI006T with processor Intel® Core™ i7-8750H up to 4.10 GHz, Coffee Lake, 15.6", Full HD, 144Hz, 3ms G-Sync, 24GB, 512GB SSD, NVIDIA GeForce GTX 1080 8GB Max-Q, Microsoft Windows 10, Black', 7740);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2236, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Kiano Elegance 11.6 360Â°', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Kiano Elegance 11.6 360Â° Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° Intel AtomÂ® x5-Z8350 Ã¤Ã® 1.92 GHz, 11.6", Touch, 2 GB, 32 GB eMMC, Intel HD Graphics, Microsoft Windows 10, Silver', 964);
+----values (2236, 'Ëàïòîï 2 in 1 Kiano Elegance 11.6 360°', 'Ëàïòîï 2 in 1 Kiano Elegance 11.6 360° ñ ïðîöåñîð Intel Atom® x5-Z8350 äî 1.92 GHz, 11.6", Touch, 2 GB, 32 GB eMMC, Intel HD Graphics, Microsoft Windows 10, Silver', 964);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3054, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ HP 15-da0119nq', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ HP 15-da0119nq Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-7500U Ã¤Ã® 3.50 GHz, Kaby Lake, 8 GB, 1 TB, NVIDIAÂ® GeForceÂ® MX130 2 GB, Free DOS, Black.', 600);
+----values (3054, 'Ëàïòîï HP 15-da0119nq', 'Ëàïòîï HP 15-da0119nq ñ ïðîöåñîð Intel® Core™ i7-7500U äî 3.50 GHz, Kaby Lake, 8 GB, 1 TB, NVIDIA® GeForce® MX130 2 GB, Free DOS, Black.', 600);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1782, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming HP Pavilion 15-bc415nq', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming HP Pavilion 15-bc415nq Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i5-8250U Ã¤Ã® 3.40 GHz, Kaby Lake R, 15.6", Full HD, 4 GB, 1 TB, NVIDIA GeForce GTX 1050 4 GB, Free DOS, Shadow Black.', 625);
+----values (1782, 'Ëàïòîï Gaming HP Pavilion 15-bc415nq', 'Ëàïòîï Gaming HP Pavilion 15-bc415nq ñ ïðîöåñîð Intel® Core™ i5-8250U äî 3.40 GHz, Kaby Lake R, 15.6", Full HD, 4 GB, 1 TB, NVIDIA GeForce GTX 1050 4 GB, Free DOS, Shadow Black.', 625);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2430, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS TUF FX504GD-EN940T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS TUF FX504GD-EN940T Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i5-8300H Ã¤Ã® 4.00 GHz, Coffee Lake, 15.6", Full HD, 120 Hz, 8 GB + 16 GB IntelÂ® OptaneÂ™, 1 TB Hybrid HDD, NVIDIAÂ® GeForceÂ® GTX 1050 4 GB, Microsoft Windows 10, Metal Gun', 1875);
+----values (2430, 'Ëàïòîï Gaming ASUS TUF FX504GD-EN940T', 'Ëàïòîï Gaming ASUS TUF FX504GD-EN940T ñ ïðîöåñîð Intel® Core™ i5-8300H äî 4.00 GHz, Coffee Lake, 15.6", Full HD, 120 Hz, 8 GB + 16 GB Intel® Optane™, 1 TB Hybrid HDD, NVIDIA® GeForce® GTX 1050 4 GB, Microsoft Windows 10, Metal Gun', 1875);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1792, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo ThinkPad X1 Carbon 6th', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo ThinkPad X1 Carbon 6th with processor IntelÂ® CoreÂ™ i7-8550U up to 4.00 GHz, Kaby Lake R, 14", Full HD, IPS, 16GB, 512GB SSD, IntelÂ® UHD Graphics 620, Microsoft Windows 10 Pro, Black.', 5225);
+----values (1792, 'Ëàïòîï Lenovo ThinkPad X1 Carbon 6th', 'Ëàïòîï Lenovo ThinkPad X1 Carbon 6th with processor Intel® Core™ i7-8550U up to 4.00 GHz, Kaby Lake R, 14", Full HD, IPS, 16GB, 512GB SSD, Intel® UHD Graphics 620, Microsoft Windows 10 Pro, Black.', 5225);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1791, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Apple MacBook Pro 15', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Apple MacBook Pro 15, Ã…ÃªÃ°Ã Ã­ Retina, Touch Bar, ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® Quad CoreÂ™ i7 2.8GHz, 16GB RAM, 256GB SSD, Radeon Pro 555 2GB, macOS Sierra, ROM KB, Silver', 5275);
+----values (1791, 'Ëàïòîï Apple MacBook Pro 15', 'Ëàïòîï Apple MacBook Pro 15, Åêðàí Retina, Touch Bar, Ïðîöåñîð Intel® Quad Core™ i7 2.8GHz, 16GB RAM, 256GB SSD, Radeon Pro 555 2GB, macOS Sierra, ROM KB, Silver', 5275);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2302, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS X540UB-DM551T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS X540UB-DM551T with processor IntelÂ® CoreÂ™ i3-7020U 2.30 GHz, Kaby Lake, 15.6", Full HD, 4GB, 1TB, NVIDIA GeForce MX110 2GB, Microsoft Windows 10, Chocolate Black.', 1150);
+----values (2302, 'Ëàïòîï ASUS X540UB-DM551T', 'Ëàïòîï ASUS X540UB-DM551T with processor Intel® Core™ i3-7020U 2.30 GHz, Kaby Lake, 15.6", Full HD, 4GB, 1TB, NVIDIA GeForce MX110 2GB, Microsoft Windows 10, Chocolate Black.', 1150);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2453, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS X542UA-DM521T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS X542UA-DM521T Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i5-8250U up to 3.40 GHz, Kaby Lake R, 15.6", Full HD, 4GB, 1TB, DVD-RW, Intel UHD Graphics 620, Microsoft Windows 10, Matt Dark Grey.', 1195);
+----values (2453, 'Ëàïòîï ASUS X542UA-DM521T', 'Ëàïòîï ASUS X542UA-DM521T ñ ïðîöåñîð Intel® Core™ i5-8250U up to 3.40 GHz, Kaby Lake R, 15.6", Full HD, 4GB, 1TB, DVD-RW, Intel UHD Graphics 620, Microsoft Windows 10, Matt Dark Grey.', 1195);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1797, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Apple MacBook Pro 13', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Apple MacBook Pro 13, Ã…ÃªÃ°Ã Ã­ Retina, Touch Bar, ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® Dual CoreÂ™ i5 3.1GHz, 8GB RAM, 512GB SSD, IntelÂ® IrisÂ™ Plus Graphics 650, macOS Sierra, ROM KB, Space Grey.', 5349);
+----values (1797, 'Ëàïòîï Apple MacBook Pro 13', 'Ëàïòîï Apple MacBook Pro 13, Åêðàí Retina, Touch Bar, Ïðîöåñîð Intel® Dual Core™ i5 3.1GHz, 8GB RAM, 512GB SSD, Intel® Iris™ Plus Graphics 650, macOS Sierra, ROM KB, Space Grey.', 5349);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2459, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS S406UA-BM034T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS S406UA-BM034T Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8550U Ã¤Ã® 4.00 GHz, Kaby Lake R, 14", Full HD, 16GB, 512GB M.2 SSD, IntelÂ® UHD Graphics 620, Microsoft Windows 10, Ã“Ã«Ã²Ã°Ã Ã¯Ã°Ã¥Ã­Ã®Ã±Ã¨Ã¬, Icicle Gold.', 2399);
+----values (2459, 'Ëàïòîï ASUS S406UA-BM034T', 'Ëàïòîï ASUS S406UA-BM034T ñ ïðîöåñîð Intel® Core™ i7-8550U äî 4.00 GHz, Kaby Lake R, 14", Full HD, 16GB, 512GB M.2 SSD, Intel® UHD Graphics 620, Microsoft Windows 10, Óëòðàïðåíîñèì, Icicle Gold.', 2399);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3127, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo IdeaPad 130-15IKB', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo IdeaPad 130-15IKB Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i3-6006U 2.00 GHz, Skylake, 15.6", 4 GB, 500 GB, IntelÂ® HD Graphics 520, Free DOS, Black.', 998);
+----values (3127, 'Ëàïòîï Lenovo IdeaPad 130-15IKB', 'Ëàïòîï Lenovo IdeaPad 130-15IKB ñ ïðîöåñîð Intel® Core™ i3-6006U 2.00 GHz, Skylake, 15.6", 4 GB, 500 GB, Intel® HD Graphics 520, Free DOS, Black.', 998);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2254, 'Ultrabook ASUS Zenbook UX430UN-GV075T', '1Ultrabook ASUS Zenbook UX430UN-GV075T Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8550U Ã¤Ã® 4.00 GHz, Kaby Lake R, 14", Full HD, 16GB, 512GB M.2 SSD, NVIDIA GeForce MX150 2GB, Microsoft Windows 10, Blue.', 3453);
+----values (2254, 'Ultrabook ASUS Zenbook UX430UN-GV075T', '1Ultrabook ASUS Zenbook UX430UN-GV075T ñ ïðîöåñîð Intel® Core™ i7-8550U äî 4.00 GHz, Kaby Lake R, 14", Full HD, 16GB, 512GB M.2 SSD, NVIDIA GeForce MX150 2GB, Microsoft Windows 10, Blue.', 3453);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3353, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming Lenovo IdeaPad 330-17ICH', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming Lenovo IdeaPad 330-17ICH Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i5-8300H Ã¤Ã® 4.00 GHz, Coffee Lake, 17.3", Full HD, IPS, 8 GB, 1 TB + 256 GB SSD, NVIDIA GeForce GTX 1050 4 GB, Free DOS, Platinum Grey.', 1489);
+----values (3353, 'Ëàïòîï Gaming Lenovo IdeaPad 330-17ICH', 'Ëàïòîï Gaming Lenovo IdeaPad 330-17ICH ñ ïðîöåñîð Intel® Core™ i5-8300H äî 4.00 GHz, Coffee Lake, 17.3", Full HD, IPS, 8 GB, 1 TB + 256 GB SSD, NVIDIA GeForce GTX 1050 4 GB, Free DOS, Platinum Grey.', 1489);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3069, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo IdeaPad 130-15IKB', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo IdeaPad 130-15IKB Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i3-6006U 2.00 GHz, Skylake, 15.6", 4 GB, 1 TB, NVIDIA GeForce MX110 2 GB, Free DOS, Black.', 936);
+----values (3069, 'Ëàïòîï Lenovo IdeaPad 130-15IKB', 'Ëàïòîï Lenovo IdeaPad 130-15IKB ñ ïðîöåñîð Intel® Core™ i3-6006U 2.00 GHz, Skylake, 15.6", 4 GB, 1 TB, NVIDIA GeForce MX110 2 GB, Free DOS, Black.', 936);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2253, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Lenovo YOGA C930-13IKB', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Lenovo YOGA C930-13IKB with processor IntelÂ® CoreÂ™ i7-8550U up to 4.00 GHz, Kaby Lake R, 13.9", 4K, IPS, 16GB, 512GB SSD, IntelÂ® UHD Graphics 620, Microsoft Windows 10, Mica, Active Pen.', 4399);
+----values (2253, 'Ëàïòîï 2 in 1 Lenovo YOGA C930-13IKB', 'Ëàïòîï 2 in 1 Lenovo YOGA C930-13IKB with processor Intel® Core™ i7-8550U up to 4.00 GHz, Kaby Lake R, 13.9", 4K, IPS, 16GB, 512GB SSD, Intel® UHD Graphics 620, Microsoft Windows 10, Mica, Active Pen.', 4399);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3354, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo IdeaPad 530S-14IKB', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Lenovo IdeaPad 530S-14IKB Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8550U Ã¤Ã® 4.00 GHz, Kaby Lake R, 14", WQHD, IPS, 16 GB, 512 GB SSD, IntelÂ® UHD Graphics 620, Free DOS, Copper, Ã“Ã«Ã²Ã°Ã Ã¯Ã®Ã°Ã²Ã Ã²Ã¨Ã¢Ã¥Ã­.', 2543);
+----values (3354, 'Ëàïòîï Lenovo IdeaPad 530S-14IKB', 'Ëàïòîï Lenovo IdeaPad 530S-14IKB ñ ïðîöåñîð Intel® Core™ i7-8550U äî 4.00 GHz, Kaby Lake R, 14", WQHD, IPS, 16 GB, 512 GB SSD, Intel® UHD Graphics 620, Free DOS, Copper, Óëòðàïîðòàòèâåí.', 2543);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3072, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS S510UF-BQ118T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS S510UF-BQ118T with processor IntelÂ® CoreÂ™ i5-8250U up to 3.40 GHz, Kaby Lake R, 15.6", Full HD, 8GB, 1TB, NVIDIA GeForce MX130 2GB, Microsoft Windows 10, Gold.', 1567);
+----values (3072, 'Ëàïòîï ASUS S510UF-BQ118T', 'Ëàïòîï ASUS S510UF-BQ118T with processor Intel® Core™ i5-8250U up to 3.40 GHz, Kaby Lake R, 15.6", Full HD, 8GB, 1TB, NVIDIA GeForce MX130 2GB, Microsoft Windows 10, Gold.', 1567);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3334, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Lenovo YOGA 730-15IWL', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Lenovo YOGA 730-15IWL with processor IntelÂ® CoreÂ™ i7-8565U up to 4.60 GHz, Whiskey Lake, 15.6", Full HD, IPS, Touch, 16GB, 512GB SSD, NVIDIA GeForce GTX 1050 4GB, Microsoft Windows 10, Iron Grey, Bluetooth Active Pen.', 2612);
+----values (3334, 'Ëàïòîï 2 in 1 Lenovo YOGA 730-15IWL', 'Ëàïòîï 2 in 1 Lenovo YOGA 730-15IWL with processor Intel® Core™ i7-8565U up to 4.60 GHz, Whiskey Lake, 15.6", Full HD, IPS, Touch, 16GB, 512GB SSD, NVIDIA GeForce GTX 1050 4GB, Microsoft Windows 10, Iron Grey, Bluetooth Active Pen.', 2612);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3071, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS ROG Strix Scar II GL504GM-ES040', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS ROG Strix Scar II GL504GM-ES040 Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8750H Ã¤Ã® 4.10 GHz, Coffee Lake, 15.6", Full HD, 144Hz, 16 GB, 1 TB SSHD + 128 GB SSD, NVIDIA GeForce GTX 1060 6 GB, Free DOS, Black.', 3233);
+----values (3071, 'Ëàïòîï Gaming ASUS ROG Strix Scar II GL504GM-ES040', 'Ëàïòîï Gaming ASUS ROG Strix Scar II GL504GM-ES040 ñ ïðîöåñîð Intel® Core™ i7-8750H äî 4.10 GHz, Coffee Lake, 15.6", Full HD, 144Hz, 16 GB, 1 TB SSHD + 128 GB SSD, NVIDIA GeForce GTX 1060 6 GB, Free DOS, Black.', 3233);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2255, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS TUF FX504GM-EN048', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS TUF FX504GM-EN048 Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8750H Ã¤Ã® 4.10 GHz, Coffee Lake, 15.6", Full HD, 120 Hz, 3 ms, 8 GB, 1 TB FireCuda, NVIDIA GeForce GTX 1060 6 GB, Free DOS, Gun Metal.', 2075);
+----values (2255, 'Ëàïòîï Gaming ASUS TUF FX504GM-EN048', 'Ëàïòîï Gaming ASUS TUF FX504GM-EN048 ñ ïðîöåñîð Intel® Core™ i7-8750H äî 4.10 GHz, Coffee Lake, 15.6", Full HD, 120 Hz, 3 ms, 8 GB, 1 TB FireCuda, NVIDIA GeForce GTX 1060 6 GB, Free DOS, Gun Metal.', 2075);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1743, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Lenovo YOGA Glass C930-13IKB', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 Lenovo YOGA Glass C930-13IKB with processor IntelÂ® CoreÂ™ i7-8550U up to 4.00 GHz, Kaby Lake R, 13.9", UHD, IPS, 16GB, 1TB, IntelÂ® UHD Graphics 620, Microsoft Windows 10 Pro, Iron Grey, Active Pen.', 4800);
+----values (1743, 'Ëàïòîï 2 in 1 Lenovo YOGA Glass C930-13IKB', 'Ëàïòîï 2 in 1 Lenovo YOGA Glass C930-13IKB with processor Intel® Core™ i7-8550U up to 4.00 GHz, Kaby Lake R, 13.9", UHD, IPS, 16GB, 1TB, Intel® UHD Graphics 620, Microsoft Windows 10 Pro, Iron Grey, Active Pen.', 4800);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2382, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS A540MA-GO355T', '1Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS A540MA-GO355T with processor IntelÂ® CeleronÂ® N4100 up to 2.40 GHz, 15.6", 4GB, 500GB, IntelÂ® UHD Graphics 600, Microsoft Windows 10, Chocolate Black.', 650);
+----values (2382, 'Ëàïòîï ASUS A540MA-GO355T', '1Ëàïòîï ASUS A540MA-GO355T with processor Intel® Celeron® N4100 up to 2.40 GHz, 15.6", 4GB, 500GB, Intel® UHD Graphics 600, Microsoft Windows 10, Chocolate Black.', 650);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3399, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS TUF FX705GD-EW141', '1Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS TUF FX705GD-EW141 Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8750H Ã¤Ã® 4.10 GHz, Coffee Lake, 17.3", Full HD, IPS, 16 GB, 1 TB FireCuda, NVIDIAÂ® GeForceÂ® GTX 1050 4 GB, Free DOS, Gold Steel.', 2815);
+----values (3399, 'Ëàïòîï Gaming ASUS TUF FX705GD-EW141', '1Ëàïòîï Gaming ASUS TUF FX705GD-EW141 ñ ïðîöåñîð Intel® Core™ i7-8750H äî 4.10 GHz, Coffee Lake, 17.3", Full HD, IPS, 16 GB, 1 TB FireCuda, NVIDIA® GeForce® GTX 1050 4 GB, Free DOS, Gold Steel.', 2815);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3073, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming MSI GE73 Raider RGB 8RF', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming MSI GE73 Raider RGB 8RF with processor IntelÂ® CoreÂ™ i7-8750H up to 4.10 GHz, Coffee Lake, 17.3", Full HD, 120Hz, 16GB, 1TB + 512GB SSD, NVIDIA GeForce GTX 1070 8GB, Free DOS, Black.', 4224);
+----values (3073, 'Ëàïòîï Gaming MSI GE73 Raider RGB 8RF', 'Ëàïòîï Gaming MSI GE73 Raider RGB 8RF with processor Intel® Core™ i7-8750H up to 4.10 GHz, Coffee Lake, 17.3", Full HD, 120Hz, 16GB, 1TB + 512GB SSD, NVIDIA GeForce GTX 1070 8GB, Free DOS, Black.', 4224);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1768, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 HP ENVY x360 13-ag0001nn', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ 2 in 1 HP ENVY x360 13-ag0001nn Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° AMD RyzenÂ™ 5 2500U Ã¤Ã® 3.60 GHz, 13.3", Full HD, IPS, Touch, 8GB, 256GB SSD, AMD RadeonÂ™ Vega 8, Microsoft Windows 10, Dark Ash Silver.', 1845);
+----values (1768, 'Ëàïòîï 2 in 1 HP ENVY x360 13-ag0001nn', 'Ëàïòîï 2 in 1 HP ENVY x360 13-ag0001nn ñ ïðîöåñîð AMD Ryzen™ 5 2500U äî 3.60 GHz, 13.3", Full HD, IPS, Touch, 8GB, 256GB SSD, AMD Radeon™ Vega 8, Microsoft Windows 10, Dark Ash Silver.', 1845);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2410, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS S406UA-BM012T', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ ASUS S406UA-BM012T Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i5-8250U Ã¤Ã® 3.40 GHz, Kaby Lake, 14", Full HD, 8GB, 256GB SSD, IntelÂ® HD Graphics 620, Microsoft Windows 10, Ã“Ã«Ã²Ã°Ã Ã¯Ã°Ã¥Ã­Ã®Ã±Ã¨Ã¬, Gold.', 1357);
+----values (2410, 'Ëàïòîï ASUS S406UA-BM012T', 'Ëàïòîï ASUS S406UA-BM012T ñ ïðîöåñîð Intel® Core™ i5-8250U äî 3.40 GHz, Kaby Lake, 14", Full HD, 8GB, 256GB SSD, Intel® HD Graphics 620, Microsoft Windows 10, Óëòðàïðåíîñèì, Gold.', 1357);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2257, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Allview Allbook X', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Allview Allbook X Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CeleronÂ® Quad-Core N3450 Ã¤Ã® 2.20 GHz, 13.3", Full HD, IPS, 3GB, 32GB, IntelÂ® HD Graphics, Microsoft Windows 10, Ã“Ã«Ã²Ã°Ã Ã¯Ã°Ã¥Ã­Ã®Ã±Ã¨Ã¬, Black.', 399);
+----values (2257, 'Ëàïòîï Allview Allbook X', 'Ëàïòîï Allview Allbook X ñ ïðîöåñîð Intel® Celeron® Quad-Core N3450 äî 2.20 GHz, 13.3", Full HD, IPS, 3GB, 32GB, Intel® HD Graphics, Microsoft Windows 10, Óëòðàïðåíîñèì, Black.', 399);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3400, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ HP 250 G6', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ HP 250 G6 Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i3-6006U 2.00 GHz, Skylake, 15.6", 4GB, 500GB, Intel HD Graphics, Free DOS, Black.', 789);
+----values (3400, 'Ëàïòîï HP 250 G6', 'Ëàïòîï HP 250 G6 ñ ïðîöåñîð Intel® Core™ i3-6006U 2.00 GHz, Skylake, 15.6", 4GB, 500GB, Intel HD Graphics, Free DOS, Black.', 789);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3355, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ HP ENVY', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ HP ENVY, 13.3 FHD Antiglare, with processor Intel Core i5-8250U, 8GB LPDDR3, 256GB SSD, Intel UHD Graphics, Windows 10, Natural silver.', 1920);
+----values (3355, 'Ëàïòîï HP ENVY', 'Ëàïòîï HP ENVY, 13.3 FHD Antiglare, with processor Intel Core i5-8250U, 8GB LPDDR3, 256GB SSD, Intel UHD Graphics, Windows 10, Natural silver.', 1920);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1772, 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS GL703GE-EE023', 'Ã‹Ã Ã¯Ã²Ã®Ã¯ Gaming ASUS GL703GE-EE023 with processor IntelÂ® CoreÂ™ i7-8750H up to 4.10 GHz, Coffee Lake, 17.3", Full HD, 120Hz 3ms, 8GB, 1TB SSHD, NVIDIA GeForce GTX 1050Ti 4GB, Free DOS, Black.', 2456);
+----values (1772, 'Ëàïòîï Gaming ASUS GL703GE-EE023', 'Ëàïòîï Gaming ASUS GL703GE-EE023 with processor Intel® Core™ i7-8750H up to 4.10 GHz, Coffee Lake, 17.3", Full HD, 120Hz 3ms, 8GB, 1TB SSHD, NVIDIA GeForce GTX 1050Ti 4GB, Free DOS, Black.', 2456);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2414, 'UltraBook ASUS UX480FD-BE012R', 'UltraBook ASUS UX480FD-BE012R with processor IntelÂ® CoreÂ™ i7-8565U up to 4.60 GHz, Whiskey Lake, 14", Full HD, 16GB, 512GB SSD, NVIDIA GeForce GTX 1050 Max-Q 4GB, Microsoft Windows 10 Pro, Deep Dive Blue.', 2454);
+----values (2414, 'UltraBook ASUS UX480FD-BE012R', 'UltraBook ASUS UX480FD-BE012R with processor Intel® Core™ i7-8565U up to 4.60 GHz, Whiskey Lake, 14", Full HD, 16GB, 512GB SSD, NVIDIA GeForce GTX 1050 Max-Q 4GB, Microsoft Windows 10 Pro, Deep Dive Blue.', 2454);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2415, 'Ultrabook Lenovo IdeaPad S530-13IWL', 'Ultrabook Lenovo IdeaPad S530-13IWL Ã± Ã¯Ã°Ã®Ã¶Ã¥Ã±Ã®Ã° IntelÂ® CoreÂ™ i7-8565U Ã¤Ã® 4.60 GHz, Whiskey Lake, 13.3", Full HD, IPS, 16GB, 512GB SSD, NVIDIA GeForce MX150 2GB, Free DOS, Liquid Blue.', 1359);
+----values (2415, 'Ultrabook Lenovo IdeaPad S530-13IWL', 'Ultrabook Lenovo IdeaPad S530-13IWL ñ ïðîöåñîð Intel® Core™ i7-8565U äî 4.60 GHz, Whiskey Lake, 13.3", Full HD, IPS, 16GB, 512GB SSD, NVIDIA GeForce MX150 2GB, Free DOS, Liquid Blue.', 1359);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2395, 'Ã—Ã Ã±Ã®Ã¢Ã­Ã¨Ãª smartwatch Samsung Galaxy Watch', NULL, 560);
+----values (2395, '×àñîâíèê smartwatch Samsung Galaxy Watch', NULL, 560);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1755, 'Ã—Ã Ã±Ã®Ã¢Ã­Ã¨Ãª Smartwatch Samsung Galaxy Watch Active', NULL, 421);
+----values (1755, '×àñîâíèê Smartwatch Samsung Galaxy Watch Active', NULL, 421);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2406, 'Apple Watch 4, GPS, Space Grey', 'Apple Watch 4, GPS, Space Grey, Ã€Ã«Ã³Ã¬Ã¨Ã­Ã¨Ã¥Ã¢ ÃªÃ®Ã°Ã¯Ã³Ã±, 44 Ã¬Ã¬, Black Sport Band', 1120);
+----values (2406, 'Apple Watch 4, GPS, Space Grey', 'Apple Watch 4, GPS, Space Grey, Àëóìèíèåâ êîðïóñ, 44 ìì, Black Sport Band', 1120);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2404, 'Ã—Ã Ã±Ã®Ã¢Ã­Ã¨Ãª Smartwatch Garmin Fenix 5', NULL, 821);
+----values (2404, '×àñîâíèê Smartwatch Garmin Fenix 5', NULL, 821);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1770, 'Ã—Ã Ã±Ã®Ã¢Ã­Ã¨Ãª smartwatch Huawei Watch GT', NULL, 454);
+----values (1770, '×àñîâíèê smartwatch Huawei Watch GT', NULL, 454);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2412, 'Ã‘Ã¯Ã®Ã°Ã²Ã¥Ã­ Ã‘Ã¬Ã Ã°Ã² Ã·Ã Ã±Ã®Ã¢Ã­Ã¨Ãª KA Digital F3 Sport', 'Ã‚Ã®Ã¤Ã®Ã³Ã±Ã²Ã®Ã©Ã·Ã¨Ã¢ Ã‘Ã¯Ã®Ã°Ã²Ã¥Ã­ Ã‘Ã¬Ã Ã°Ã² Ã·Ã Ã±Ã®Ã¢Ã­Ã¨Ãª KA DigitalÂ® F3 Sport, Ã€Ã²Ã¬Ã®Ã±Ã´Ã¥Ã°Ã­Ã® Ã­Ã Ã«Ã¿Ã£Ã Ã­Ã¥, UV, ÃÃ Ã°Ã®Ã¬Ã¥Ã²ÃºÃ°, ÃÃ Ã¤Ã¬Ã®Ã°Ã±ÃªÃ  Ã¢Ã¨Ã±Ã®Ã·Ã¨Ã­Ã , Bluetooth, Ã—Ã¥Ã°Ã¥Ã­/Ã—Ã¥Ã°Ã¢Ã¥Ã­', 68);
+----values (2412, 'Ñïîðòåí Ñìàðò ÷àñîâíèê KA Digital F3 Sport', 'Âîäîóñòîé÷èâ Ñïîðòåí Ñìàðò ÷àñîâíèê KA Digital® F3 Sport, Àòìîñôåðíî íàëÿãàíå, UV, Áàðîìåòúð, Íàäìîðñêà âèñî÷èíà, Bluetooth, ×åðåí/×åðâåí', 68);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2378, 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° Gaming TN LED ASUS 24', 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° Gaming TN LED ASUS 24", Full HD, DVI, 1 ms, FreeSync, 144 Hz, HDMI, Display Port, Ã—Ã¥Ã°Ã¥Ã­, MG248QR.', 405);
+----values (2378, 'Ìîíèòîð Gaming TN LED ASUS 24', 'Ìîíèòîð Gaming TN LED ASUS 24", Full HD, DVI, 1 ms, FreeSync, 144 Hz, HDMI, Display Port, ×åðåí, MG248QR.', 405);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3087, 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° Gaming LED IPS LG 25', 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° Gaming LED IPS LG 25", UltraWide, UWHD 2K, 2 x HDMI, Flicker Safe, 25UM58-P, Ã—Ã¥Ã°Ã¥Ã­.', 224);
+----values (3087, 'Ìîíèòîð Gaming LED IPS LG 25', 'Ìîíèòîð Gaming LED IPS LG 25", UltraWide, UWHD 2K, 2 x HDMI, Flicker Safe, 25UM58-P, ×åðåí.', 224);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2384, 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° LED MVA Philips 23.6', 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° LED MVA Philips 23.6", Wide, FHD, DVI, HDMI, 243V5QHSBA, Ã—Ã¥Ã°Ã¥Ã­.', 199);
+----values (2384, 'Ìîíèòîð LED MVA Philips 23.6', 'Ìîíèòîð LED MVA Philips 23.6", Wide, FHD, DVI, HDMI, 243V5QHSBA, ×åðåí.', 199);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1749, 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° Acer Gaming LED IPS 23.8', NULL, 237);
+----values (1749, 'Ìîíèòîð Acer Gaming LED IPS 23.8', NULL, 237);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1750, 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° LED TN AOC 24.5', 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° LED TN AOC 24.5", Full HD, FreeSync 144Hz, Display Port, Ã—Ã¥Ã°Ã¥Ã­, G2590PX.', 299);
+----values (1750, 'Ìîíèòîð LED TN AOC 24.5', 'Ìîíèòîð LED TN AOC 24.5", Full HD, FreeSync 144Hz, Display Port, ×åðåí, G2590PX.', 299);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2394, 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° LED IPS Dell', 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° LED IPS Dell 23.8", Full HD, DisplayPort, HDMI, USB, U2417H', 328);
+----values (2394, 'Ìîíèòîð LED IPS Dell', 'Ìîíèòîð LED IPS Dell 23.8", Full HD, DisplayPort, HDMI, USB, U2417H', 328);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2400, 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° Gaming LED IPS Lenovo 27', 'ÃŒÃ®Ã­Ã¨Ã²Ã®Ã° Gaming LED IPS Lenovo 27", L27i-28, Full HD, Freesync, HDMI, Ã—Ã¥Ã°Ã¥Ã­.', 348);
+----values (2400, 'Ìîíèòîð Gaming LED IPS Lenovo 27', 'Ìîíèòîð Gaming LED IPS Lenovo 27", L27i-28, Full HD, Freesync, HDMI, ×åðåí.', 348);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1763, 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° AMD FX-8350', 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° AMD FX-8350, 4.0GHz, 16MB, 125W, AM3+.', 147);
+----values (1763, 'Ïðîöåñîð AMD FX-8350', 'Ïðîöåñîð AMD FX-8350, 4.0GHz, 16MB, 125W, AM3+.', 147);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2396, 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° Intel Core i5-9400F', 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° Intel Core i5-9400F, 2.9 GHz, 9MB, Socket 1151, ÃÃ¥Ã§ Ã¢Ã£Ã°Ã Ã¤Ã¥Ã­Ã  Ã£Ã°Ã Ã´Ã¨Ã·Ã­Ã  ÃªÃ Ã°Ã²Ã .', 479);
+----values (2396, 'Ïðîöåñîð Intel Core i5-9400F', 'Ïðîöåñîð Intel Core i5-9400F, 2.9 GHz, 9MB, Socket 1151, Áåç âãðàäåíà ãðàôè÷íà êàðòà.', 479);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2272, 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° AMD FX X8 8350', 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° AMD FX X8 8350, 4 GHz, 16MB, socket AM3+, Box.', 135);
+----values (2272, 'Ïðîöåñîð AMD FX X8 8350', 'Ïðîöåñîð AMD FX X8 8350, 4 GHz, 16MB, socket AM3+, Box.', 135);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2274, 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° AMD Ryzen 3 2200G', '3.7 GHz, Socket AM4', 261);
+----values (2274, 'Ïðîöåñîð AMD Ryzen 3 2200G', '3.7 GHz, Socket AM4', 261);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3090, 'ÃÃ°Ã®Ã¶Ã¥Ã±Ã®Ã° AMD Ryzen 2700X', '4.35GHz, 20MB, Socket AM4, Wraith Prism cooler', 793);
+----values (3090, 'Ïðîöåñîð AMD Ryzen 2700X', '4.35GHz, 20MB, Socket AM4, Wraith Prism cooler', 793);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1739, 'USB Ã¯Ã Ã¬Ã¥Ã² Kingston DataTraveler 100 G3', '6GB, USB 3.0', 9);
+----values (1739, 'USB ïàìåò Kingston DataTraveler 100 G3', '6GB, USB 3.0', 9);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3359, 'USB Ã¯Ã Ã¬Ã¥Ã² SanDisk Cruzer Ultra Flair 16GB', 'USB 3.0, 150 MB/Ã±Ã¥Ãª', 11);
+----values (3359, 'USB ïàìåò SanDisk Cruzer Ultra Flair 16GB', 'USB 3.0, 150 MB/ñåê', 11);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
 ----values (3088, 'Flash Pen Kingston DataTraveler SE9', '32GB, USB 2.0', 12);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2276, 'USB Ã¯Ã Ã¬Ã¥Ã² Kingston DataTraveler 50', '32GB, USB 3.0', 15);
+----values (2276, 'USB ïàìåò Kingston DataTraveler 50', '32GB, USB 3.0', 15);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3086, 'Ã‚ÃºÃ­Ã¸Ã¥Ã­ ÃµÃ Ã°Ã¤ Ã¤Ã¨Ã±Ãª WD Elements Portable', '1 TB, 2.5", USB 3.0, Ã—Ã¥Ã°Ã¥Ã­', 100);
+----values (3086, 'Âúíøåí õàðä äèñê WD Elements Portable', '1 TB, 2.5", USB 3.0, ×åðåí', 100);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2311, 'Ã‚ÃºÃ­Ã¸Ã¥Ã­ ÃµÃ Ã°Ã¤ Ã¤Ã¨Ã±Ãª Seagate Expansion Portable', '1TB, 2.5", USB 3.0, Ã—Ã¥Ã°Ã¥Ã­', 95);
+----values (2311, 'Âúíøåí õàðä äèñê Seagate Expansion Portable', '1TB, 2.5", USB 3.0, ×åðåí', 95);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (1733, 'Ã‚ÃºÃ­Ã¸Ã¥Ã­ ÃµÃ Ã°Ã¤ Ã¤Ã¨Ã±Ãª ADATA Durable HD330', '1TB, Shock Sensor, 2.5", USB 3.1, Ã—Ã¥Ã°Ã¥Ã­', 109);
+----values (1733, 'Âúíøåí õàðä äèñê ADATA Durable HD330', '1TB, Shock Sensor, 2.5", USB 3.1, ×åðåí', 109);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2878, 'Ã„ÃºÃ­Ã­Ã Ã²Ã  Ã¯Ã«Ã Ã²ÃªÃ  Asus TUF X470-PLUS GAMING', 'Socket AM4', 345);
+----values (2878, 'Äúííàòà ïëàòêà Asus TUF X470-PLUS GAMING', 'Socket AM4', 345);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2879, 'Ã„ÃºÃ­Ã­Ã  Ã¯Ã«Ã Ã²ÃªÃ  GIGABYTE Z370P D3', 'Socket 1151 (300 Series), 4xDDR4, RGB Fusion', 256);
+----values (2879, 'Äúííà ïëàòêà GIGABYTE Z370P D3', 'Socket 1151 (300 Series), 4xDDR4, RGB Fusion', 256);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (2152, 'Ã„ÃºÃ­Ã­Ã  Ã¯Ã«Ã Ã²ÃªÃ  ASUS PRIME B350M-E', 'Socket AM4', 131);
+----values (2152, 'Äúííà ïëàòêà ASUS PRIME B350M-E', 'Socket AM4', 131);
 ----insert into PRODUCTS(PRODUCT_ID, NAME, DESCR, PRICE)
-----values (3301, 'Ã„ÃºÃ­Ã­Ã  Ã¯Ã«Ã Ã²ÃªÃ  GIGABYTE 970A-DS3P rev 1.0', 'Socket AM3+ 53081', 155);
+----values (3301, 'Äúííà ïëàòêà GIGABYTE 970A-DS3P rev 1.0', 'Socket AM3+ 53081', 155);
 
 
 -------------------------------------------
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2354, 103, 177, 'Ã¡Ã³Ã«. ÃÃºÃ«Ã£Ã Ã°Ã¨Ã¿ 140, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', convert(datetime, '13-07-2010 10:30:00.000', 105)); 
+----values (2354, 103, 177, 'áóë. Áúëãàðèÿ 140, Ïëîâäèâ', convert(datetime, '13-07-2010 10:30:00.000', 105)); 
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2355, 101, 145, null, convert(datetime, '26-01-2018', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1024,7 +1024,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2358, 102, 166, null, convert(datetime, '09-01-2010', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2359, 108, 169, 'Ã¡Ã³Ã«. Ã—Ã¥Ã°ÃµÃ¨ Ã¢Ã°ÃºÃµ 39, Ã‘Ã®Ã´Ã¨Ã¿', convert(datetime, '08-03-2018', 105));
+----values (2359, 108, 169, 'áóë. ×åðõè âðúõ 39, Ñîôèÿ', convert(datetime, '08-03-2018', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2360, 108, 170, null, convert(datetime, '14-01-2019 10:30:00.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1034,7 +1034,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2363, 124, 169, null, convert(datetime, '23-11-2012 10:30:00.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2364, 144, 159, 'Ã³Ã«. Ã‘Ã¢Ã¥Ã²Ã«Ã¨Ã­Ã  10, Ã‚Ã Ã°Ã­Ã ', convert(datetime, '28-08-2009', 105));
+----values (2364, 144, 159, 'óë. Ñâåòëèíà 10, Âàðíà', convert(datetime, '28-08-2009', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2365, 147, 168, null, convert(datetime, '28-09-2013', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1046,7 +1046,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2369, 117, 157, null, convert(datetime, '28-03-2019', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2370, 117, 177, 'Ã¡Ã³Ã«. ÃŠÃ®Ã¯Ã°Ã¨Ã¢Ã¹Ã¨Ã¶Ã  100, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', convert(datetime, '26-08-2011', 105));
+----values (2370, 117, 177, 'áóë. Êîïðèâùèöà 100, Ïëîâäèâ', convert(datetime, '26-08-2011', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2371, 114, 170, null, convert(datetime, '16-05-2009 10:30:00.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1054,7 +1054,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2373, 117, 153, null, convert(datetime, '24-02-2010 12:10:00.453', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2374, 121, 160, 'Ã¡Ã³Ã«. Ã‚Ã Ã±Ã¨Ã« Ã€Ã¯Ã°Ã¨Ã«Ã®Ã¢ 18, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', convert(datetime, '27-04-2010 10:30:00.000', 105));
+----values (2374, 121, 160, 'áóë. Âàñèë Àïðèëîâ 18, Ïëîâäèâ', convert(datetime, '27-04-2010 10:30:00.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2375, 133, 164, null, convert(datetime, '26-02-2019', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1070,7 +1070,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2381, 101, 178, null, convert(datetime, '14-05-2016 12:10:00.453', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2382, 104, 151, 'Ã¡Ã³Ã«. Ã€Ã«Ã¥ÃªÃ±Ã Ã­Ã¤ÃºÃ° ÃŒÃ Ã«Ã¨Ã­Ã®Ã¢ 39, Ã‘Ã®Ã´Ã¨Ã¿', convert(datetime, '13-05-2012', 105));
+----values (2382, 104, 151, 'áóë. Àëåêñàíäúð Ìàëèíîâ 39, Ñîôèÿ', convert(datetime, '13-05-2012', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2383, 105, 166, null, convert(datetime, '12-05-2016 10:30:00.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1084,7 +1084,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2388, 150, 149, null, convert(datetime, '04-06-2012 17:42:15.984', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2389, 121, 156,'Ã³Ã«. Ã‘ÃºÃ¥Ã¤Ã¨Ã­Ã¥Ã­Ã¨Ã¥ 49, Ã‘Ã²Ã Ã°Ã  Ã‡Ã Ã£Ã®Ã°Ã ', convert(datetime, '04-06-2013', 105));
+----values (2389, 121, 156,'óë. Ñúåäèíåíèå 49, Ñòàðà Çàãîðà', convert(datetime, '04-06-2013', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2390, 152, 154, null, convert(datetime, '17-11-2009 10:30:00.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1110,7 +1110,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2401, 161, 145, null, convert(datetime, '11-08-2009 12:10:00.453', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2402, 145, 148, 'Ã³Ã«. Ã‘Ã¥Ã¢Ã Ã±Ã²Ã®Ã¯Ã®Ã« 49, ÃÃ«Ã®Ã¢Ã¤Ã¨Ã¢', convert(datetime, '02-10-2018', 105));
+----values (2402, 145, 148, 'óë. Ñåâàñòîïîë 49, Ïëîâäèâ', convert(datetime, '02-10-2018', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2403, 133, 145, null, convert(datetime, '02-07-2009', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -1128,7 +1128,7 @@
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2410, 117, 155, null, convert(datetime, '24-04-2000 10:30:00.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
-----values (2411, 185, 176, 'Ã³Ã«. Ã€Ã©Ã°Ã®Ã­Ã³Ã¨Ã¨Ã¤ 1599 , Ã’Ã®Ã°Ã®Ã­Ã²Ã®', convert(datetime, '24-05-2009 13:56:34.000', 105));
+----values (2411, 185, 176, 'óë. Àéðîíóèèä 1599 , Òîðîíòî', convert(datetime, '24-05-2009 13:56:34.000', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
 ----values (2412, 117, 165, null, convert(datetime, '31-03-2008', 105));
 ----insert into ORDERS(ORDER_ID, CUSTOMER_ID, EMPLOYEE_ID, SHIP_ADDRESS, ORDER_DATE)
@@ -2153,7 +2153,7 @@ order by country_id;
 
 --IZVADETE IMENATA NA DURJAVITE I IMENATA NA REGIONITE W KOITO SE NAMIRAT 
 ---18
--- Ã€Ã‡ Ã„Ã€ Ã‘Ãˆ Ã… ÃÃ€ÃÃÃ€Ã‚ÃŸ ÃÃ€Ã„ 18 Ã… Ã“Ã‘Ã‹ÃŽÃ‚ÃˆÃ…Ã’ÃŽ 
+-- ÀÇ ÄÀ ÑÈ Å ÍÀÏÐÀÂß ÍÀÄ 18 Å ÓÑËÎÂÈÅÒÎ 
 
 
 --19
@@ -2170,8 +2170,26 @@ FROM COUNTRIES AS C
 LEFT JOIN REGIONS AS R
 ON C.REGION_ID = R.REGION_ID;
 
---21 - ÃˆÃ‡ÃÃ“Ã‘ÃÃ€Ã• Ã… Ã‚ Ã‹Ã…ÃŠÃ–ÃˆÃŸÃ’Ã€ Ã˜Ã… Ã… Ã‚ÃˆÃ„ÃˆÃŒ 
+--21 - ÈÇÏÓÑÍÀÕ Å Â ËÅÊÖÈßÒÀ ØÅ Å ÂÈÄÈÌ 
 
---22 
+--22--join group by having + agregate function
 --23
---24 IMAM SNIMKA V TELA 1,2,3 NOMER
+--24 ÈÌÀÌ ÑÍÈÌÊÀ imame li agregirashta funkciq imame group by vinagi
+--25
+--select name, sum(quantity) as sums
+--from products as p 
+--join oreder_items as oi
+--on p.product_id = oi.product_id,
+--group by name
+--having sum(quantity) > 500
+--order by sums desc
+
+SELECT p.name, SUM(oi.quantity) AS sums
+FROM products AS p
+JOIN order_items AS oi
+ON p.product_id = oi.product_id
+GROUP BY p.name
+HAVING SUM(oi.quantity) > 500
+ORDER BY sums DESC;
+
+--26
